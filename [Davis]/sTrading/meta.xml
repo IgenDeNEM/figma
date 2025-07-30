@@ -1,0 +1,20 @@
+<meta>
+    <script src="sourceG-obfuscated.luac" type="shared" cache="false" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="files/music.mp3" />
+    
+    <export type="shared" function="getIndexList" />
+    <export type="shared" function="getHistory" />
+    <export type="shared" function="getPrice" />
+    <export type="shared" function="getTrend" />
+    <export type="shared" function="isValidIndex" />
+    <export type="shared" function="getStats" />
+    <export type="server" function="getItemPrice" />
+    
+    <export type="client" function="setForexSubscription" />
+    
+    <download_priority_group>-20</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>
