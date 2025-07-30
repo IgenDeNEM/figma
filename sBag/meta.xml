@@ -1,0 +1,15 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="getBagState" type="client" />
+    <export function="setBagMode" type="client" />
+    
+    <file src="files/bag.dds" />
+    <file src="files/fade.dds" />
+    <file src="files/maskoff.wav" />
+    <file src="files/maskon.wav" />
+    
+    <download_priority_group>-71</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

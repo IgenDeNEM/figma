@@ -1,0 +1,215 @@
+[
+	{
+		"stockData": [
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			]
+		],
+		"workshopPermissions": {
+			"32": {
+				"1": true,
+				"2": true,
+				"3": true,
+				"4": true,
+				"5": true,
+				"6": true,
+				"7": true,
+				"8": true,
+				"9": true,
+				"10": true,
+				"11": true,
+				"12": true,
+				"13": true,
+				"14": true,
+				"15": true,
+				"16": true,
+				"name": "Unna Dunn"
+			}
+		},
+		"upgrades": [
+			5,
+			5,
+			5,
+			5,
+			5,
+			5
+		],
+		"paintshopWorks": [],
+		"maintanceData": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"mixerTank": {
+			"color": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"primer": 0,
+			"base": [
+				0,
+				0
+			]
+		},
+		"lastMail": 27,
+		"mails": [
+			{
+				"emailTime": 1752664513,
+				"referrer": 1,
+				"customerType": 11,
+				"unread": false,
+				"emailType": "offer",
+				"partNames": [
+					"Bal első ajtó",
+					"Jobb első ajtó"
+				],
+				"paintMetal": false,
+				"textId": 11,
+				"playerReplyPrice": 3,
+				"serverDatas": {
+					"partNames": [
+						"Bal első ajtó",
+						"Jobb első ajtó"
+					],
+					"paint": "#8C0808",
+					"maskName": "533_1_8C0808_MASK.png",
+					"model": 533,
+					"price": 50000,
+					"plate": 961629,
+					"pictureName": "533_1_8C0808.png",
+					"paintMetal": false
+				},
+				"plate": 961629,
+				"playerReply": [
+					1,
+					2
+				],
+				"price": 50000,
+				"offerTimeout": 65,
+				"customerReplyWait": 52,
+				"model": 533,
+				"titleId": 1,
+				"from": [
+					41,
+					80
+				],
+				"playerReplyTime": 1752664600,
+				"maskName": "533_1_8C0808_MASK.png",
+				"paint": "#8C0808",
+				"pictureName": "533_1_8C0808.png"
+			}
+		],
+		"gunStates": [
+			{
+				"tank": false,
+				"paintLevel": 0,
+				"player": false,
+				"paintType": false,
+				"mixer": false
+			},
+			{
+				"tank": false,
+				"paintLevel": 0,
+				"player": false,
+				"paintType": false,
+				"mixer": false
+			}
+		],
+		"workshopPoint": 6300
+	}
+]se
+			]
+		]
+	}
+]

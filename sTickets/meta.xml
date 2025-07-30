@@ -1,0 +1,24 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="openTicketNew" type="client" />
+    <export function="openTicket" type="client" />
+    
+    <file src="files/logo/ARMY.dds" />
+    <file src="files/logo/NAV.dds" />
+    <file src="files/logo/NNI.dds" />
+    <file src="files/logo/OPSZ.dds" />
+    <file src="files/logo/PD.dds" />
+    <file src="files/logo/PF.dds" />
+    <file src="files/logo/TEK.dds" />
+    
+    <file src="files/ambulanceticket.dds" />
+    <file src="files/hand.ttf" />
+    <file src="files/lunabar.ttf" />
+    <file src="files/ticket.dds" />
+    
+    <download_priority_group>-189</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

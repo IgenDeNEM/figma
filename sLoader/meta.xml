@@ -1,0 +1,106 @@
+<meta>
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/BebasNeueBold.otf" />
+    <file src="files/logo.dds" />
+    <file src="files/spin.dds" />
+    <file src="files/icons.png" />
+    <file src="files/vignette.dds" />
+    
+    <file src="files/cars/car_render1_lights.dds" />
+    <file src="files/cars/car_render1_wireframe.dds" />
+    <file src="files/cars/car_render1.dds" />
+    
+    <file src="files/cars/car_render2_lights.dds" />
+    <file src="files/cars/car_render2_wireframe.dds" />
+    <file src="files/cars/car_render2.dds" />
+    
+    <file src="files/cars/car_render3_lights.dds" />
+    <file src="files/cars/car_render3_wireframe.dds" />
+    <file src="files/cars/car_render3.dds" />
+    
+    <file src="files/logo/0.dds" />
+    <file src="files/logo/1.dds" />
+    <file src="files/logo/2.dds" />
+    <file src="files/logo/base.dds" />
+    
+    <file src="files/models/models1_mist.dds" />
+    <file src="files/models/models1_wireframe.dds" />
+    <file src="files/models/models1.dds" />
+    
+    <file src="files/models/models2_mist.dds" />
+    <file src="files/models/models2_wireframe.dds" />
+    <file src="files/models/models2.dds" />
+    
+    <file src="files/models/models3_mist.dds" />
+    <file src="files/models/models3_wireframe.dds" />
+    <file src="files/models/models3.dds" />
+    
+    <file src="files/models/models4_mist.dds" />
+    <file src="files/models/models4_wireframe.dds" />
+    <file src="files/models/models4.dds" />
+    
+    <file src="files/models/models5_mist.dds" />
+    <file src="files/models/models5_wireframe.dds" />
+    <file src="files/models/models5.dds" />
+    
+    <file src="files/models/models6_mist.dds" />
+    <file src="files/models/models6_wireframe.dds" />
+    <file src="files/models/models6.dds" />
+    
+    <file src="files/models/models7_mist.dds" />
+    <file src="files/models/models7_wireframe.dds" />
+    <file src="files/models/models7.dds" />
+    
+    <file src="files/models/models8_mist.dds" />
+    <file src="files/models/models8_wireframe.dds" />
+    <file src="files/models/models8.dds" />
+    
+    <file src="files/models/models9_mist.dds" />
+    <file src="files/models/models9_wireframe.dds" />
+    <file src="files/models/models9.dds" />
+    
+    <file src="files/models/models10_mist.dds" />
+    <file src="files/models/models10_wireframe.dds" />
+    <file src="files/models/models10.dds" />
+    
+    <file src="files/models/models11_mist.dds" />
+    <file src="files/models/models11_wireframe.dds" />
+    <file src="files/models/models11.dds" />
+    
+    <file src="files/models/models12_mist.dds" />
+    <file src="files/models/models12_wireframe.dds" />
+    <file src="files/models/models12.dds" />
+    
+    <file src="files/skins/skins_noise.dds" />
+    
+    <file src="files/skins/skins1_wireframe.dds" />
+    <file src="files/skins/skins1.dds" />
+    
+    <file src="files/skins/skins2_wireframe.dds" />
+    <file src="files/skins/skins2.dds" />
+    
+    <file src="files/skins/skins3_wireframe.dds" />
+    <file src="files/skins/skins3.dds" />
+    
+    <file src="files/skins/skins4_wireframe.dds" />
+    <file src="files/skins/skins4.dds" />
+    
+    <file src="files/skins/skins5_wireframe.dds" />
+    <file src="files/skins/skins5.dds" />
+    
+    <file src="files/skins/skins6_wireframe.dds" />
+    <file src="files/skins/skins6.dds" />
+    
+    <file src="files/skins/skins7_wireframe.dds" />
+    <file src="files/skins/skins7.dds" />
+    
+    <file src="files/skins/skins8_wireframe.dds" />
+    <file src="files/skins/skins8.dds" />
+    
+    <file src="files/skins/skins9_wireframe.dds" />
+    <file src="files/skins/skins9.dds" />
+    
+    <download_priority_group>-11</download_priority_group>
+    <min_mta_version client="1.6.0" server="1.6.0" />
+</meta>

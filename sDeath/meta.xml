@@ -1,0 +1,44 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="shaderC.luac" type="client" cache="false" />
+    
+    <export function="destroyPlayerPed" type="server" />
+    <export function="isDeath" type="client" />
+    
+    
+    <file src="files/1.png" />
+    <file src="files/2.png" />
+    <file src="files/3.png" />
+    
+    <file src="files/noise.png" />
+    <file src="files/portal.png" />
+    <file src="files/real_tile.png" />
+    <file src="files/root.png" />
+    <file src="files/rootl.png" />
+    <file src="files/rootl2.png" />
+    <file src="files/start.mp3" />
+    
+    <file src="files/bg.mp3" />
+    <file src="files/clock.mp3" />
+    <file src="files/portal.mp3" />
+    <file src="files/portalout.mp3" />
+    <file src="files/tick.mp3" />
+    <file src="files/timeout.mp3" />
+    
+    <file src="files/thunder1.mp3" />
+    <file src="files/thunder2.mp3" />
+    <file src="files/thunder3.mp3" />
+    <file src="files/thunder4.mp3" />
+    <file src="files/thunder5.mp3" />
+    <file src="files/thunder6.mp3" />
+    <file src="files/thunder7.mp3" />
+    <file src="files/thunder8.mp3" />
+    <file src="files/thunder9.mp3" />
+    
+    <file src="files/mta-helper.fx" />
+    
+    <download_priority_group>-103</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

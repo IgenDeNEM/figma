@@ -1,0 +1,21 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/blade.wav" />
+    <file src="files/bladel1.wav" />
+    <file src="files/bladel2.wav" />
+    <file src="files/bladel3.wav" />
+    <file src="files/blader1.wav" />
+    <file src="files/blader2.wav" />
+    <file src="files/blader3.wav" />
+    
+    <file src="files/headlight.dds" />
+    <file src="files/light.dds" />
+    <file src="files/snow_particle.dds" />
+    <file src="files/tri.dds" />
+    
+    <download_priority_group>-36</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

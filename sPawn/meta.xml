@@ -1,0 +1,12 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="getGoldSellPoses" type="shared" />
+    <export function="tryToSellMoneyStack" type="shared" />
+    <export function="generatePlayerMoneyStackPed" type="shared" />
+    
+    <download_priority_group>-159</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

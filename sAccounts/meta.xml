@@ -1,0 +1,58 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="islandC.luac" type="client" cache="false" />
+    <script src="islandCreationC.luac" type="client" cache="false" />
+    
+    <export function="getIsCharacterSelected" type="client" />
+    
+    <file src="files/at400.dff" />
+    <file src="files/at400.txd" />
+    
+    <file src="files/airp.mp3" />
+    <file src="files/airplanechillbackground.mp3" />
+    <file src="files/airplanedisbackmusic.mp3" />
+    <file src="files/airplaneofferror.mp3" />
+    <file src="files/airplbeep.wav" />
+    <file src="files/airplthunder.mp3" />
+    <file src="files/airport.mp3" />
+    
+    <file src="files/breath.mp3" />
+    <file src="files/crash.wav" />
+    <file src="files/hint.mp3" />
+    <file src="files/inner.mp3" />
+    <file src="files/insect.mp3" />
+    
+    <file src="files/login1.mp3" />
+    <file src="files/login2.mp3" />
+    <file src="files/login3.mp3" />
+    <file src="files/login4.mp3" />
+    <file src="files/login5.mp3" />
+    <file src="files/login6.mp3" />
+    <file src="files/login7.mp3" />
+    
+    <file src="files/logohexa.mp3" />
+    <file src="files/logoimpact1.mp3" />
+    <file src="files/logoimpact2.mp3" />
+    <file src="files/logoimpact3.mp3" />
+    
+    <file src="files/natureisland.mp3" />
+    <file src="files/plane.mp3" />
+    
+    <file src="files/rescue.mp3" />
+    <file src="files/rescuecopter.mp3" />
+    <file src="files/rescueteam.mp3" />
+    
+    <file src="files/scaryisland.mp3" />
+    <file src="files/thunderisland.mp3" />
+    <file src="files/intro.mp3" />
+    
+    <file src="files/light.dds" />
+    <file src="files/pass.dds" />
+    <file src="files/star.dds" />
+    <file src="files/vignette.dds" />
+    
+    <download_priority_group>-206</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

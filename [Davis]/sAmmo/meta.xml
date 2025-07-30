@@ -1,0 +1,39 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceG-obfuscated.luac" type="shared" cache="false" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <export function="getNearestPressMachine" type="server" />
+    <export function="isPressOccupied" type="server" />
+    
+    <file src="files/arrow.dds" />
+    
+    <file src="files/circle1.dds" />
+    <file src="files/circle2.dds" />
+    <file src="files/circle3.dds" />
+    
+    <file src="files/drop1.wav" />
+    <file src="files/drop2.wav" />
+    
+    <file src="files/hit1.mp3" />
+    <file src="files/hit2.mp3" />
+    <file src="files/hit3.mp3" />
+    <file src="files/hit4.mp3" />
+    <file src="files/hit5.mp3" />
+    
+    <file src="files/hydra.mp3" />
+    
+    <file src="files/inout1.mp3" />
+    <file src="files/inout2.mp3" />
+    <file src="files/inout3.mp3" />
+    <file src="files/inout4.mp3" />
+    <file src="files/inout5.mp3" />
+    <file src="files/inout6.mp3" />
+    <file src="files/inout7.mp3" />
+    
+    <file src="files/lever1.mp3" />
+    <file src="files/lever2.mp3" />
+    <file src="files/lever3.mp3" />
+    
+    <download_priority_group>-65</download_priority_group>
+</meta>

@@ -1,0 +1,185 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="animalsC.luac" type="client" cache="false" />
+    
+    <!--
+    <script src="rentalC.lua" type="client" cache="false" />
+    <script src="rentalS.lua" type="server" />
+    -->
+    
+    <script src="sourceC.luac" type="client" cache="false" />
+    <script src="animalsS.lua" type="server" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="files/arrow.dds" />
+    <file src="files/glass.dds" />
+    <file src="files/hoe.dds" />
+    <file src="files/impact.ttf" />
+    <file src="files/minihoe.dds" />
+    <file src="files/mta-helper.fx" />
+    <file src="files/prev.dds" />
+    <file src="files/Roboto.ttf" />
+    <file src="files/sheepskin.dds" />
+    <file src="files/sheepskin2.dds" />
+    <file src="files/stripe.dds" />
+    <file src="files/tr1.dds" />
+    <file src="files/tr2.dds" />
+    <file src="files/tri.dds" />
+    <file src="files/w.dds" />
+    <file src="files/water.dds" />
+    <file src="files/animations/furik_boritas.ifp" />
+    <file src="files/animations/furik_idle.ifp" />
+    <file src="files/animations/furik_seta.ifp" />
+    <file src="files/animations/furik_start.ifp" />
+    <file src="files/animations/vodor_idle.ifp" />
+    <file src="files/animations/vodor_seta.ifp" />
+    <file src="files/animations/vodor_start.ifp" />
+    <file src="files/animations/vodor_urites.ifp" />
+    <file src="files/animations/vv_fel.ifp" />
+    <file src="files/animations/vv_idle.ifp" />
+    <file src="files/animations/vv_le.ifp" />
+    <file src="files/animations/vv_seta.ifp" />
+    <file src="files/animations/vv_start.ifp" />
+    <file src="files/chicken/1.see" />
+    <file src="files/chicken/2.see" />
+    <file src="files/chicken/3.see" />
+    <file src="files/chicken/4.see" />
+    <file src="files/chicken/5.see" />
+    <file src="files/chicken/6.see" />
+    <file src="files/chicken/prev1.dds" />
+    <file src="files/chicken/prev2.dds" />
+    <file src="files/chicken/prev3.dds" />
+    <file src="files/chicken/prev4.dds" />
+    <file src="files/chicken/prev5.dds" />
+    <file src="files/chicken/prev6.dds" />
+    <file src="files/cow/1.see" />
+    <file src="files/cow/2.see" />
+    <file src="files/cow/3.see" />
+    <file src="files/cow/4.see" />
+    <file src="files/cow/5.see" />
+    <file src="files/cow/prev1.dds" />
+    <file src="files/cow/prev2.dds" />
+    <file src="files/cow/prev3.dds" />
+    <file src="files/cow/prev4.dds" />
+    <file src="files/cow/prev5.dds" />
+    <file src="files/door/1.mp3" />
+    <file src="files/goat/1.see" />
+    <file src="files/goat/2.see" />
+    <file src="files/goat/3.see" />
+    <file src="files/goat/prev1.dds" />
+    <file src="files/goat/prev2.dds" />
+    <file src="files/goat/prev3.dds" />
+    <file src="files/pig/1.see" />
+    <file src="files/pig/2.see" />
+    <file src="files/pig/3.see" />
+    <file src="files/pig/4.see" />
+    <file src="files/pig/prev1.dds" />
+    <file src="files/pig/prev2.dds" />
+    <file src="files/pig/prev3.dds" />
+    <file src="files/pig/prev4.dds" />
+    <file src="files/sheep/1.dds" />
+    <file src="files/sheep/1w.dds" />
+    <file src="files/sheep/2.dds" />
+    <file src="files/sheep/2w.dds" />
+    <file src="files/sheep/3.dds" />
+    <file src="files/sheep/3w.dds" />
+    <file src="files/sheep/4.dds" />
+    <file src="files/sheep/4w.dds" />
+    <file src="files/sheep/prev1.dds" />
+    <file src="files/sheep/prev2.dds" />
+    <file src="files/sheep/prev3.dds" />
+    <file src="files/sheep/prev4.dds" />
+    <file src="files/sound/boxfel.mp3" />
+    <file src="files/sound/boxle.mp3" />
+    <file src="files/sound/chicken1.mp3" />
+    <file src="files/sound/chicken2.mp3" />
+    <file src="files/sound/chicken3.mp3" />
+    <file src="files/sound/chicken4.mp3" />
+    <file src="files/sound/chicken5.mp3" />
+    <file src="files/sound/chicken6.mp3" />
+    <file src="files/sound/chicken7.mp3" />
+    <file src="files/sound/chicken8.mp3" />
+    <file src="files/sound/cow1.mp3" />
+    <file src="files/sound/cow2.mp3" />
+    <file src="files/sound/cow3.mp3" />
+    <file src="files/sound/cow4.mp3" />
+    <file src="files/sound/cow5.mp3" />
+    <file src="files/sound/cow6.mp3" />
+    <file src="files/sound/cow7.mp3" />
+    <file src="files/sound/creak1.mp3" />
+    <file src="files/sound/creak2.mp3" />
+    <file src="files/sound/creak3.mp3" />
+    <file src="files/sound/farmrazor.mp3" />
+    <file src="files/sound/fly.mp3" />
+    <file src="files/sound/furikfelesurit.mp3" />
+    <file src="files/sound/goat1.mp3" />
+    <file src="files/sound/goat2.mp3" />
+    <file src="files/sound/goat3.mp3" />
+    <file src="files/sound/hoe1.mp3" />
+    <file src="files/sound/hoe2.mp3" />
+    <file src="files/sound/hoe3.mp3" />
+    <file src="files/sound/hoe4.mp3" />
+    <file src="files/sound/hoe5.mp3" />
+    <file src="files/sound/hole.mp3" />
+    <file src="files/sound/ontozes.mp3" />
+    <file src="files/sound/pig1.mp3" />
+    <file src="files/sound/pig2.mp3" />
+    <file src="files/sound/pig3.mp3" />
+    <file src="files/sound/pig4.mp3" />
+    <file src="files/sound/pig5.mp3" />
+    <file src="files/sound/pig6.mp3" />
+    <file src="files/sound/plant.mp3" />
+    <file src="files/sound/sheep1.mp3" />
+    <file src="files/sound/sheep2.mp3" />
+    <file src="files/sound/sheep3.mp3" />
+    <file src="files/sound/sheep4.mp3" />
+    <file src="files/sound/sheep5.mp3" />
+    <file src="files/sound/sheep6.mp3" />
+    <file src="files/sound/sheep7.mp3" />
+    <file src="files/sound/shovel1.mp3" />
+    <file src="files/sound/shovel2.mp3" />
+    <file src="files/sound/shovel3.mp3" />
+    <file src="files/sound/shovel4.mp3" />
+    <file src="files/sound/shovel5.mp3" />
+    <file src="files/sound/szalma.mp3" />
+    <file src="files/sound/szerszamle-fel.mp3" />
+    <file src="files/sound/szuret1.mp3" />
+    <file src="files/sound/szuret2.mp3" />
+    <file src="files/sound/tapki.mp3" />
+    <file src="files/sound/tapvodorbe.mp3" />
+    <file src="files/sound/water.mp3" />
+    <file src="files/sound/waterout.mp3" />
+    <file src="files/sound/westernback.mp3" />
+    <file src="files/sound/wheel1.mp3" />
+    <file src="files/sound/wheel2.mp3" />
+    <file src="files/sound/wheel3.mp3" />
+    <file src="files/textures/hay.dds" />
+    <file src="files/textures/land.dds" />
+    <file src="files/textures/land_cultivated.dds" />
+    <file src="files/textures/land_cultivated_wet.dds" />
+    <file src="files/textures/land_hole.dds" />
+    <file src="files/textures/land_hole_wet.dds" />
+    <file src="files/textures/land_planted.dds" />
+    <file src="files/textures/land_planted_wet.dds" />
+    <file src="files/textures/land_wet.dds" />
+    <file src="files/textures/manure.dds" />
+    <file src="files/textures/pisa.dds" />
+    <file src="files/textures/road.dds" />
+    <file src="files/textures/selection.dds" />
+    <file src="files/textures/water.dds" />
+    <file src="files/textures/water2.dds" />
+    <file src="files/textures/wet.dds" />
+    <file src="files/textures/wetshit.dds" />
+    
+    <export function="toggleSheepCutter" type="client" />
+    <export function="toggleMilkaMode" type="client" />
+    <export function="getPlayerFarmsForDashboard" type="client" />
+    <export function="markFarm" type="client" />
+    <export function="startFarmDeal" type="client" />
+    <export function="canPlaceItemToCrate" type="client" />
+    <export function="tryToBreakInFarm" type="client" />
+    <export function="unUseCrate" type="server" />
+    
+    <min_mta_version client="1.6.0" server="1.6.0" />
+    <download_priority_group>-113</download_priority_group>
+</meta>

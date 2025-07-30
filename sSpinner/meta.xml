@@ -1,0 +1,11 @@
+<meta>
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="refreshSpinners" type="client" />
+    <export function="refreshSpinnerColor" type="client" />
+    
+    <file src="tint.fx" />
+    
+    <download_priority_group>-181</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

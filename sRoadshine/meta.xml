@@ -1,0 +1,12 @@
+<meta>
+    <script src="c_roadshine3.lua" type="client" cache="false" />
+    
+    <export function="setRoadShineState" type="client" />
+    <export function="getRoadShineState" type="client" />
+    
+    <file src="mta-helper.fx" />
+    <file src="roadshine3.fx" />
+    
+    <download_priority_group>-170</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

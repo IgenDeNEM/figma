@@ -1,0 +1,45 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/1.dds" />
+    <file src="files/2.dds" />
+    <file src="files/3.dds" />
+    <file src="files/4.dds" />
+    <file src="files/5.dds" />
+    <file src="files/6.dds" />
+    <file src="files/7.dds" />
+    <file src="files/8.dds" />
+    <file src="files/9.dds" />
+    <file src="files/10.dds" />
+    <file src="files/11.dds" />
+    <file src="files/12.dds" />
+    <file src="files/13.dds" />
+    <file src="files/14.dds" />
+    <file src="files/15.dds" />
+    <file src="files/16.dds" />
+    <file src="files/17.dds" />
+    <file src="files/18.dds" />
+    <file src="files/19.dds" />
+    <file src="files/20.dds" />
+    <file src="files/21.dds" />
+    <file src="files/22.dds" />
+    <file src="files/23.dds" />
+    <file src="files/24.dds" />
+    
+    <file src="files/1.mp3" />
+    <file src="files/2.mp3" />
+    <file src="files/3.mp3" />
+    <file src="files/4.mp3" />
+    <file src="files/5.mp3" />
+    
+    <file src="files/inside.dds" />
+    <file src="files/inside2.dds" />
+    
+    <file src="files/kalendar.dds" />
+    <file src="files/out.wav" />
+    
+    <download_priority_group>-30</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

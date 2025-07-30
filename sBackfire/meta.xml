@@ -1,0 +1,26 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="popDown" type="client" />
+    
+    <file src="files/1.wav" />
+    <file src="files/2.wav" />
+    <file src="files/3.wav" />
+    <file src="files/4.wav" />
+    <file src="files/5.wav" />
+    <file src="files/6.wav" />
+    <file src="files/7.wav" />
+    <file src="files/8.wav" />
+    <file src="files/9.wav" />
+    <file src="files/10.wav" />
+    <file src="files/11.wav" />
+    <file src="files/12.wav" />
+    
+    <file src="files/fire.dds" />
+    <file src="files/old.mp3" />
+    <file src="files/spark.dds" />
+    
+    <download_priority_group>-70</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

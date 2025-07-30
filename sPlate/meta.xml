@@ -1,0 +1,22 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="getPlatesVisible" type="client" />
+    <export function="setPlatesVisible" type="client" />
+    <export function="hideSearchSymbol" type="client" />
+    <export function="applyVehiclePlate" type="client" />
+    
+    <file src="texturechanger.fx" />
+    <file src="files/charset.dds" />
+    <file src="files/sightplatecharset.png" />
+    <file src="files/plate_sight.dds" />
+    <file src="files/light.dds" />
+    
+    <file src="files/plate_1_sight.png" />
+    <file src="files/plate_2_sight.png" />
+    <file src="files/charset1.png" />
+    
+    <download_priority_group>-161</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

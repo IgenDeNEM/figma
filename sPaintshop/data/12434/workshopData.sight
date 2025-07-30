@@ -1,0 +1,183 @@
+[
+	{
+		"stockData": [
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			]
+		],
+		"workshopPermissions": [],
+		"upgrades": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"paintshopWorks": [],
+		"maintanceData": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"mixerTank": {
+			"color": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"primer": 0,
+			"base": [
+				0,
+				0
+			]
+		},
+		"lastMail": 30,
+		"mails": [
+			{
+				"emailTime": 1751913286,
+				"referrer": 3,
+				"price": 175000,
+				"emailType": "offer",
+				"partNames": [
+					"Kasztni",
+					"Bal hátsó ajtó"
+				],
+				"paintMetal": true,
+				"textId": 12,
+				"pictureName": "551_1_595E66.png",
+				"offerTimeout": 70,
+				"serverDatas": {
+					"partNames": [
+						"Kasztni",
+						"Bal hátsó ajtó"
+					],
+					"paint": "#595E66",
+					"plate": 211514,
+					"paintMetal": true,
+					"price": 175000,
+					"maskName": "551_1_595E66_MASK.png",
+					"pictureName": "551_1_595E66.png",
+					"model": 551
+				},
+				"paint": "#595E66",
+				"plate": 211514,
+				"titleId": 5,
+				"customerType": 12,
+				"maskName": "551_1_595E66_MASK.png",
+				"from": [
+					28,
+					16
+				],
+				"model": 551
+			}
+		],
+		"gunStates": [
+			{
+				"paintType": false,
+				"paintLevel": 0,
+				"tank": false,
+				"player": false,
+				"mixer": false
+			},
+			{
+				"paintType": false,
+				"paintLevel": 0,
+				"tank": false,
+				"player": false,
+				"mixer": false
+			}
+		],
+		"workshopPoint": 55800
+	}
+]

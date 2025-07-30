@@ -1,0 +1,111 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="doorC.luac" type="client" cache="false" />
+    
+    <export function="getTuningPrice" type="shared" />
+    
+    <export function="makeTuning" type="server" />
+    <export function="getTuningValue" type="server" />
+    <export function="setTuningValue" type="server" />
+    
+    <export function="getTuningValue" type="client" />
+    <export function="isInWinter" type="server" />
+    
+    <file src="files/ambient1.mp3" />
+    <file src="files/ambient2.mp3" />
+    <file src="files/buy.mp3" />
+    <file src="files/cammovein.mp3" />
+    <file src="files/cammovemenu1.mp3" />
+    <file src="files/cammovemenu2.mp3" />
+    <file src="files/cammoveout.mp3" />
+    <file src="files/col1.dds" />
+    <file src="files/col2.dds" />
+    <file src="files/col3.dds" />
+    <file src="files/em.wav" />
+    <file src="files/freecam.mp3" />
+    <file src="files/light.mp3" />
+    <file src="files/lm.wav" />
+    <file src="files/mrc.dds" />
+    <file src="files/mta-helper.fx" />
+    <file src="files/mw.dds" />
+    <file src="files/nav.mp3" />
+    <file src="files/paint.mp3" />
+    <file src="files/pp.dds" />
+    <file src="files/selectdone.wav" />
+    
+    <file src="files/icons/abs.dds" />
+    <file src="files/icons/airride.dds" />
+    <file src="files/icons/backfire.dds" />
+    <file src="files/icons/diff.dds" />
+    <file src="files/icons/dollar.dds" />
+    <file src="files/icons/ecu.dds" />
+    <file src="files/icons/elso.dds" />
+    <file src="files/icons/extra.dds" />
+    <file src="files/icons/fek.dds" />
+    <file src="files/icons/felfugg.dds" />
+    <file src="files/icons/felni.dds" />
+    <file src="files/icons/fenyezes.dds" />
+    <file src="files/icons/free.dds" />
+    <file src="files/icons/gumi.dds" />
+    <file src="files/icons/gumiszelesseg.dds" />
+    <file src="files/icons/hatso.dds" />
+    <file src="files/icons/hatsolampa.dds" />
+    <file src="files/icons/hidra.dds" />
+    <file src="files/icons/horn.dds" />
+    <file src="files/icons/izzo.dds" />
+    <file src="files/icons/kipufogo.dds" />
+    <file src="files/icons/kuszob.dds" />
+    <file src="files/icons/legterelo.dds" />
+    <file src="files/icons/lsd.dds" />
+    <file src="files/icons/meghajtas.dds" />
+    <file src="files/icons/misc.dds" />
+    <file src="files/icons/motor.dds" />
+    <file src="files/icons/motorhaz.dds" />
+    <file src="files/icons/neon.dds" />
+    <file src="files/icons/nitro.dds" />
+    <file src="files/icons/offroad.dds" />
+    <file src="files/icons/optika.dds" />
+    <file src="files/icons/plate.dds" />
+    <file src="files/icons/pp.dds" />
+    <file src="files/icons/sch.dds" />
+    <file src="files/icons/slock.dds" />
+    <file src="files/icons/speedtrap.dds" />
+    <file src="files/icons/spinner.dds" />
+    <file src="files/icons/sulycsokkentes.dds" />
+    <file src="files/icons/teljesitmeny.dds" />
+    <file src="files/icons/tetolegterelo.dds" />
+    <file src="files/icons/turbo.dds" />
+    <file src="files/icons/valto.dds" />
+    <file src="files/icons/variant.dds" />
+    <file src="files/icons/wrench.dds" />
+    
+    <file src="files/music/1.mp3" />
+    <file src="files/music/2.mp3" />
+    <file src="files/music/3.mp3" />
+    <file src="files/music/4.mp3" />
+    <file src="files/music/5.mp3" />
+    <file src="files/music/6.mp3" />
+    <file src="files/music/7.mp3" />
+    <file src="files/music/8.mp3" />
+    <file src="files/music/9.mp3" />
+    <file src="files/music/10.mp3" />
+    <file src="files/music/11.mp3" />
+    <file src="files/music/12.mp3" />
+    <file src="files/music/13.mp3" />
+    <file src="files/music/14.mp3" />
+    <file src="files/music/15.mp3" />
+    <file src="files/music/16.mp3" />
+    <file src="files/music/17.mp3" />
+    <file src="files/music/18.mp3" />
+    <file src="files/music/19.mp3" />
+    <file src="files/music/20.mp3" />
+    <file src="files/music/21.mp3" />
+    <file src="files/music/22.mp3" />
+    <file src="files/music/23.mp3" />
+    
+    <download_priority_group>-16</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

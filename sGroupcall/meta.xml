@@ -1,0 +1,23 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="registerPlayerDuty" type="server" />
+    
+    <export function="createTablet" type="client" />
+    <export function="deleteTablet" type="client" />
+    <export function="getEmergencyCallList" type="client" />
+    <export function="getGroupCall" type="client" />
+    <export function="getGroupReport" type="client" />
+    
+    <file src="files/accept.wav" />
+    <file src="files/decline.wav" />
+    <file src="files/navbar.wav" />
+    <file src="files/noti.wav" />
+    <file src="files/pin.wav" />
+    <file src="files/tablet.dds" />
+    
+    <download_priority_group>-126</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

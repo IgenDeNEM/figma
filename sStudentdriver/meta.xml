@@ -1,0 +1,34 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/1.dds" />
+    <file src="files/2.dds" />
+    <file src="files/3.dds" />
+    <file src="files/4.dds" />
+    <file src="files/5.dds" />
+    <file src="files/6.dds" />
+    <file src="files/7.dds" />
+    <file src="files/8.dds" />
+    <file src="files/9.dds" />
+    <file src="files/10.dds" />
+    <file src="files/11.dds" />
+    <file src="files/12.dds" />
+    <file src="files/13.dds" />
+    <file src="files/14.dds" />
+    <file src="files/15.dds" />
+    <file src="files/16.dds" />
+    <file src="files/17.dds" />
+    <file src="files/18.dds" />
+    <file src="files/19.dds" />
+    <file src="files/20.dds" />
+    <file src="files/21.dds" />
+    
+    <file src="files/circle.dds" />
+    <file src="files/error.wav" />
+    <file src="files/pipa.wav" />
+    
+    <download_priority_group>-183</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

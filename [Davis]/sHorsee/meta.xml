@@ -1,0 +1,166 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/bg/1.dds" />
+    <file src="files/bg/2.dds" />
+    <file src="files/bg/3.dds" />
+    <file src="files/bg/4.dds" />
+    <file src="files/bg/5.dds" />
+    <file src="files/bg/6.dds" />
+    
+    <file src="files/coin/1.dds" />
+    <file src="files/coin/2.dds" />
+    <file src="files/coin/3.dds" />
+    <file src="files/coin/4.dds" />
+    <file src="files/coin/5.dds" />
+    <file src="files/coin/6.dds" />
+    <file src="files/coin/7.dds" />
+    
+    <file src="files/coin/s1.dds" />
+    <file src="files/coin/s2.dds" />
+    <file src="files/coin/s3.dds" />
+    <file src="files/coin/s4.dds" />
+    <file src="files/coin/s5.dds" />
+    <file src="files/coin/s6.dds" />
+    <file src="files/coin/s7.dds" />
+    
+    <file src="files/coin/glow.dds" />
+    <file src="files/coin/shine.dds" />
+    
+    <file src="files/horses/1.dds" />
+    <file src="files/horses/2.dds" />
+    <file src="files/horses/3.dds" />
+    <file src="files/horses/4.dds" />
+    <file src="files/horses/5.dds" />
+    <file src="files/horses/6.dds" />
+    
+    <file src="files/horses/bg.dds" />
+    
+    <file src="files/mini/a.dds" />
+    <file src="files/mini/el.dds" />
+    <file src="files/mini/h1.dds" />
+    <file src="files/mini/h2.dds" />
+    <file src="files/mini/h3.dds" />
+    <file src="files/mini/h4.dds" />
+    <file src="files/mini/h5.dds" />
+    <file src="files/mini/h6.dds" />
+    <file src="files/mini/h12.dds" />
+    <file src="files/mini/h22.dds" />
+    <file src="files/mini/h32.dds" />
+    <file src="files/mini/h42.dds" />
+    <file src="files/mini/h52.dds" />
+    <file src="files/mini/h62.dds" />
+    
+    <file src="files/mini/q12.dds" />
+    <file src="files/mini/q13.dds" />
+    <file src="files/mini/q14.dds" />
+    <file src="files/mini/q15.dds" />
+    <file src="files/mini/q16.dds" />
+    <file src="files/mini/q23.dds" />
+    <file src="files/mini/q24.dds" />
+    <file src="files/mini/q25.dds" />
+    <file src="files/mini/q26.dds" />
+    <file src="files/mini/q34.dds" />
+    <file src="files/mini/q35.dds" />
+    <file src="files/mini/q36.dds" />
+    <file src="files/mini/q45.dds" />
+    <file src="files/mini/q46.dds" />
+    <file src="files/mini/q56.dds" />
+    
+    
+    <file src="files/sound/10sec.mp3" />
+    <file src="files/sound/cheer.mp3" />
+    <file src="files/sound/crowd.mp3" />
+    <file src="files/sound/fade.mp3" />
+    <file src="files/sound/galop.mp3" />
+    <file src="files/sound/horn.mp3" />
+    <file src="files/sound/horseshoot.mp3" />
+    
+    <file src="files/sound/horsetheme1.mp3" />
+    <file src="files/sound/horsetheme2.mp3" />
+    <file src="files/sound/horsetheme3.mp3" />
+    <file src="files/sound/horsetheme4.mp3" />
+    
+    <file src="files/sound/sit.mp3" />
+    
+    <file src="files/sound/ssc1.mp3" />
+    <file src="files/sound/ssc2.mp3" />
+    
+    <file src="files/sound/ssccollect1.mp3" />
+    <file src="files/sound/ssccollect2.mp3" />
+    <file src="files/sound/ssccollect3.mp3" />
+    
+    <file src="files/sound/sscfade.mp3" />
+    
+    <file src="files/sound/sscswitch1.mp3" />
+    <file src="files/sound/sscswitch2.mp3" />
+    <file src="files/sound/sscswitch3.mp3" />
+    
+    <file src="files/sound/stand.mp3" />
+    
+    
+    <file src="files/bottom.dds" />
+    <file src="files/cdarc.dds" />
+    <file src="files/cdin.dds" />
+    
+    <file src="files/cup.dds" />
+    <file src="files/cupbg.dds" />
+    
+    <file src="files/gradled.dds" />
+    <file src="files/head.dds" />
+    
+    <file src="files/help1.dds" />
+    <file src="files/help2.dds" />
+    
+    <file src="files/horsebox.dds" />
+    <file src="files/horsebox2.dds" />
+    <file src="files/horsebox3.dds" />
+    
+    <file src="files/horseside.dds" />
+    <file src="files/light.dds" />
+    <file src="files/live.dds" />
+    <file src="files/livebg.dds" />
+    <file src="files/logoscreen.dds" />
+    
+    <file src="files/matrix.dds" />
+    <file src="files/matrix1.dds" />
+    <file src="files/matrix2.dds" />
+    <file src="files/matrix3.dds" />
+    
+    <file src="files/outline.dds" />
+    <file src="files/outline2.dds" />
+    
+    <file src="files/podium.dds" />
+    <file src="files/podiumbg.dds" />
+    
+    <file src="files/progbox.dds" />
+    <file src="files/progbox2.dds" />
+    
+    <file src="files/smallbox.dds" />
+    <file src="files/smallbox2.dds" />
+    <file src="files/smallbox3.dds" />
+    
+    <file src="files/stair.dds" />
+    
+    <file src="files/stairside1.dds" />
+    <file src="files/stairside2.dds" />
+    <file src="files/stairsidea.dds" />
+    <file src="files/stairsided.dds" />
+    <file src="files/stairsidel.dds" />
+    
+    <file src="files/top.dds" />
+    <file src="files/wave.dds" />
+    
+    <file src="files/win1.dds" />
+    <file src="files/win2.dds" />
+    <file src="files/win3.dds" />
+    <file src="files/win3d.dds" />
+    <file src="files/win4.dds" />
+    
+    <file src="files/winner.dds" />
+    
+    <download_priority_group>-129</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

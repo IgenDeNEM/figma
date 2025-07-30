@@ -1,0 +1,17 @@
+<meta>
+    <script src="client.lua" type="client" cache="false" />
+    
+    <export function="setOswsState" type="client" />
+    <export function="getOswsState" type="client" />
+    
+    <file src="effectBias.fx" />
+    <file src="mta-helper.fx" />
+    <file src="water.fx" />
+    <file src="water_low.fx" />
+    
+    <file src="water/foam.dds" />
+    <file src="water/normal.dds" />
+    
+    <download_priority_group>-152</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

@@ -1,0 +1,15 @@
+<meta>
+    <script src="c_main.lua" type="client" cache="false" />
+    <script src="c_rtpool.lua" type="client" cache="false" />
+    <script src="c_switch.lua" type="client" cache="false" />
+    
+    <export function="setDofState" type="client" />
+    <export function="getDofState" type="client" />
+    
+    <file src="fx/dBlurH.fx" />
+    <file src="fx/dBlurV.fx" />
+    <file src="fx/dDepthTex.fx" />
+    
+    <download_priority_group>-101</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

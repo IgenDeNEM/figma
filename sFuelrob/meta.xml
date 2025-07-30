@@ -1,0 +1,22 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export type="shared" function="isInFuelStation" />
+    <export type="client" function="createRobCols" />
+    
+    <file src="files/alarm.wav" />
+    <file src="files/cashreg.txd" />
+    <file src="files/cashregclose.wav" />
+    <file src="files/cashregopen.wav" />
+    <file src="files/money.mp3" />
+    <file src="files/sCashregister.col" />
+    <file src="files/sCashregister.dff" />
+    <file src="files/sCashregister_cash.col" />
+    <file src="files/sCashregister_cash.dff" />
+    <file src="files/sCashregister_drawer.dff" />
+    
+    <download_priority_group>-120</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

@@ -1,0 +1,47 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="setVehicleSquad" type="client" />
+    <export function="setSquadsVisible" type="client" />
+    <export function="getPlayerAfkStart" type="client" />
+    <export function="updateItemShowList" type="client" />
+    <export function="getNamesState" type="client" />
+    <export function="setNamesState" type="client" />
+    <export function="getNameSize" type="client" />
+    <export function="setNameSize" type="client" />
+    <export function="getNameAlpha" type="client" />
+    <export function="setNameAlpha" type="client" />
+    <export function="getNameFont" type="client" />
+    <export function="setNameFont" type="client" />
+    <export function="getSquadsVisible" type="client" />
+    <export function="setSquadsVisible" type="client" />
+    <export function="setVoiceState" type="client" />
+    <export function="setAirsoftColor" type="client" />
+    
+    <file src="files/afk.dds" />
+    <file src="files/anim.dds" />
+    <file src="files/armor.dds" />
+    <file src="files/badge.dds" />
+    <file src="files/bag1.dds" />
+    <file src="files/bag2.dds" />
+    <file src="files/bag3.dds" />
+    <file src="files/belt.dds" />
+    <file src="files/cuff1.dds" />
+    <file src="files/cuff2.dds" />
+    <file src="files/death.dds" />
+    <file src="files/grave1.dds" />
+    <file src="files/grave2.dds" />
+    <file src="files/hospital.dds" />
+    <file src="files/id.dds" />
+    <file src="files/logo.dds" />
+    <file src="files/mic.dds" />
+    <file src="files/tazer.dds" />
+    <file src="files/wep.dds" />
+    <file src="files/trash.png" />
+    <file src="files/charset_bebas.sight" />
+    <file src="files/charset_ubuntu.sight" />
+    
+    <download_priority_group>-148</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

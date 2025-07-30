@@ -1,0 +1,37 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="setSnowMultiplier" type="client" />
+    
+    <file src="files/snow/junction.dds" />
+    <file src="files/snow/pave.dds" />
+    <file src="files/snow/rock.dds" />
+    <file src="files/snow/s_xmastree_snow.dds" />
+    <file src="files/snow/snow.dds" />
+    <file src="files/snow/snowroad.dds" />
+    <file src="files/snow/snowroad2.dds" />
+    <file src="files/snow/train.dds" />
+    <file src="files/snow/tram.dds" />
+    
+    <file src="files/1.dds" />
+    <file src="files/2.dds" />
+    <file src="files/3.dds" />
+    <file src="files/4.dds" />
+    
+    <file src="files/h1.mp3" />
+    <file src="files/h2.mp3" />
+    <file src="files/h3.mp3" />
+    
+    <file src="files/icevign.dds" />
+    <file src="files/mta-helper.fx" />
+    <file src="files/smallnoise3d.dds" />
+    <file src="files/snow_particle.dds" />
+    <file src="files/snowbc.wav" />
+    <file src="files/snowman.wav" />
+    <file src="files/tyre.dds" />
+    
+    <download_priority_group>-44</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

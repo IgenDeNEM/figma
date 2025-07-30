@@ -1,0 +1,296 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="adsG.luac" type="shared" cache="false" />
+    
+    <script src="sourceS.lua" type="server" />
+    <script src="sightnionS.lua" type="server" />
+    <script src="smsS.lua" type="server" />
+    
+    <script src="sourceC.luac" type="client" cache="false" />
+    <script src="adsC.luac" type="client" cache="false" />
+    <script src="calculatorC.luac" type="client" cache="false" />
+    <script src="sightnionC-obfuscated.luac" type="client" cache="false" />
+    
+    <script src="smsC.luac" type="client" cache="false" />
+    <script src="callC.luac" type="client" cache="false" />
+    <script src="contactsC.luac" type="client" cache="false" />
+    
+    
+    <export function="updateDealerScroll" type="client" />
+    <export function="updateDealerApp" type="client" />
+    <export function="updatesightNionMarketDelivery" type="client" />
+    
+    
+    <export function="formatPhoneNumber" type="shared" />
+    <export function="sendAutomatizedSMS" type="server" />
+    <export function="getPlayerCurrentNumber" type="server" />
+    <export function="findPlayerForPhone" type="server" />
+    <export function="getMobileState" type="client" />
+    <export function="openDialerWithNumber" type="client" />
+    <export function="groupCallResponse" type="client" />
+    <export function="groupReportResponse" type="client" />
+    <export function="teaEncode" type="client" />
+    
+    <file src="files/cam.wav" />
+    <file src="files/click.wav" />
+    <file src="files/sent.wav" />
+    <file src="files/soundon.wav" />
+    <file src="files/wood.wav" />
+    
+    <file src="files/bcg/0.png" />
+    <file src="files/bcg/1.png" />
+    <file src="files/bcg/2.png" />
+    <file src="files/bcg/3.png" />
+    <file src="files/bcg/4.png" />
+    <file src="files/bcg/5.png" />
+    <file src="files/bcg/6.png" />
+    <file src="files/bcg/7.png" />
+    <file src="files/bcg/8.png" />
+    <file src="files/bcg/9.png" />
+    <file src="files/bcg/10.png" />
+    <file src="files/bcg/11.png" />
+    <file src="files/bcg/12.png" />
+    <file src="files/bcg/13.png" />
+    <file src="files/bcg/14.png" />
+    <file src="files/bcg/15.png" />
+    <file src="files/bcg/16.png" />
+    <file src="files/bcg/17.png" />
+    <file src="files/bcg/18.png" />
+    <file src="files/bcg/19.png" />
+    <file src="files/bcg/20.png" />
+    <file src="files/bcg/21.png" />
+    <file src="files/bcg/22.png" />
+    <file src="files/bcg/23.png" />
+    <file src="files/bcg/24.png" />
+    <file src="files/bcg/25.png" />
+    <file src="files/bcg/26.png" />
+    <file src="files/bcg/27.png" />
+    <file src="files/bcg/28.png" />
+    <file src="files/bcg/29.png" />
+    <file src="files/bcg/30.png" />
+    <file src="files/bcg/31.png" />
+    <file src="files/bcg/32.png" />
+    <file src="files/bcg/33.png" />
+    <file src="files/bcg/34.png" />
+    <file src="files/bcg/35.png" />
+    <file src="files/bcg/36.png" />
+    <file src="files/bcg/37.png" />
+    <file src="files/bcg/38.png" />
+    <file src="files/bcg/39.png" />
+    <file src="files/bcg/40.png" />
+    <file src="files/bcg/41.png" />
+    
+    <file src="files/call/busy.wav" />
+    <file src="files/call/cannotDial.wav" />
+    <file src="files/call/dial.wav" />
+    <file src="files/call/ghost.wav" />
+    <file src="files/call/notFound.wav" />
+    <file src="files/call/santa.wav" />
+    <file src="files/call/taxi.wav" />
+    <file src="files/call/vib.wav" />
+    <file src="files/call/summer.wav" />
+    
+    <file src="files/call/emergency/1.wav" />
+    <file src="files/call/emergency/2.wav" />
+    <file src="files/call/emergency/3.wav" />
+    <file src="files/call/emergency/4.wav" />
+    <file src="files/call/emergency/5.wav" />
+    <file src="files/call/emergency/6.wav" />
+    <file src="files/call/emergency/7.wav" />
+    <file src="files/call/emergency/8.wav" />
+    <file src="files/call/emergency/9.wav" />
+    
+    <file src="files/call/jimmy/1.mp3" />
+    <file src="files/call/jimmy/2.mp3" />
+    <file src="files/call/jimmy/3.mp3" />
+    <file src="files/call/jimmy/4.mp3" />
+    <file src="files/call/jimmy/5.mp3" />
+    <file src="files/call/jimmy/6.mp3" />
+    
+    <file src="files/call/num/0.wav" />
+    <file src="files/call/num/1.wav" />
+    <file src="files/call/num/2.wav" />
+    <file src="files/call/num/3.wav" />
+    <file src="files/call/num/4.wav" />
+    <file src="files/call/num/5.wav" />
+    <file src="files/call/num/6.wav" />
+    <file src="files/call/num/7.wav" />
+    <file src="files/call/num/8.wav" />
+    <file src="files/call/num/9.wav" />
+    
+    <file src="files/call/potyi/1.mp3" />
+    <file src="files/call/potyi/2.mp3" />
+    <file src="files/call/potyi/3.mp3" />
+    <file src="files/call/potyi/4.mp3" />
+    <file src="files/call/potyi/5.mp3" />
+    <file src="files/call/potyi/6.mp3" />
+    <file src="files/call/potyi/7.mp3" />
+    <file src="files/call/potyi/8.mp3" />
+    <file src="files/call/potyi/9.mp3" />
+    <file src="files/call/potyi/10.mp3" />
+    <file src="files/call/potyi/11.mp3" />
+    <file src="files/call/potyi/12.mp3" />
+    <file src="files/call/potyi/13.mp3" />
+    <file src="files/call/potyi/14.mp3" />
+    <!-- <file src="files/call/potyi/15.mp3" /> -->
+    <file src="files/call/potyi/16.mp3" />
+    <file src="files/call/potyi/17.mp3" />
+    <file src="files/call/potyi/18.mp3" />
+    <file src="files/call/potyi/19.mp3" />
+    <file src="files/call/potyi/20.mp3" />
+    <!-- <file src="files/call/potyi/21.mp3" /> -->
+    <!-- <file src="files/call/potyi/22.mp3" /> -->
+    <file src="files/call/potyi/23.mp3" />
+    <file src="files/call/potyi/24.mp3" />
+    <file src="files/call/potyi/25.mp3" />
+    <file src="files/call/potyi/26.mp3" />
+    <file src="files/call/potyi/27.mp3" />
+    <file src="files/call/potyi/28.mp3" />
+    <!-- <file src="files/call/potyi/29.mp3" /> -->
+    <!-- <file src="files/call/potyi/30.mp3" /> -->
+    <!-- <file src="files/call/potyi/31.mp3" /> -->
+    <file src="files/call/potyi/32.mp3" />
+    <file src="files/call/potyi/33.mp3" />
+    <!-- <file src="files/call/potyi/34.mp3" /> -->
+    <!-- <file src="files/call/potyi/35.mp3" /> -->
+    <file src="files/call/potyi/36.mp3" />
+    <!-- <file src="files/call/potyi/37.mp3" /> -->
+    <!-- <file src="files/call/potyi/38.mp3" /> -->
+    <file src="files/call/potyi/39.mp3" />
+    <file src="files/call/potyi/40.mp3" />
+    <file src="files/call/potyi/41.mp3" />
+    <file src="files/call/potyi/42.mp3" />
+    <file src="files/call/potyi/43.mp3" />
+    <file src="files/call/potyi/44.mp3" />
+    <file src="files/call/potyi/45.mp3" />
+    <file src="files/call/potyi/46.mp3" />
+    <file src="files/call/potyi/47.mp3" />
+    <file src="files/call/potyi/48.mp3" />
+    <file src="files/call/potyi/49.mp3" />
+    <file src="files/call/potyi/50.mp3" />
+    <file src="files/call/potyi/51.mp3" />
+    <!-- <file src="files/call/potyi/52.mp3" /> -->
+    <file src="files/call/potyi/53.mp3" />
+    <file src="files/call/potyi/54.mp3" />
+    <file src="files/call/potyi/55.mp3" />
+    <file src="files/call/potyi/56.mp3" />
+    <!-- <file src="files/call/potyi/57.mp3" /> -->
+    <file src="files/call/potyi/58.mp3" />
+    <file src="files/call/potyi/59.mp3" />
+    <file src="files/call/potyi/60.mp3" />
+    <file src="files/call/potyi/61.mp3" />
+    <!-- <file src="files/call/potyi/62.mp3" /> -->
+    <!-- <file src="files/call/potyi/63.mp3" /> -->
+    
+    <file src="files/call/potyi/tedd1.mp3" />
+    <file src="files/call/potyi/tedd2.mp3" />
+    <file src="files/call/potyi/tedd3.mp3" />
+    
+    <file src="files/call/ringtone/1.wav" />
+    <file src="files/call/ringtone/2.wav" />
+    <file src="files/call/ringtone/3.wav" />
+    <file src="files/call/ringtone/4.wav" />
+    <file src="files/call/ringtone/5.wav" />
+    <file src="files/call/ringtone/6.wav" />
+    <file src="files/call/ringtone/7.wav" />
+    <file src="files/call/ringtone/8.wav" />
+    <file src="files/call/ringtone/9.wav" />
+    <file src="files/call/ringtone/10.wav" />
+    <file src="files/call/ringtone/11.wav" />
+    <file src="files/call/ringtone/12.wav" />
+    <file src="files/call/ringtone/13.wav" />
+    <file src="files/call/ringtone/14.wav" />
+    <file src="files/call/ringtone/15.wav" />
+    <file src="files/call/ringtone/16.wav" />
+    <file src="files/call/ringtone/17.wav" />
+    <file src="files/call/ringtone/18.wav" />
+    <file src="files/call/ringtone/19.wav" />
+    <file src="files/call/ringtone/20.wav" />
+    <file src="files/call/ringtone/21.wav" />
+    <file src="files/call/ringtone/22.wav" />
+    <file src="files/call/ringtone/23.wav" />
+    <file src="files/call/ringtone/24.wav" />
+    <file src="files/call/ringtone/25.wav" />
+    <file src="files/call/ringtone/26.wav" />
+    <file src="files/call/ringtone/27.wav" />
+    <file src="files/call/ringtone/28.wav" />
+    <file src="files/call/ringtone/29.wav" />
+    <file src="files/call/ringtone/30.wav" />
+    <file src="files/call/ringtone/31.wav" />
+    <file src="files/call/ringtone/32.wav" />
+    <file src="files/call/ringtone/33.wav" />
+    
+    <file src="files/call/service/1.mp3" />
+    <file src="files/call/service/2.mp3" />
+    <file src="files/call/service/3.mp3" />
+    <file src="files/call/service/4.mp3" />
+    <file src="files/call/service/5.mp3" />
+    <file src="files/call/service/6.mp3" />
+    <file src="files/call/service/7.mp3" />
+    <file src="files/call/service/8.mp3" />
+    
+    <file src="files/call/valutas/valutas1.wav" />
+    <file src="files/call/valutas/valutas2.wav" />
+    <file src="files/call/valutas/valutas3.wav" />
+    
+    <file src="files/icons/ad.png" />
+    <file src="files/icons/calculator.png" />
+    <file src="files/icons/camera.png" />
+    <file src="files/icons/gallery.png" />
+    <file src="files/icons/phone.png" />
+    <file src="files/icons/sightnion.png" />
+    <file src="files/icons/settings.png" />
+    <file src="files/icons/sms.png" />
+    
+    <file src="files/img/avcut_lg.png" />
+    <file src="files/img/avcut_sm.png" />
+    <file src="files/img/avshad.png" />
+    <file src="files/img/cam.png" />
+    <file src="files/img/camcut.png" />
+    <file src="files/img/camload.png" />
+    <file src="files/img/camplus.png" />
+    <file src="files/img/itemgrad.dds" />
+    <file src="files/img/item_x.png" />
+    <file src="files/img/phone2x.png" />
+    <file src="files/img/phoneglass.png" />
+    <file src="files/img/prev.png" />
+    <file src="files/img/widget.png" />
+    <file src="files/img/tri.png" />
+    
+    <file src="files/noti/1.wav" />
+    <file src="files/noti/2.wav" />
+    <file src="files/noti/3.wav" />
+    <file src="files/noti/4.wav" />
+    <file src="files/noti/5.wav" />
+    <file src="files/noti/6.wav" />
+    <file src="files/noti/7.wav" />
+    <file src="files/noti/8.wav" />
+    <file src="files/noti/9.wav" />
+    <file src="files/noti/10.wav" />
+    <file src="files/noti/11.wav" />
+    <file src="files/noti/12.wav" />
+    <file src="files/noti/13.wav" />
+    <file src="files/noti/14.wav" />
+    <file src="files/noti/15.wav" />
+    <file src="files/noti/16.wav" />
+    <file src="files/noti/17.wav" />
+    <file src="files/noti/18.wav" />
+    <file src="files/noti/19.wav" />
+    <file src="files/noti/20.wav" />
+    <file src="files/noti/21.wav" />
+    <file src="files/noti/22.wav" />
+    <file src="files/noti/23.wav" />
+    <file src="files/noti/24.wav" />
+    <file src="files/noti/25.wav" />
+    <file src="files/noti/26.wav" />
+    <file src="files/noti/27.wav" />
+    <file src="files/noti/28.wav" />
+    <file src="files/noti/29.wav" />
+    <file src="files/noti/30.wav" />
+    <file src="files/noti/31.wav" />
+    
+    <file src="files/noti/vib.wav" />
+    
+    <download_priority_group>-18</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

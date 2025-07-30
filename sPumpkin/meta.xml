@@ -1,0 +1,31 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="tryToStartPumpkinOpening" type="client" />
+    
+    <file src="files/bat.dds" />
+    <file src="files/bat2.dds" />
+    <file src="files/bg_368.dds" />
+    <file src="files/bg_654.dds" />
+    <file src="files/bg2.dds" />
+    <file src="files/bg3.dds" />
+    <file src="files/fog.dds" />
+    <file src="files/hdark.dds" />
+    <file src="files/head.dds" />
+    <file src="files/hlight.dds" />
+    <file src="files/hlight2.dds" />
+    <file src="files/ibg.dds" />
+    <file src="files/itemHover.dds" />
+    <file src="files/spiral.dds" />
+    <file src="files/spiral2.dds" />
+    <file src="files/win.dds" />
+    
+    <file src="files/music.mp3" />
+    <file src="files/music2.mp3" />
+    <file src="files/spin.mp3" />
+    
+    <download_priority_group>-164</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

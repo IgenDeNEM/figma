@@ -1,0 +1,25 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="isTuningValid" type="server" />
+    
+    <file src="files/adas2.dds" />
+    <file src="files/adas3.dds" />
+    <file src="files/adase.dds" />
+    <file src="files/adasv.dds" />
+    <file src="files/adasveteli.dds" />
+    
+    <file src="files/bg.dds" />
+    <file src="files/fg.dds" />
+    <file src="files/hand.otf" />
+    <file src="files/lunabar.ttf" />
+    <file src="files/paper.mp3" />
+    <file src="files/see.dds" />
+    <file src="files/shine.dds" />
+    <file src="files/sign.mp3" />
+    <file src="files/stamp.dds" />
+    
+    <download_priority_group>-191</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

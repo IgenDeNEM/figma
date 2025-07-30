@@ -1,0 +1,13 @@
+<meta>
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="endPreloader" type="client" />
+    
+    <file src="files/spin.dds" />
+    <file src="files/logo.dds" />
+    
+    <file src="files/BebasNeueBold.otf" />
+    
+    <download_priority_group>-6</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

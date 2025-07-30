@@ -1,0 +1,180 @@
+<meta>
+    <script src="sourceG-obfuscated.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <export function="prepareGarageFloor" type="client" />
+    <export function="getCurrentGarage" type="client" />
+    <export function="isCurrentGarageLocked" type="client" />
+    <export function="setCurrentGarageLocked" type="client" />
+    <export function="fetchGarageDatas" type="server" />
+    <export function="isGarageHasCraft" type="server" />
+    
+    <file src="files/bpbase.png" />
+    <file src="files/bpicon.png" />
+    
+    <file src="files/bp_furn1.png" />
+    <file src="files/bp_furn1_w1.png" />
+    <file src="files/bp_furn1_w2.png" />
+    <file src="files/bp_furn2.png" />
+    <file src="files/bp_furn2_w1.png" />
+    <file src="files/bp_furn2_w2.png" />
+    
+    <file src="files/caret.png" />
+    
+    <file src="files/furnishing1.png" />
+    <file src="files/furnishing2.png" />
+    
+    <file src="files/kruton.png" />
+    <file src="files/krutonbp.png" />
+    <file src="files/krutonslot.png" />
+    
+    <file src="files/lift.mp3" />
+    <file src="files/lift2.mp3" />
+    
+    <file src="files/slot.png" />
+    <file src="files/slotbig.png" />
+    <file src="files/workbench.png" />
+    
+    <file src="files/ceiling/1.png" />
+    <file src="files/ceiling/2.png" />
+    <file src="files/ceiling/3.png" />
+    <file src="files/ceiling/4.png" />
+    <file src="files/ceiling/5.png" />
+    <file src="files/ceiling/6.png" />
+    <file src="files/ceiling/7.png" />
+    <file src="files/ceiling/8.png" />
+    <file src="files/ceiling/9.png" />
+    <file src="files/ceiling/10.png" />
+    <file src="files/ceiling/11.png" />
+    <file src="files/ceiling/12.png" />
+    <file src="files/ceiling/13.png" />
+    <file src="files/ceiling/14.png" />
+    <file src="files/ceiling/15.png" />
+    <file src="files/ceiling/16.png" />
+    <file src="files/ceiling/17.png" />
+    <file src="files/ceiling/18.png" />
+    <file src="files/ceiling/19.png" />
+    <file src="files/ceiling/20.png" />
+    <file src="files/ceiling/21.png" />
+    
+    <file src="files/door/1.png" />
+    <file src="files/door/2.png" />
+    <file src="files/door/3.png" />
+    <file src="files/door/4.png" />
+    <file src="files/door/5.png" />
+    <file src="files/door/6.png" />
+    <file src="files/door/7.png" />
+    <file src="files/door/8.png" />
+    <file src="files/door/9.png" />
+    <file src="files/door/10.png" />
+    <file src="files/door/11.png" />
+    <file src="files/door/12.png" />
+    <file src="files/door/13.png" />
+    <file src="files/door/14.png" />
+    <file src="files/door/15.png" />
+    <file src="files/door/16.png" />
+    <file src="files/door/17.png" />
+    <file src="files/door/18.png" />
+    <file src="files/door/19.png" />
+    <file src="files/door/20.png" />
+    <file src="files/door/21.png" />
+    
+    <file src="files/floor/1.png" />
+    <file src="files/floor/2.png" />
+    <file src="files/floor/3.png" />
+    <file src="files/floor/4.png" />
+    <file src="files/floor/5.png" />
+    <file src="files/floor/6.png" />
+    <file src="files/floor/7.png" />
+    <file src="files/floor/8.png" />
+    <file src="files/floor/9.png" />
+    <file src="files/floor/10.png" />
+    <file src="files/floor/11.png" />
+    <file src="files/floor/12.png" />
+    <file src="files/floor/13.png" />
+    <file src="files/floor/14.png" />
+    <file src="files/floor/15.png" />
+    <file src="files/floor/16.png" />
+    <file src="files/floor/17.png" />
+    <file src="files/floor/18.png" />
+    <file src="files/floor/19.png" />
+    <file src="files/floor/20.png" />
+    <file src="files/floor/21.png" />
+    <file src="files/floor/22.png" />
+    <file src="files/floor/23.png" />
+    <file src="files/floor/24.png" />
+    <file src="files/floor/25.png" />
+    <file src="files/floor/26.png" />
+    <file src="files/floor/27.png" />
+    <file src="files/floor/28.png" />
+    
+    <file src="files/lifts/0.png" />
+    <file src="files/lifts/1.png" />
+    <file src="files/lifts/2.png" />
+    <file src="files/lifts/pv0.png" />
+    <file src="files/lifts/pv1.png" />
+    <file src="files/lifts/pv2.png" />
+    
+    <file src="files/toolbox/1.png" />
+    <file src="files/toolbox/2.png" />
+    <file src="files/toolbox/3.png" />
+    <file src="files/toolbox/4.png" />
+    <file src="files/toolbox/5.png" />
+    <file src="files/toolbox/6.png" />
+    <file src="files/toolbox/7.png" />
+    <file src="files/toolbox/8.png" />
+    <file src="files/toolbox/9.png" />
+    <file src="files/toolbox/10.png" />
+    <file src="files/toolbox/11.png" />
+    <file src="files/toolbox/12.png" />
+    <file src="files/toolbox/13.png" />
+    <file src="files/toolbox/14.png" />
+    
+    <file src="files/toolbox/pv1.png" />
+    <file src="files/toolbox/pv2.png" />
+    <file src="files/toolbox/pv3.png" />
+    <file src="files/toolbox/pv4.png" />
+    <file src="files/toolbox/pv5.png" />
+    <file src="files/toolbox/pv6.png" />
+    <file src="files/toolbox/pv7.png" />
+    <file src="files/toolbox/pv8.png" />
+    <file src="files/toolbox/pv9.png" />
+    <file src="files/toolbox/pv10.png" />
+    <file src="files/toolbox/pv11.png" />
+    <file src="files/toolbox/pv12.png" />
+    <file src="files/toolbox/pv13.png" />
+    <file src="files/toolbox/pv14.png" />
+    
+    <file src="files/wall/1.png" />
+    <file src="files/wall/2.png" />
+    <file src="files/wall/3.png" />
+    <file src="files/wall/4.png" />
+    <file src="files/wall/5.png" />
+    <file src="files/wall/6.png" />
+    <file src="files/wall/7.png" />
+    <file src="files/wall/8.png" />
+    <file src="files/wall/9.png" />
+    <file src="files/wall/10.png" />
+    <file src="files/wall/11.png" />
+    <file src="files/wall/12.png" />
+    <file src="files/wall/13.png" />
+    <file src="files/wall/14.png" />
+    <file src="files/wall/15.png" />
+    <file src="files/wall/16.png" />
+    <file src="files/wall/17.png" />
+    <file src="files/wall/18.png" />
+    <file src="files/wall/19.png" />
+    <file src="files/wall/20.png" />
+    <file src="files/wall/21.png" />
+    <file src="files/wall/22.png" />
+    <file src="files/wall/23.png" />
+    <file src="files/wall/24.png" />
+    <file src="files/wall/25.png" />
+    <file src="files/wall/26.png" />
+    <file src="files/wall/27.png" />
+    <file src="files/wall/28.png" />
+    
+    <download_priority_group>-121</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

@@ -1,0 +1,95 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.lua" type="client" cache="false" />
+    
+    <script src="obdC.luac" type="client" cache="false" />
+    <script src="obdS.lua" type="server" />
+    
+    <script src="utilsC.luac" type="client" cache="false" />
+    <script src="krutonC.luac" type="client" cache="false" />
+    <script src="papersC.luac" type="client" cache="false" />
+    
+    <export function="openObdState" type="client" />
+    <export function="openServiceInvoice" type="client" />
+    <export function="closeServiceInvoice" type="client" />
+    <export function="openKrutonComputer" type="client" />
+    
+    <file src="files/wheel.wav" />
+    
+    <file src="files/wheel1.mp3" />
+    <file src="files/wheel2.mp3" />
+    <file src="files/wheel3.mp3" />
+    <file src="files/wrench.mp3" />
+    <file src="files/change1.mp3" />
+    <file src="files/change2.mp3" />
+    <file src="files/change3.mp3" />
+    <file src="files/lift.mp3" />
+    <file src="files/lift2.mp3" />
+    <file src="files/metal.mp3" />
+    <file src="files/oildrain.mp3" />
+    <file src="files/oilin.mp3" />
+    <file src="files/beep1.mp3" />
+    <file src="files/brakepad.mp3" />
+    <file src="files/paper1.mp3" />
+    <file src="files/paper2.mp3" />
+    <file src="files/printer.mp3" />
+    <file src="files/shaker.mp3" />
+    
+    <file src="files/checkout.dds" />
+    <file src="files/clip1.dds" />
+    <file src="files/clip2.dds" />
+    <file src="files/diag.dds" />
+    <file src="files/door.dds" />
+    <file src="files/fender.dds" />
+    <file src="files/fuel.dds" />
+    <file src="files/general.dds" />
+    <file src="files/hex.dds" />
+    <file src="files/hood.dds" />
+    <file src="files/inspect.dds" />
+    <file src="files/kruton.dds" />
+    <file src="files/kruton2.dds" />
+    <file src="files/krutonicon.dds" />
+    <file src="files/nix.dds" />
+    <file src="files/obd.dds" />
+    <file src="files/align.dds" />
+    <file src="files/alignoff.dds" />
+    <file src="files/battery.dds" />
+    <file src="files/brake.dds" />
+    <file src="files/bulb.dds" />
+    <file src="files/bumper.dds" />
+    <file src="files/oil.dds" />
+    <file src="files/oiltexture.dds" />
+    <file src="files/oiltexture2.dds" />
+    <file src="files/paper.dds" />
+    <file src="files/print.dds" />
+    <file src="files/repair.dds" />
+    <file src="files/screen.dds" />
+    <file src="files/stats.dds" />
+    <file src="files/steering.dds" />
+    <file src="files/stock.dds" />
+    <file src="files/suspension.dds" />
+    <file src="files/swap.dds" />
+    <file src="files/timing.dds" />
+    <file src="files/tire.dds" />
+    <file src="files/tread.dds" />
+    <file src="files/trunk.dds" />
+    <file src="files/viz1.dds" />
+    <file src="files/viz2.dds" />
+    <file src="files/viz3.dds" />
+    <file src="files/windshield.dds" />
+    <file src="files/winlog.dds" />
+    <file src="files/wp.dds" />
+    <file src="files/wrench.dds" />
+    <file src="files/wheel_off.dds" />
+    <file src="files/wheel_on.dds" />
+    
+    <file src="files/drill.ifp" />
+    <file src="files/drilldn.ifp" />
+    <file src="files/drillup.ifp" />
+    
+    <file src="files/texturechanger.fx" />
+    
+    <download_priority_group>-144</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

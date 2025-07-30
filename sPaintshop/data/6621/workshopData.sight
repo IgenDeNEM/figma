@@ -1,0 +1,191 @@
+[
+	{
+		"stockData": [
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			]
+		],
+		"workshopPermissions": [],
+		"upgrades": [
+			5,
+			3,
+			2,
+			2,
+			5,
+			5
+		],
+		"paintshopWorks": [],
+		"maintanceData": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"mixerTank": {
+			"color": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"primer": 0,
+			"base": [
+				0,
+				0
+			]
+		},
+		"lastMail": 28,
+		"mails": [
+			{
+				"emailTime": 1752610924,
+				"referrer": 1,
+				"price": 205000,
+				"unread": false,
+				"emailType": "offer",
+				"partNames": [
+					"Első lökhárító",
+					"Kasztni"
+				],
+				"paintMetal": true,
+				"plate": 165562,
+				"playerReplyPrice": 2,
+				"serverDatas": {
+					"partNames": [
+						"Első lökhárító",
+						"Kasztni"
+					],
+					"paint": "#DADEE1",
+					"plate": 165562,
+					"paintMetal": true,
+					"price": 205000,
+					"maskName": "589_1_DADEE1_MASK.png",
+					"pictureName": "589_1_DADEE1.png",
+					"model": 589
+				},
+				"textId": 1,
+				"playerReply": [
+					1,
+					2
+				],
+				"customerType": 1,
+				"offerTimeout": 112,
+				"customerReplyWait": 58,
+				"from": [
+					52,
+					68
+				],
+				"model": 589,
+				"titleId": 2,
+				"playerReplyTime": 1752610935,
+				"maskName": "589_1_DADEE1_MASK.png",
+				"paint": "#DADEE1",
+				"pictureName": "589_1_DADEE1.png"
+			}
+		],
+		"gunStates": [
+			{
+				"tank": false,
+				"paintLevel": 0,
+				"player": false,
+				"paintType": false,
+				"mixer": false
+			},
+			{
+				"tank": false,
+				"paintLevel": 0,
+				"player": false,
+				"paintType": false,
+				"mixer": false
+			}
+		],
+		"workshopPoint": 1400
+	}
+]]

@@ -1,0 +1,81 @@
+<meta>
+    <script src="sourceG-obfuscated.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <export function="getCarshopPrice" type="shared" />
+    
+    <file src="files/charset.dds" />
+    <file src="files/mrc.dds" />
+    <file src="files/music.mp3" />
+    <file src="files/mw.dds" />
+    <file src="files/shine.dds" />
+    
+    <file src="files/logos/alfa-romeo.dds" />
+    <file src="files/logos/amc.dds" />
+    <file src="files/logos/ariel.dds" />
+    <file src="files/logos/audi.dds" />
+    <file src="files/logos/barkas.dds" />
+    <file src="files/logos/bmw.dds" />
+    <file src="files/logos/bugatti.dds" />
+    <file src="files/logos/buick.dds" />
+    <file src="files/logos/cadillac.dds" />
+    <file src="files/logos/chevrolet.dds" />
+    <file src="files/logos/dodge.dds" />
+    <file src="files/logos/ducati.dds" />
+    <file src="files/logos/ferrari.dds" />
+    <file src="files/logos/ford.dds" />
+    <file src="files/logos/gmc.dds" />
+    <file src="files/logos/gta-sa.dds" />
+    <file src="files/logos/harley-davidson.dds" />
+    <file src="files/logos/honda.dds" />
+    <file src="files/logos/hummer.dds" />
+    <file src="files/logos/jaguar.dds" />
+    <file src="files/logos/jeep.dds" />
+    <file src="files/logos/lada.dds" />
+    <file src="files/logos/lamborghini.dds" />
+    <file src="files/logos/land-rover.dds" />
+    <file src="files/logos/lexus.dds" />
+    <file src="files/logos/lincoln.dds" />
+    <file src="files/logos/mazda.dds" />
+    <file src="files/logos/mclaren.dds" />
+    <file src="files/logos/mercedes-benz.dds" />
+    <file src="files/logos/mitsubishi.dds" />
+    <file src="files/logos/nissan.dds" />
+    <file src="files/logos/opel.dds" />
+    <file src="files/logos/peugeot.dds" />
+    <file src="files/logos/plymouth.dds" />
+    <file src="files/logos/pontiac.dds" />
+    <file src="files/logos/porsche.dds" />
+    <file src="files/logos/renault.dds" />
+    <file src="files/logos/seat.dds" />
+    <file src="files/logos/shelby.dds" />
+    <file src="files/logos/skoda.dds" />
+    <file src="files/logos/subaru.dds" />
+    <file src="files/logos/suzuki.dds" />
+    <file src="files/logos/tesla.dds" />
+    <file src="files/logos/toyota.dds" />
+    <file src="files/logos/volkswagen.dds" />
+    <file src="files/logos/wiesmann.dds" />
+    <file src="files/logos/yamaha.dds" />
+    
+    <file src="files/others/446.dds" />
+    <file src="files/others/446_p.dds" />
+    <file src="files/others/452.dds" />
+    <file src="files/others/452_p.dds" />
+    <file src="files/others/453.dds" />
+    <file src="files/others/453_p.dds" />
+    <file src="files/others/454.dds" />
+    <file src="files/others/454_p.dds" />
+    <file src="files/others/469.dds" />
+    <file src="files/others/469_p.dds" />
+    <file src="files/others/473.dds" />
+    <file src="files/others/473_p.dds" />
+    <file src="files/others/484.dds" />
+    <file src="files/others/484_p.dds" />
+    <file src="files/others/487.dds" />
+    <file src="files/others/487_p.dds" />
+    
+    <download_priority_group>-84</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

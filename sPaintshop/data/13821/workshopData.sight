@@ -1,0 +1,223 @@
+[
+	{
+		"stockData": [
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			]
+		],
+		"workshopPermissions": [],
+		"upgrades": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"paintshopWorks": {
+			"2": {
+				"color": "#060607",
+				"paintQuality": 0,
+				"partNames": [
+					"Bal első ajtó",
+					"Hátsó lökhárító"
+				],
+				"dryingState": false,
+				"dataPath": "602_1_060607.png",
+				"lastPercent": 0,
+				"workId": 2,
+				"emailId": 1,
+				"primerQuality": 0,
+				"state": "transportIn",
+				"transportTrailer": true,
+				"plate": 303335,
+				"from": [
+					76,
+					50
+				],
+				"price": 70000,
+				"sandingQuality": 0,
+				"model": 602,
+				"metal": true
+			}
+		},
+		"maintanceData": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"mixerTank": {
+			"color": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"primer": 0,
+			"base": [
+				0,
+				0
+			]
+		},
+		"lastMail": 28,
+		"mails": [
+			{
+				"emailTime": 1752064084,
+				"referrer": 3,
+				"customerType": 2,
+				"unread": false,
+				"jobStartTime": 1752106793,
+				"emailType": "job",
+				"partNames": [
+					"Bal első ajtó",
+					"Hátsó lökhárító"
+				],
+				"paintMetal": true,
+				"offerReply": true,
+				"textId": 2,
+				"playerReplyPrice": 1,
+				"offerReplyTime": 1752106790,
+				"workId": 2,
+				"paint": "#060607",
+				"pictureName": "602_1_060607.png",
+				"customerReplyWait": 54,
+				"playerReply": [
+					1,
+					2
+				],
+				"offerReplyWait": 116,
+				"model": 602,
+				"offerTimeout": 74,
+				"plate": 303335,
+				"serverDatas": {
+					"partNames": [
+						"Bal első ajtó",
+						"Hátsó lökhárító"
+					],
+					"paint": "#060607",
+					"plate": 303335,
+					"paintMetal": true,
+					"price": 70000,
+					"maskName": "602_1_060607_MASK.png",
+					"pictureName": "602_1_060607.png",
+					"model": 602
+				},
+				"titleId": 1,
+				"from": [
+					76,
+					50
+				],
+				"playerReplyTime": 1752106780,
+				"maskName": "602_1_060607_MASK.png",
+				"offerReplyRnd": 1,
+				"price": 70000
+			}
+		],
+		"gunStates": [
+			{
+				"paintType": false,
+				"paintLevel": 0,
+				"tank": false,
+				"player": false,
+				"mixer": false
+			},
+			{
+				"paintType": false,
+				"paintLevel": 0,
+				"tank": false,
+				"player": false,
+				"mixer": false
+			}
+		],
+		"workshopPoint": 0
+	}
+]

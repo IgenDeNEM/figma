@@ -1,0 +1,13 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export type="shared" function="getGroupGates" />
+    <export type="shared" function="getGateDetails" />
+    
+    <file src="files/icon.dds" />
+    
+    <download_priority_group>-122</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

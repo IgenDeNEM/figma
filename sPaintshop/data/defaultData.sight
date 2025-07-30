@@ -1,0 +1,146 @@
+[
+	{
+		"stockData": [
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			]
+		],
+		"workshopPermissions": {
+		},
+		"upgrades": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"paintshopWorks": [
+		],
+		"maintanceData": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"mixerTank": {
+			"color": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"primer": 0,
+			"base": [
+				0,
+				0
+			]
+		},
+		"mails": [],
+		"gunStates": [
+			{
+				"tank": false,
+				"paintLevel": 0,
+				"player": false,
+				"paintType": false,
+				"mixer": false
+			},
+			{
+				"tank": false,
+				"paintLevel": 0,
+				"player": false,
+				"paintType": false,
+				"mixer": false
+			}
+		],
+		"workshopPoint": 0
+	}
+]

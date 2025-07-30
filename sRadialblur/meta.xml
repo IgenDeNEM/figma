@@ -1,0 +1,16 @@
+<meta>
+    <script src="matrix/complex.lua" type="client" cache="false" />
+    <script src="matrix/matrix.lua" type="client" cache="false" />
+    <script src="c_radial_blur.lua" type="client" cache="false" />
+    <script src="c_switch.lua" type="client" cache="false" />
+    
+    <export function="setRadialBlurState" type="client" />
+    <export function="getRadialBlurState" type="client" />
+    
+    <file src="fx/mta-helper.fx" />
+    <file src="fx/radial_blur.fx" />
+    <file src="images/radial_mask.tga" />
+    
+    <download_priority_group>-165</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

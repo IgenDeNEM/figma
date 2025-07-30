@@ -1,0 +1,59 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="getJobVehicleDoor" type="client" />
+    <export function="checkVehicleCart" type="client" />
+    
+    <file src="files/boxfel.mp3" />
+    <file src="files/boxle.mp3" />
+    <file src="files/cart.mp3" />
+    <file src="files/cartin.mp3" />
+    <file src="files/cartout.mp3" />
+    <file src="files/delivery.png" />
+    <file src="files/list.png" />
+    <file src="files/paper1.mp3" />
+    <file src="files/paper2.mp3" />
+    <file src="files/papover.png" />
+    <file src="files/penline.png" />
+    <file src="files/sbc.mp3" />
+    <file src="files/sbo.mp3" />
+    <file src="files/sign.dds" />
+    <file src="files/sign.ttf" />
+    <file src="files/stripe.dds" />
+    <file src="files/typewriter.ttf" />
+    <file src="files/white.dds" />
+    
+    <file src="files/renders/sight_urmatrans_shelf_almapapr.png" />
+    <file src="files/renders/sight_urmatrans_shelf_cabbage.png" />
+    <file src="files/renders/sight_urmatrans_shelf_chili.png" />
+    <file src="files/renders/sight_urmatrans_shelf_cocacola.png" />
+    <file src="files/renders/sight_urmatrans_shelf_cucum.png" />
+    <file src="files/renders/sight_urmatrans_shelf_fanta.png" />
+    <file src="files/renders/sight_urmatrans_shelf_hell.png" />
+    <file src="files/renders/sight_urmatrans_shelf_karalabe.png" />
+    <file src="files/renders/sight_urmatrans_shelf_kobanyai.png" />
+    <file src="files/renders/sight_urmatrans_shelf_nber.png" />
+    <file src="files/renders/sight_urmatrans_shelf_onion.png" />
+    <file src="files/renders/sight_urmatrans_shelf_onion2.png" />
+    <file src="files/renders/sight_urmatrans_shelf_pepsi.png" />
+    <file src="files/renders/sight_urmatrans_shelf_pepsi2.png" />
+    <file src="files/renders/sight_urmatrans_shelf_pumpkin.png" />
+    <file src="files/renders/sight_urmatrans_shelf_radish.png" />
+    <file src="files/renders/sight_urmatrans_shelf_redbull.png" />
+    <file src="files/renders/sight_urmatrans_shelf_repa.png" />
+    <file src="files/renders/sight_urmatrans_shelf_salad.png" />
+    <file src="files/renders/sight_urmatrans_shelf_somersby.png" />
+    <file src="files/renders/sight_urmatrans_shelf_soproni.png" />
+    <file src="files/renders/sight_urmatrans_shelf_soproni2.png" />
+    <file src="files/renders/sight_urmatrans_shelf_szkiralyi1.png" />
+    <file src="files/renders/sight_urmatrans_shelf_szkiralyi2.png" />
+    <file src="files/renders/sight_urmatrans_shelf_szkiralyi3.png" />
+    <file src="files/renders/sight_urmatrans_shelf_tokaji.png" />
+    <file src="files/renders/sight_urmatrans_shelf_tvpapr.png" />
+    <file src="files/renders/sight_urmatrans_shelf_waterm.png" />
+    
+    <download_priority_group>-136</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

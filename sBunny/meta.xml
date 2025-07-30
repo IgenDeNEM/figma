@@ -1,0 +1,36 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="tryToStartBunnyOpening" type="client" />
+    
+    <file src="files/1.dds" />
+    <file src="files/2.dds" />
+    <file src="files/3.dds" />
+    <file src="files/4.dds" />
+    
+    <file src="files/bg.dds" />
+    <file src="files/body.dds" />
+    <file src="files/ear.dds" />
+    <file src="files/eye.dds" />
+    <file src="files/eyebg.dds" />
+    <file src="files/eyeshut.dds" />
+    <file src="files/head.dds" />
+    <file src="files/ibg.dds" />
+    <file src="files/itemHover.dds" />
+    <file src="files/mouth.dds" />
+    <file src="files/mouth2.dds" />
+    <file src="files/music.mp3" />
+    <file src="files/music2.mp3" />
+    <file src="files/shadow_body.dds" />
+    <file src="files/shadow_ear.dds" />
+    <file src="files/shadow_head.dds" />
+    <file src="files/snore.mp3" />
+    <file src="files/spin.mp3" />
+    <file src="files/win.dds" />
+    <file src="files/zzz.dds" />
+    
+    <download_priority_group>-78</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

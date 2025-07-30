@@ -1,0 +1,17 @@
+<meta>
+    <script src="c_car_reflect_lite.lua" type="client" cache="false" />
+    <script src="c_switch.lua" type="client" cache="false" />
+    
+    <export function="setCarPaintState" type="client" />
+    <export function="getCarPaintState" type="client" />
+    
+    <file src="fx/car_refgene.fx" />
+    <file src="fx/car_refgrun.fx" />
+    <file src="fx/mta-helper.fx" />
+    
+    <file src="images/ColorRamp01.png" />
+    <file src="images/smallnoise3d.dds" />
+    
+    <download_priority_group>-83</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

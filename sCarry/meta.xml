@@ -1,0 +1,18 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/hit1.mp3" />
+    <file src="files/hit2.mp3" />
+    <file src="files/hit3.mp3" />
+    <file src="files/hit4.mp3" />
+    <file src="files/hit5.mp3" />
+    <file src="files/hit6.mp3" />
+    <file src="files/hit7.mp3" />
+    <file src="files/hit8.mp3" />
+    <file src="files/hit9.mp3" />
+    <file src="files/hit10.mp3" />
+    
+    <download_priority_group>-82</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

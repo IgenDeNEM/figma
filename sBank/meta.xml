@@ -1,0 +1,30 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="robC.lua" type="client" cache="false" />
+    
+    <export function="isInBank" type="client" />
+    <export function="getATMPosition" type="server" />
+    
+    <file src="files/atm.dds" />
+    <file src="files/atm2.dds" />
+    
+    <file src="files/atmmoneyinout.mp3" />
+    <file src="files/bankcount.mp3" />
+    <file src="files/btn.dds" />
+    <file src="files/cloud.dds" />
+    
+    <file src="files/cut.dds" />
+    <file src="files/cut.mp3" />
+    
+    <file src="files/flex.ifp" />
+    <file src="files/loop.mp3" />
+    <file src="files/mta-helper.fx" />
+    <file src="files/over.dds" />
+    <file src="files/rob.mp3" />
+    
+    <download_priority_group>1</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

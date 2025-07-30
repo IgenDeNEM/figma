@@ -1,0 +1,155 @@
+<meta>
+    <!-- Shared Side -->
+    <script src="sourceG.luac" type="shared" cache="false" />
+    
+    <!-- Client Side -->
+    <script src="utilsC.luac" type="client" cache="false" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    <script src="lobbyC.luac" type="client" cache="false" />
+    <script src="trailerC.luac" type="client" cache="false" />
+    <script src="computerC-obfuscated.luac" type="client" cache="false" />
+    
+    <!-- Exports -->
+    <export function="getPaintshopCache" type="client" />
+    <export function="isPlayerInWorkshop" type="client" />
+    <export function="loadedGarageData" type="client" />
+    <export function="tryToBreakInRentable" type="client" />
+    <export function="markGarageDoor" type="client" />
+    <export function="formatGarageName" type="shared" />
+    <export function="requestPlayerRentedGarages" type="server" />
+    <export function="enterPaintshopLobby" type="server" />
+    <export function="exitPaintshopLobby" type="server" />
+    <export function="tryToEnterPaintshop" type="server" />
+    <export function="exitPaintWorkshop" type="server" />
+    
+    <!-- Server Side -->
+    <script src="sourceS.lua" type="server" />
+    <script src="utilsS.lua" type="server" />
+    <script src="costumerS.lua" type="server" />
+    <script src="garageS.lua" type="server" />
+    <script src="vehicleVariationsS.lua" type="server" />
+    
+    <!-- Assets -->
+    <script src="modelsC.luac" type="client" cache="false" />
+    <file src="assets/brushes/paintbrush.dds" />
+    <file src="assets/brushes/sandbrush.dds" />
+    <file src="files/7seg.dds" />
+    <file src="files/anim_crouch.ifp" />
+    <file src="files/anim_sand_crouch.ifp" />
+    <file src="files/anim_sand_stand.ifp" />
+    <file src="files/anim_stand.ifp" />
+    <file src="files/avatar.dds" />
+    <file src="files/beep.mp3" />
+    <file src="files/beep2.mp3" />
+    <file src="files/boothdoor.mp3" />
+    <file src="files/boothdoor2.mp3" />
+    <file src="files/boothon.mp3" />
+    <file src="files/box.dds" />
+    <file src="files/boxout.dds" />
+    <file src="files/boxout.mp3" />
+    <file src="files/casette.mp3" />
+    <file src="files/cert.dds" />
+    <file src="files/charset.sight" />
+    <file src="files/circle.dds" />
+    <file src="files/click.mp3" />
+    <file src="files/comp.mp3" />
+    <file src="files/compoff.mp3" />
+    <file src="files/compon.mp3" />
+    <file src="files/computer.dds" />
+    <file src="files/cupfel.mp3" />
+    <file src="files/cuple.mp3" />
+    <file src="files/cut.dds" />
+    <file src="files/cut1.mp3" />
+    <file src="files/cut2.mp3" />
+    <file src="files/cut3.mp3" />
+    <file src="files/cut4.mp3" />
+    <file src="files/dc.mp3" />
+    <file src="files/dispense.mp3" />
+    <file src="files/displong.mp3" />
+    <file src="files/do.mp3" />
+    <file src="files/drive.mp3" />
+    <file src="files/drop.dds" />
+    <file src="files/dry.mp3" />
+    <file src="files/drystart.mp3" />
+    <file src="files/drystop.mp3" />
+    <file src="files/emailicon.dds" />
+    <file src="files/err.dds" />
+    <file src="files/error.mp3" />
+    <file src="files/grad.dds" />
+    <file src="files/gun.dds" />
+    <file src="files/hardin.mp3" />
+    <file src="files/hardout.mp3" />
+    <file src="files/homehublogo.dds" />
+    <file src="files/internet.dds" />
+    <file src="files/label1.dds" />
+    <file src="files/label2.dds" />
+    <file src="files/labelbase.dds" />
+    <file src="files/labelmetbase.dds" />
+    <file src="files/labelprimer.dds" />
+    <file src="files/led.dds" />
+    <file src="files/locked.mp3" />
+    <file src="files/lockunlock.mp3" />
+    <file src="files/logo.dds" />
+    <file src="files/logo2.dds" />
+    <file src="files/logo3.png" />
+    <file src="files/machin.dds" />
+    <file src="files/machout.dds" />
+    <file src="files/maillogo.dds" />
+    <file src="files/metal.dds" />
+    <file src="files/mixer.dds" />
+    <file src="files/mixer.mp3" />
+    <file src="files/mta-helper.fx" />
+    <file src="files/newmail.mp3" />
+    <file src="files/noise.dds" />
+    <file src="files/overlay.dds" />
+    <file src="files/overlay2.dds" />
+    <file src="files/overlay3.dds" />
+    <file src="files/pick.mp3" />
+    <file src="files/plug.dds" />
+    <file src="files/plugin.mp3" />
+    <file src="files/plugout.mp3" />
+    <file src="files/prompt.mp3" />
+    <file src="files/refl1.dds" />
+    <file src="files/refl2.dds" />
+    <file src="files/refl_booth.dds" />
+    <file src="files/refl_booth_drying.dds" />
+    <file src="files/sandend.mp3" />
+    <file src="files/sander.dds" />
+    <file src="files/sandloop.mp3" />
+    <file src="files/sandloop2.mp3" />
+    <file src="files/sandstart.mp3" />
+    <file src="files/scan.dds" />
+    <file src="files/servo.mp3" />
+    <file src="files/shine.dds" />
+    <file src="files/skin.dds" />
+    <file src="files/spray.mp3" />
+    <file src="files/spray_monitor_email.dds" />
+    <file src="files/stars.dds" />
+    <file src="files/start.dds" />
+    <file src="files/stencil.dds" />
+    <file src="files/stripe.png" />
+    <file src="files/tankin.dds" />
+    <file src="files/tankin2.dds" />
+    <file src="files/tankout.dds" />
+    <file src="files/tankout2.dds" />
+    <file src="files/trash.dds" />
+    <file src="files/trash.mp3" />
+    <file src="files/trash2.mp3" />
+    <file src="files/tri.dds" />
+    <file src="files/turnon.dds" />
+    <file src="files/w.png" />
+    <file src="files/wp.dds" />
+    <file src="files/loading/1.dds" />
+    <file src="files/loading/2.dds" />
+    <file src="files/loading/3.dds" />
+    <file src="files/loading/4.dds" />
+    <file src="files/loading/5.dds" />
+    <file src="files/loading/6.dds" />
+    <file src="files/loading/sp1.dds" />
+    <file src="files/loading/sp2.dds" />
+    <file src="files/particle/collisionsmoke.dds" />
+    <file src="files/particle/permetbrush.dds" />
+    
+    <download_priority_group>-155</download_priority_group>
+    <min_mta_version client="1.6.0" server="1.6.0" />
+</meta>

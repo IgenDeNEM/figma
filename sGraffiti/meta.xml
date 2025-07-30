@@ -1,0 +1,22 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/images/arrow_left.dds" />
+    <file src="files/images/arrow_right.dds" />
+    <file src="files/images/background.dds" />
+    <file src="files/images/brush.dds" />
+    <file src="files/images/clear.dds" />
+    <file src="files/images/close.dds" />
+    <file src="files/images/colorpicker.dds" />
+    <file src="files/images/done.dds" />
+    <file src="files/images/light.dds" />
+    <file src="files/images/lock1.dds" />
+    <file src="files/images/lock2.dds" />
+    <file src="files/images/palette.dds" />
+    <file src="files/images/save.dds" />
+    <file src="files/images/trash.dds" />
+    
+    <download_priority_group>-125</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

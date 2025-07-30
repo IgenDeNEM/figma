@@ -1,0 +1,12 @@
+<meta>
+    <script type="shared" src="sourceG.luac" cache="false" />
+    
+    <export type="shared" function="getCustomVehicleName" />
+    <export type="shared" function="getCustomVehicleManufacturer" />
+    <export type="shared" function="getCustomVehicleManufacturer" />
+    <export type="shared" function="getVehicleManufacturerList" />
+    <export type="shared" function="getMotorcycleNames" />
+    
+    <download_priority_group>-195</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

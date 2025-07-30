@@ -1,0 +1,29 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceG-obfuscated.luac" type="shared" cache="false" />
+    <script src="shaderC-obfuscated.luac" type="client" cache="false" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <file src="files/collisionsmoke.dds" />
+    <file src="files/grad.dds" />
+    <file src="files/water.dds" />
+    <file src="files/fball.dds" />
+    
+    <file src="files/attach.mp3" />
+    <file src="files/detach.mp3" />
+    <file src="files/drop.mp3" />
+    
+    <file src="files/fire1.mp3" />
+    <file src="files/fire2.mp3" />
+    <file src="files/fire3.mp3" />
+    <file src="files/fire4.mp3" />
+    
+    <file src="files/hose.mp3" />
+    <file src="files/pick.mp3" />
+    <file src="files/pump.mp3" />
+    <file src="files/muszakimentes.mp3" />
+    <file src="files/riasztashang.mp3" />
+    
+    <min_mta_version client="1.5.2" server="1.5.0-9.03773" />
+    <download_priority_group>-114</download_priority_group>
+</meta>

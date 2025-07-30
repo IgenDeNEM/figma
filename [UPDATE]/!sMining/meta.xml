@@ -1,0 +1,60 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="randomG.luac" type="shared" cache="false" />
+    <script src="railsC-obfuscated.luac" type="client" cache="false" />
+    <script src="modelsC.luac" type="client" cache="false" />
+    <script src="loaderC.luac" type="client" cache="false" />
+    <script src="guiC.luac" type="client" cache="false" />
+    <script src="trailerC.luac" type="client" cache="false" />
+    <script src="shaderC.luac" type="client" cache="false" />
+    <script src="lobbyC.luac" type="client" cache="false" />
+    <script src="tabletC.luac" type="client" cache="false" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="sourceS.lua" type="server" />
+    <script src="lobbyS.lua" type="server" />
+    
+    <export function="setStreamedHardHat" type="client" />
+    <export function="setTabletMode" type="client" />
+    <export function="setBagWieldMode" type="client" />
+    <export function="isPlayerInMine" type="client" />
+    <export function="setPickaxeMode" type="client" />
+    <export function="markMine" type="client" />
+    <export function="getOrePrice" type="shared" />
+    
+    <export function="getPlayerMines" type="server" />
+    <export function="isPlayerInMine" type="server" />
+    
+    <file src="files/animations/boxpour.ifp" />
+    <file src="files/animations/filldiesel.ifp" />
+    <file src="files/animations/wallhit.ifp" />
+    <file src="files/fonts/dos.ttf" />
+    <file src="files/models/shaftwall.txd" />
+    <file src="files/models/shaftwall.col" />
+    <file src="files/models/shaftwall.dff" />
+    <file src="files/shaders/lighthelper.fxh" />
+    <file src="files/shaders/melt.fx" />
+    <file src="files/shaders/object.fx" />
+    <file src="files/shaders/ore.fx" />
+    <file src="files/shaders/ped.fx" />
+    <file src="files/shaders/urmamoto.fx" />
+    <file src="files/shaders/wall.fx" />
+    
+    <file src="files/sounds/**.mp3" />
+    <file src="files/sounds/**.wav" />
+    
+    <file src="files/loading/**.dds" />
+    
+    <file src="files/textures/**.dds" />
+    <file src="files/textures/loading/**.dds" />
+    <file src="files/textures/locomotive/**.png" />
+    <file src="files/textures/ores/**.dds" />
+    <file src="files/textures/particle/**.dds" />
+    <file src="files/textures/rail/**.dds" />
+    <file src="files/textures/switch/**.dds" />
+    <file src="files/textures/urmamoto/**.dds" />
+    <file src="files/**.dds" />
+    
+    <min_mta_version client="1.6.0-9.22410" server="1.6.0-9.22410" />
+    <download_priority_group>-146</download_priority_group>
+</meta>

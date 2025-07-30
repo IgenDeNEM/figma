@@ -1,0 +1,17 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/backfire_nitro.dds" />
+    <file src="files/backfire_nitro2.dds" />
+    
+    <file src="files/in.wav" />
+    <file src="files/ins.wav" />
+    <file src="files/out.wav" />
+    <file src="files/outs.wav" />
+    
+    <file src="files/nitro.fx" />
+    
+    <download_priority_group>-150</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

@@ -1,0 +1,107 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/7seg.dds" />
+    <file src="files/bg.dds" />
+    <file src="files/bigdice.dds" />
+    
+    <file src="files/btn1.dds" />
+    <file src="files/btn2.dds" />
+    <file src="files/btn3.dds" />
+    <file src="files/btn3d.dds" />
+    <file src="files/btn4.dds" />
+    <file src="files/btn5.dds" />
+    <file src="files/btn6.dds" />
+    <file src="files/btntop.dds" />
+    
+    <file src="files/clock.dds" />
+    <file src="files/clock1.dds" />
+    <file src="files/clock2.dds" />
+    <file src="files/clock3.dds" />
+    <file src="files/clock3d.dds" />
+    
+    <file src="files/d1.dds" />
+    <file src="files/d2.dds" />
+    <file src="files/d3.dds" />
+    <file src="files/d3d.dds" />
+    <file src="files/d4.dds" />
+    <file src="files/d5.dds" />
+    <file src="files/d6.dds" />
+    
+    <file src="files/darrow.dds" />
+    <file src="files/darrow3d.dds" />
+    <file src="files/glass.dds" />
+    
+    <file src="files/l1.dds" />
+    <file src="files/l2.dds" />
+    <file src="files/l3.dds" />
+    <file src="files/l4.dds" />
+    <file src="files/l5.dds" />
+    
+    <file src="files/lines3d.dds" />
+    <file src="files/payout1.dds" />
+    <file src="files/payout2.dds" />
+    
+    <file src="files/pt.dds" />
+    <file src="files/pt1.dds" />
+    <file src="files/pt2.dds" />
+    <file src="files/pt3.dds" />
+    <file src="files/pt4.dds" />
+    
+    <file src="files/risk.dds" />
+    <file src="files/risk1.dds" />
+    <file src="files/risk2.dds" />
+    <file src="files/risk3d.dds" />
+    
+    <file src="files/stake1.dds" />
+    <file src="files/stake2.dds" />
+    <file src="files/stake3.dds" />
+    <file src="files/stake3d.dds" />
+    <file src="files/stake4.dds" />
+    <file src="files/staketop3d.dds" />
+    
+    <file src="files/stencil.dds" />
+    <file src="files/symbols.dds" />
+    <file src="files/symbols2.dds" />
+    <file src="files/symbols3.dds" />
+    <file src="files/syml.dds" />
+    <file src="files/sound/btndown.mp3" />
+    <file src="files/sound/btnup.mp3" />
+    <file src="files/sound/clock.mp3" />
+    <file src="files/sound/clockpre.mp3" />
+    <file src="files/sound/clockwin.mp3" />
+    <file src="files/sound/dice.mp3" />
+    <file src="files/sound/diceadd.mp3" />
+    <file src="files/sound/diceend.mp3" />
+    <file src="files/sound/diceloop.mp3" />
+    <file src="files/sound/dicespin.mp3" />
+    <file src="files/sound/dicespinstop.mp3" />
+    <file src="files/sound/end.mp3" />
+    <file src="files/sound/gamble.mp3" />
+    <file src="files/sound/gamblelose.mp3" />
+    <file src="files/sound/gamblewin.mp3" />
+    
+    <file src="files/sound/hold1.mp3" />
+    <file src="files/sound/hold2.mp3" />
+    <file src="files/sound/hold3.mp3" />
+    <file src="files/sound/holdoff.mp3" />
+    
+    <file src="files/sound/loop.mp3" />
+    <file src="files/sound/payout.mp3" />
+    <file src="files/sound/sit.mp3" />
+    <file src="files/sound/stake.mp3" />
+    <file src="files/sound/stakemax.mp3" />
+    <file src="files/sound/stand.mp3" />
+    <file src="files/sound/start.mp3" />
+    <file src="files/sound/transfer.mp3" />
+    <file src="files/sound/transloop.mp3" />
+    
+    <file src="files/sound/wline1.mp3" />
+    <file src="files/sound/wline2.mp3" />
+    <file src="files/sound/wline3.mp3" />
+    
+    <download_priority_group>-105</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

@@ -1,0 +1,13 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <export function="initTwoFactor" type="client" />
+    <export function="get2FAState" type="server" />
+    <export function="handlePlayerLogin" type="server" />
+    
+    <file src="assets/sight_discord.png" />
+    
+    <download_priority_group>-106</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

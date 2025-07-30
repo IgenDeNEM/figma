@@ -1,0 +1,30 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <export function="hideLicense" type="client" />
+    <export function="showLicense" type="client" />
+    <export function="doesPlayerHaveValidWeaponLicense" type="server" />
+    
+    <file src="files/dl.dds" />
+    <file src="files/dlblur.dds" />
+    <file src="files/fs.dds" />
+    <file src="files/fsblur.dds" />
+    <file src="files/id.dds" />
+    <file src="files/idblur.dds" />
+    <file src="files/wp.dds" />
+    <file src="files/wpblur.dds" />
+    
+    <file src="files/mine.dds" />
+    <file src="files/mineblur.dds" />
+    <file src="files/minelam.dds" />
+    
+    <file src="files/lamin.dds" />
+    <file src="files/photo.wav" />
+    
+    <file src="files/IckyticketMono-nKpJ.ttf" />
+    <file src="files/lunabar.ttf" />
+    
+    <download_priority_group>-139</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

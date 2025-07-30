@@ -1,0 +1,26 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="getAvailablePets" type="shared" />
+    <export function="getPlayerAnimals" type="server" />
+    
+    <file src="files/attack.mp3" />
+    <file src="files/follownew.mp3" />
+    <file src="files/simogat.mp3" />
+    <file src="files/ugat.mp3" />
+    
+    <file src="files/goat/attack.mp3" />
+    <file src="files/goat/follownew.mp3" />
+    <file src="files/goat/simogat.mp3" />
+    <file src="files/goat/ugat.mp3" />
+    
+    <file src="files/pig/attack.mp3" />
+    <file src="files/pig/follownew.mp3" />
+    <file src="files/pig/simogat.mp3" />
+    <file src="files/pig/ugat.mp3" />
+    
+    <download_priority_group>-66</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

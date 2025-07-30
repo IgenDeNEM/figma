@@ -1,0 +1,17 @@
+<meta>
+    <script src="sourceG-obfuscated.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <script src="webhookS.lua" type="server" />
+    
+    <export function="playerEconomyDataChange" type="server" />
+    <export function="sendWebhookMessage" type="server" />
+    <export function="sendEmbedMessage" type="server" />
+    <export function="anticheatBan" type="server" />
+    <export function="getStackAlerts" type="server" />
+    <export function="stackAlert" type="server" />
+    
+    <download_priority_group>-68</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

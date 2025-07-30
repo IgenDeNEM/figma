@@ -1,0 +1,101 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="dig/dig.island.lua" type="shared" cache="false" />
+    <script src="dig/dig.p1.lua" type="shared" cache="false" />
+    <script src="dig/dig.p2.lua" type="shared" cache="false" />
+    <script src="dig/dig.p3.lua" type="shared" cache="false" />
+    <script src="dig/dig.p4.lua" type="shared" cache="false" />
+    <script src="dig/dig.p5.lua" type="shared" cache="false" />
+    <script src="dig/dig.p6.lua" type="shared" cache="false" />
+    
+    <export function="tryToUseDetector" type="client" />
+    <export function="tryToUnUseDetector" type="client" />
+    <export function="findNearestHoleCoord" type="shared" />
+    
+    <file src="files/1.png" />
+    <file src="files/2.png" />
+    <file src="files/3.png" />
+    <file src="files/4.png" />
+    <file src="files/5.png" />
+    <file src="files/6.png" />
+    <file src="files/7.png" />
+    <file src="files/8.png" />
+    
+    <file src="files/asas.ifp" />
+    <file src="files/beep.mp3" />
+    <file src="files/beep2.mp3" />
+    <file src="files/bg.png" />
+    <file src="files/bg2.png" />
+    <file src="files/mta-helper.fx" />
+    
+    <file src="files/shovel1.mp3" />
+    <file src="files/shovel2.mp3" />
+    <file src="files/shovel3.mp3" />
+    <file src="files/shovel4.mp3" />
+    <file src="files/shovel5.mp3" />
+    
+    <file src="files/tex/empty.DDS" />
+    <file src="files/tex/crate/1.DDS" />
+    <file src="files/tex/crate/2.DDS" />
+    <file src="files/tex/crate/3.DDS" />
+    <file src="files/tex/crate/4.DDS" />
+    <file src="files/tex/crate/5.DDS" />
+    <file src="files/tex/crate/6.DDS" />
+    
+    <file src="files/tex/loot/1.DDS" />
+    <file src="files/tex/loot/2.DDS" />
+    <file src="files/tex/loot/3.DDS" />
+    <file src="files/tex/loot/4.DDS" />
+    <file src="files/tex/loot/5.DDS" />
+    <file src="files/tex/loot/6.DDS" />
+    <file src="files/tex/loot/7.DDS" />
+    <file src="files/tex/loot/8.DDS" />
+    <file src="files/tex/loot/9.DDS" />
+    <file src="files/tex/loot/10.DDS" />
+    <file src="files/tex/loot/11.DDS" />
+    <file src="files/tex/loot/12.DDS" />
+    <file src="files/tex/loot/13.DDS" />
+    <file src="files/tex/loot/14.DDS" />
+    
+    <file src="files/tex/nm_loot/1.DDS" />
+    <file src="files/tex/nm_loot/2.DDS" />
+    <file src="files/tex/nm_loot/3.DDS" />
+    
+    <file src="files/tex/nm_trash/1.DDS" />
+    <file src="files/tex/nm_trash/2.DDS" />
+    <file src="files/tex/nm_trash/3.DDS" />
+    <file src="files/tex/nm_trash/4.DDS" />
+    <file src="files/tex/nm_trash/5.DDS" />
+    <file src="files/tex/nm_trash/6.DDS" />
+    
+    <file src="files/tex/trash/1.DDS" />
+    <file src="files/tex/trash/2.DDS" />
+    <file src="files/tex/trash/3.DDS" />
+    <file src="files/tex/trash/4.DDS" />
+    <file src="files/tex/trash/5.DDS" />
+    <file src="files/tex/trash/6.DDS" />
+    <file src="files/tex/trash/7.DDS" />
+    <file src="files/tex/trash/8.DDS" />
+    <file src="files/tex/trash/9.DDS" />
+    <file src="files/tex/trash/10.DDS" />
+    <file src="files/tex/trash/11.DDS" />
+    <file src="files/tex/trash/12.DDS" />
+    <file src="files/tex/trash/13.DDS" />
+    <file src="files/tex/trash/14.DDS" />
+    <file src="files/tex/trash/15.DDS" />
+    <file src="files/tex/trash/16.DDS" />
+    <file src="files/tex/trash/17.DDS" />
+    <file src="files/tex/trash/18.DDS" />
+    <file src="files/tex/trash/19.DDS" />
+    <file src="files/tex/trash/20.DDS" />
+    <file src="files/tex/trash/21.DDS" />
+    
+    <file src="files/tex/treasure/1.DDS" />
+    <file src="files/tex/treasure/2.DDS" />
+    
+    <download_priority_group>-145</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

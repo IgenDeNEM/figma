@@ -1,0 +1,14 @@
+<meta>
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="startMinigame" type="client" />
+    
+    <file src="files/cd.wav" />
+    <file src="files/cd2.wav" />
+    <file src="files/circle.dds" />
+    <file src="files/green.wav" />
+    <file src="files/pulse.mp3" />
+    
+    <download_priority_group>-89</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

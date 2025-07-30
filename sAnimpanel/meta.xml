@@ -1,0 +1,91 @@
+<meta>
+    <script src="sourceG-obfuscated.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <script src="circleC.luac" type="client" cache="false" />
+    
+    <export function="getAnimCircleBind" type="client" />
+    <export function="setAnimCircleBind" type="client" />
+    <export function="getAnimPanelBind" type="client" />
+    <export function="setAnimPanelBind" type="client" />
+    
+    
+    <file src="custom/bal_elso_2.ifp" />
+    <file src="custom/bal_elso_3.ifp" />
+    <file src="custom/bal_hatso_1.ifp" />
+    <file src="custom/bal_hatso_2.ifp" />
+    <file src="custom/bather.ifp" />
+    <file src="custom/clap1_tran_gtup.ifp" />
+    <file src="custom/clap2_tran_hng.ifp" />
+    <file src="custom/cSitnWait_loop_W.ifp" />
+    <file src="custom/Dbd_clap.ifp" />
+    <file src="custom/Dbd_clap1.ifp" />
+    <file src="custom/Ddance_loop.ifp" />
+    <file src="custom/DDAN_Down_A.ifp" />
+    <file src="custom/DDAN_Left_A.ifp" />
+    <file src="custom/DDAN_Loop_A.ifp" />
+    <file src="custom/DDAN_Right_A.ifp" />
+    <file src="custom/DDAN_Up_A.ifp" />
+    <file src="custom/Ddnce_M_a.ifp" />
+    <file src="custom/Ddnce_M_b.ifp" />
+    <file src="custom/Ddnce_M_e.ifp" />
+    <file src="custom/FARM2BARman_idle.ifp" />
+    <file src="custom/FARM2SitnWait_loop_W.ifp" />
+    <file src="custom/FARMBARman_idle.ifp" />
+    <file src="custom/FARMSitnWait_loop_W.ifp" />
+    <file src="custom/fekves.ifp" />
+    <file src="custom/FP2bather.ifp" />
+    <file src="custom/FP2ParkSit_M_loop.ifp" />
+    <file src="custom/FP3bather.ifp" />
+    <file src="custom/FP4bather.ifp" />
+    <file src="custom/FP5bather.ifp" />
+    <file src="custom/FPbather.ifp" />
+    <file src="custom/FPCoplook_in.ifp" />
+    <file src="custom/FPCoplook_loop.ifp" />
+    <file src="custom/FPGun_stand.ifp" />
+    <file src="custom/FPParkSit_M_loop.ifp" />
+    <file src="custom/fSitnWait_loop_W.ifp" />
+    <file src="custom/gum_eat.ifp" />
+    <file src="custom/Gun_stand.ifp" />
+    <file src="custom/Gun_stand_2.ifp" />
+    <file src="custom/Gun_stand_3.ifp" />
+    <file src="custom/Gun_stand_4.ifp" />
+    <file src="custom/Hcrckidle4.ifp" />
+    <file src="custom/HCS_Dead_Guy.ifp" />
+    <file src="custom/jobb_2.ifp" />
+    <file src="custom/jobb_3.ifp" />
+    <file src="custom/Lay_Bac_Loop.ifp" />
+    <file src="custom/Lcamcrch_cmon.ifp" />
+    <file src="custom/leanIDLE.ifp" />
+    <file src="custom/LOU.ifp" />
+    <file src="custom/noifekv.ifp" />
+    <file src="custom/ParkSit_M_loop.ifp" />
+    <file src="custom/ParkSit_W_loop.ifp" />
+    <file src="custom/Rcolt45_fire_2hands.ifp" />
+    <file src="custom/Rfallfrontloop_cs9mm-1.ifp" />
+    <file src="custom/Rfallfront_csplay.ifp" />
+    <file src="custom/Rhandsup.ifp" />
+    <file src="custom/rSitnWait_loop_W.ifp" />
+    <file src="custom/Rtarkonhandsup_cower.ifp" />
+    <file src="custom/Rtisztelges_gsign5LH.ifp" />
+    <file src="custom/S2SitnWait_loop_W.ifp" />
+    <file src="custom/S3SitnWait_loop_W.ifp" />
+    <file src="custom/Scrckdeth2.ifp" />
+    <file src="custom/SEcrckidle1.ifp" />
+    <file src="custom/SEcrckidle2.ifp" />
+    <file src="custom/SEcrckidle3.ifp" />
+    <file src="custom/SEcrckidle4.ifp" />
+    <file src="custom/SitnWait_loop_W.ifp" />
+    <file src="custom/SSitnWait_loop_W.ifp" />
+    <file src="custom/tricking.ifp" />
+    <file src="files/circle.dds" />
+    <file src="files/glow.dds" />
+    <file src="files/hover.wav" />
+    <file src="files/outline.dds" />
+    <file src="files/whosh1.wav" />
+    <file src="files/whosh2.wav" />
+    
+    <download_priority_group>-67</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

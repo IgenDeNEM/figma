@@ -1,0 +1,93 @@
+<meta>
+    <script src="sourceG.lua" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.lua" type="client" cache="false" />
+    
+    <script src="inbankC.lua" type="client" cache="false" />
+    <script src="securicarC.luac" type="client" cache="false" />
+    <script src="npcC.luac" type="client" cache="false" />
+    <script src="wheelC.luac" type="client" cache="false" />
+    
+    <export function="gotBlowtorchObject" type="client" />
+    
+    <file src="files/7seg.dds" />
+    <file src="files/alarm.mp3" />
+    <file src="files/bell.mp3" />
+    <file src="files/bigdoorclose.mp3" />
+    <file src="files/bigdooropen.mp3" />
+    <file src="files/blinds.dds" />
+    <file src="files/blowloop.mp3" />
+    <file src="files/blowmetal.mp3" />
+    <file src="files/blowstart.mp3" />
+    <file src="files/collisionsmoke.dds" />
+    <file src="files/crate.dds" />
+    <file src="files/crategold.dds" />
+    <file src="files/doorclick.mp3" />
+    <file src="files/doorclose.wav" />
+    <file src="files/dooropen.wav" />
+    <file src="files/elev.dds" />
+    <file src="files/elev.mp3" />
+    <file src="files/elevdoor.mp3" />
+    <file src="files/elevmusic.mp3" />
+    <file src="files/flame.dds" />
+    <file src="files/garalarm.mp3" />
+    <file src="files/glass.dds" />
+    <file src="files/gold.dds" />
+    
+    <file src="files/hit1.mp3" />
+    <file src="files/hit2.mp3" />
+    <file src="files/hit3.mp3" />
+    <file src="files/hit4.mp3" />
+    
+    <file src="files/key1.mp3" />
+    <file src="files/key2.mp3" />
+    <file src="files/key3.mp3" />
+    <file src="files/key4.mp3" />
+    
+    <file src="files/keybuzz.mp3" />
+    <file src="files/keyfail.mp3" />
+    <file src="files/keypad.dds" />
+    <file src="files/keys.dds" />
+    <file src="files/keysucc.mp3" />
+    <file src="files/larrow.dds" />
+    <file src="files/led.dds" />
+    <file src="files/lock.dds" />
+    
+    <file src="files/loot1.mp3" />
+    <file src="files/loot2.mp3" />
+    
+    <file src="files/lpin.dds" />
+    <file src="files/lpin2.dds" />
+    
+    <file src="files/lwheel1.dds" />
+    <file src="files/lwheel2.dds" />
+    <file src="files/lwheel3.dds" />
+    <file src="files/lwheel4.dds" />
+    
+    <file src="files/metaldoorfall.mp3" />
+    <file src="files/money.dds" />
+    <file src="files/mta-helper.fx" />
+    <file src="files/pda.dds" />
+    <file src="files/pdahack.dds" />
+    
+    <file src="files/pry1.mp3" />
+    <file src="files/pry2.mp3" />
+    <file src="files/pry3.mp3" />
+    <file src="files/pry4.mp3" />
+    <file src="files/pry5.mp3" />
+    
+    <file src="files/svault.mp3" />
+    <file src="files/wheel.mp3" />
+    <file src="files/wnext.mp3" />
+    <file src="files/wpin.mp3" />
+    <file src="files/wpin2.mp3" />
+    
+    <file src="files/vault/1.dds" />
+    <file src="files/vault/2.dds" />
+    <file src="files/vault/3.dds" />
+    <file src="files/vault/4.dds" />
+    <file src="files/vault/5.dds" />
+    
+    <download_priority_group>1</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

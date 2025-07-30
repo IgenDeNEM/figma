@@ -1,0 +1,48 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="hudC.luac" type="client" cache="false" />
+    
+    <export function="getHudMovementState" type="client" />
+    <export function="setHudMovementState" type="client" />
+    
+    <export function="setHudEnabled" type="client" />
+    <export function="moveWholeHud" type="client" />
+    <export function="setHudState" type="client" />
+    <export function="sprintControls" type="client" />
+    <export function="getWidgetEditMode" type="client" />
+    <export function="refreshItemWeight" type="client" />
+    <export function="getVignetteState" type="client" />
+    <export function="setVignetteState" type="client" />
+    <export function="getVignetteLevel" type="client" />
+    <export function="setVignetteLevel" type="client" />
+    <export function="getHudCommandState" type="client" />
+    <export function="setHudCommandState" type="client" />
+    <export function="setCameraMode" type="client" />
+    <export function="getCameraMode" type="client" />
+    <export function="getHudDisabled" type="client" />
+    <export function="setHudDisabled" type="client" />
+    <export function="getStamina" type="client" />
+    <export function="setStamina" type="client" />
+    <export function="staminaDrug" type="client" />
+    <export function="refreshVehiclePush" type="client" />
+    <export function="setStaminaMul" type="client" />
+    
+    <file src="files/16.png" />
+    <file src="files/75.png" />
+    <file src="files/108.png" />
+    <file src="files/corner.dds" />
+    <file src="files/feather.dds" />
+    <file src="files/featherTop.dds" />
+    <file src="files/item.png" />
+    <file src="files/itemHover.dds" />
+    <file src="files/money.mp3" />
+    <file src="files/money2.mp3" />
+    <file src="files/moneycount.mp3" />
+    <file src="files/pptrans.wav" />
+    <file src="files/vignette.png" />
+    
+    <download_priority_group>-12</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

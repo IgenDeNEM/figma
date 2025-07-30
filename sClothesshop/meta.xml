@@ -1,0 +1,24 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="streamC.luac" type="client" cache="false" />
+    <script src="prevC.luac" type="client" cache="false" />
+    
+    <export function="getPlayerMiningHat" type="client" />
+    <export function="getMaxArmor" type="server" />
+    <export function="processPlayerWeaponItems" type="server" />
+    <export function="storePlayerClothes" type="server" />
+    <export function="getCuccaimBind" type="client" />
+    <export function="setCuccaimBind" type="client" />
+    <export function="getSelfClothData" type="client" />
+    <export function="doLoginClothesPreview" type="client" />
+    
+    <file src="files/circle.dds" />
+    <file src="files/light.dds" />
+    <file src="files/mta-helper.fx" />
+    
+    <download_priority_group>-90</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

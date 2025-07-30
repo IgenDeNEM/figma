@@ -1,0 +1,47 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="chatC.luac" type="client" cache="false" />
+    
+    <export function="getLevel" type="shared" />
+    
+    <export function="updateElementRpHAnim" type="client" />
+    <export function="getMoney" type="client" />
+    <export function="getBankMoney" type="client" />
+    <export function="registerChatColor" type="client" />
+    <export function="getMoney" type="client" />
+    <export function="getBankMoney" type="client" />
+    
+    <export function="setPlayerCustomPosition" type="server" />
+    <export function="unsetPlayerCustomPosition" type="server" />
+    <export function="getPlayerCustomPosition" type="server" />
+    <export function="findPlayerByCharId" type="server" />
+    
+    <export function="setMoney" type="server" />
+    <export function="getMoney" type="server" />
+    <export function="setBankMoney" type="server" />
+    <export function="getBankMoney" type="server" />
+    <export function="setPlayedMinutes" type="server" />
+    <export function="getPlayedMinutes" type="server" />
+    <export function="setPP" type="server" />
+    <export function="getPP" type="server" />
+    <export function="setSSC" type="server" />
+    <export function="getSSC" type="server" />
+    <export function="takeSSC" type="server" />
+    <export function="takeSSCEx" type="server" />
+    <export function="giveSSC" type="server" />
+    <export function="giveMoney" type="server" />
+    <export function="takeMoney" type="server" />
+    <export function="takeMoneyEx" type="server" />
+    <export function="findPlayer" type="server" />
+    <export function="givePP" type="server" />
+    <export function="takePP" type="server" />
+    <export function="giveBankMoney" type="server" />
+    <export function="takeBankMoney" type="server" />
+    <export function="getRealTimestamp" type="server" />
+    
+    <download_priority_group>-8</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

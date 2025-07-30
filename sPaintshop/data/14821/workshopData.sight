@@ -1,0 +1,1160 @@
+[
+	{
+		"stockData": [
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			]
+		],
+		"workshopPermissions": [],
+		"upgrades": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"paintshopWorks": {
+			"2": {
+				"price": 295000,
+				"paintQuality": 0,
+				"color": "#261E45",
+				"plate": 822125,
+				"partNames": [
+					"Bal hátsó ajtó",
+					"Kasztni",
+					"Csomagtartó",
+					"Első lökhárító"
+				],
+				"primerQuality": 0,
+				"state": "primer",
+				"transportTrailer": false,
+				"sandingQuality": -115.5,
+				"model": 547,
+				"dryingState": false,
+				"dataPath": "547_2_261E45.png",
+				"lastPercent": 0,
+				"metal": true
+			}
+		},
+		"maintanceData": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"mixerTank": {
+			"color": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"primer": 0,
+			"base": [
+				0,
+				0
+			]
+		},
+		"lastMail": 24,
+		"mails": [
+			{
+				"emailTime": 1752269004,
+				"referrer": 4,
+				"price": 295000,
+				"unread": false,
+				"jobStartTime": 1752269030,
+				"emailType": "job",
+				"partNames": [
+					"Bal hátsó ajtó",
+					"Kasztni",
+					"Csomagtartó",
+					"Első lökhárító"
+				],
+				"offerStartTimeoutRnd": 4,
+				"workId": 2,
+				"paintMetal": true,
+				"offerReply": "timeout",
+				"textId": 7,
+				"playerReplyPrice": 1,
+				"customerReplyWait": -659,
+				"offerReplyTime": 1752269027,
+				"paint": "#261E45",
+				"pictureName": "547_2_261E45.png",
+				"from": [
+					35,
+					75
+				],
+				"offerStartTimeoutTime": 1752275159,
+				"playerReply": [
+					1,
+					2
+				],
+				"offerReplyWait": 0,
+				"offerTimeout": 70,
+				"plate": 822125,
+				"serverDatas": {
+					"partNames": [
+						"Bal hátsó ajtó",
+						"Kasztni",
+						"Csomagtartó",
+						"Első lökhárító"
+					],
+					"paint": "#261E45",
+					"maskName": "547_2_261E45_MASK.png",
+					"model": 547,
+					"price": 295000,
+					"plate": 822125,
+					"pictureName": "547_2_261E45.png",
+					"paintMetal": true
+				},
+				"model": 547,
+				"titleId": 1,
+				"playerReplyTime": 1752269023,
+				"maskName": "547_2_261E45_MASK.png",
+				"offerReplyRnd": 3,
+				"customerType": 7
+			},
+			{
+				"emailTime": 1752270958,
+				"referrer": 4,
+				"price": 235000,
+				"emailType": "offer",
+				"partNames": [
+					"Motorháztető",
+					"Kasztni"
+				],
+				"paintMetal": false,
+				"textId": 7,
+				"pictureName": "516_1_0E2119.png",
+				"offerTimeout": 66,
+				"paint": "#0E2119",
+				"serverDatas": {
+					"partNames": [
+						"Motorháztető",
+						"Kasztni"
+					],
+					"paint": "#0E2119",
+					"maskName": "516_1_0E2119_MASK.png",
+					"model": 516,
+					"price": 235000,
+					"plate": 229230,
+					"pictureName": "516_1_0E2119.png",
+					"paintMetal": false
+				},
+				"plate": 229230,
+				"model": 516,
+				"customerType": 7,
+				"maskName": "516_1_0E2119_MASK.png",
+				"titleId": 3,
+				"from": [
+					29,
+					55
+				]
+			},
+			{
+				"emailTime": 1752272819,
+				"referrer": 4,
+				"price": 450000,
+				"emailType": "offer",
+				"partNames": [
+					"Bal első ajtó",
+					"Első lökhárító",
+					"Motorháztető",
+					"Jobb első ajtó",
+					"Kasztni",
+					"Hátsó lökhárító",
+					"Csomagtartó"
+				],
+				"paintMetal": true,
+				"textId": 5,
+				"pictureName": "602_5_2B1B4A.png",
+				"offerTimeout": 115,
+				"serverDatas": {
+					"partNames": [
+						"Bal első ajtó",
+						"Első lökhárító",
+						"Motorháztető",
+						"Jobb első ajtó",
+						"Kasztni",
+						"Hátsó lökhárító",
+						"Csomagtartó"
+					],
+					"paint": "#2B1B4A",
+					"plate": 153395,
+					"paintMetal": true,
+					"price": 450000,
+					"maskName": "602_5_2B1B4A_MASK.png",
+					"pictureName": "602_5_2B1B4A.png",
+					"model": 602
+				},
+				"paint": "#2B1B4A",
+				"plate": 153395,
+				"titleId": 1,
+				"customerType": 5,
+				"maskName": "602_5_2B1B4A_MASK.png",
+				"from": 5,
+				"model": 602
+			},
+			{
+				"emailTime": 1752274679,
+				"referrer": 6,
+				"price": 240000,
+				"emailType": "offer",
+				"partNames": [
+					"Bal első ajtó",
+					"Csomagtartó",
+					"Kasztni"
+				],
+				"paintMetal": true,
+				"textId": 13,
+				"pictureName": "602_2_210E17.png",
+				"offerTimeout": 83,
+				"paint": "#210E17",
+				"serverDatas": {
+					"partNames": [
+						"Bal első ajtó",
+						"Csomagtartó",
+						"Kasztni"
+					],
+					"paint": "#210E17",
+					"maskName": "602_2_210E17_MASK.png",
+					"model": 602,
+					"price": 240000,
+					"plate": 860936,
+					"pictureName": "602_2_210E17.png",
+					"paintMetal": true
+				},
+				"plate": 860936,
+				"from": [
+					11,
+					12
+				],
+				"customerType": 13,
+				"maskName": "602_2_210E17_MASK.png",
+				"model": 602,
+				"titleId": 5
+			},
+			{
+				"emailTime": 1752276540,
+				"referrer": 2,
+				"price": 425000,
+				"emailType": "offer",
+				"partNames": [
+					"Hátsó lökhárító",
+					"Motorháztető",
+					"Kasztni",
+					"Jobb első ajtó",
+					"Csomagtartó",
+					"Első lökhárító"
+				],
+				"paintMetal": true,
+				"textId": 4,
+				"pictureName": "589_4_242132.png",
+				"offerTimeout": 90,
+				"serverDatas": {
+					"partNames": [
+						"Hátsó lökhárító",
+						"Motorháztető",
+						"Kasztni",
+						"Jobb első ajtó",
+						"Csomagtartó",
+						"Első lökhárító"
+					],
+					"paint": "#242132",
+					"plate": 718192,
+					"paintMetal": true,
+					"price": 425000,
+					"maskName": "589_4_242132_MASK.png",
+					"pictureName": "589_4_242132.png",
+					"model": 589
+				},
+				"paint": "#242132",
+				"plate": 718192,
+				"model": 589,
+				"customerType": 4,
+				"maskName": "589_4_242132_MASK.png",
+				"titleId": 2,
+				"from": 3
+			},
+			{
+				"emailTime": 1752278400,
+				"referrer": 3,
+				"price": 235000,
+				"emailType": "offer",
+				"partNames": [
+					"Bal első ajtó",
+					"Első lökhárító",
+					"Motorháztető",
+					"Jobb első ajtó",
+					"Hátsó lökhárító"
+				],
+				"paintMetal": false,
+				"textId": 9,
+				"pictureName": "541_3_685D49.png",
+				"offerTimeout": 90,
+				"paint": "#685D49",
+				"serverDatas": {
+					"partNames": [
+						"Bal első ajtó",
+						"Első lökhárító",
+						"Motorháztető",
+						"Jobb első ajtó",
+						"Hátsó lökhárító"
+					],
+					"paint": "#685D49",
+					"maskName": "541_3_685D49_MASK.png",
+					"model": 541,
+					"price": 235000,
+					"plate": 692812,
+					"pictureName": "541_3_685D49.png",
+					"paintMetal": false
+				},
+				"plate": 692812,
+				"titleId": 1,
+				"customerType": 9,
+				"maskName": "541_3_685D49_MASK.png",
+				"from": [
+					38,
+					73
+				],
+				"model": 541
+			},
+			{
+				"emailTime": 1752280261,
+				"referrer": 3,
+				"price": 275000,
+				"emailType": "offer",
+				"partNames": [
+					"Első lökhárító",
+					"Motorháztető",
+					"Jobb első ajtó",
+					"Csomagtartó",
+					"Hátsó lökhárító"
+				],
+				"paintMetal": false,
+				"textId": 14,
+				"pictureName": "589_3_685D49.png",
+				"offerTimeout": 84,
+				"serverDatas": {
+					"partNames": [
+						"Első lökhárító",
+						"Motorháztető",
+						"Jobb első ajtó",
+						"Csomagtartó",
+						"Hátsó lökhárító"
+					],
+					"paint": "#685D49",
+					"plate": 379583,
+					"paintMetal": false,
+					"price": 275000,
+					"maskName": "589_3_685D49_MASK.png",
+					"pictureName": "589_3_685D49.png",
+					"model": 589
+				},
+				"paint": "#685D49",
+				"plate": 379583,
+				"from": [
+					13,
+					20
+				],
+				"customerType": 14,
+				"maskName": "589_3_685D49_MASK.png",
+				"model": 589,
+				"titleId": 2
+			},
+			{
+				"emailTime": 1752282122,
+				"referrer": 2,
+				"price": 235000,
+				"emailType": "offer",
+				"partNames": [
+					"Jobb első ajtó",
+					"Első lökhárító",
+					"Bal első ajtó",
+					"Hátsó lökhárító",
+					"Motorháztető"
+				],
+				"paintMetal": true,
+				"textId": 3,
+				"pictureName": "589_3_059A89.png",
+				"offerTimeout": 111,
+				"paint": "#059A89",
+				"serverDatas": {
+					"partNames": [
+						"Jobb első ajtó",
+						"Első lökhárító",
+						"Bal első ajtó",
+						"Hátsó lökhárító",
+						"Motorháztető"
+					],
+					"paint": "#059A89",
+					"maskName": "589_3_059A89_MASK.png",
+					"model": 589,
+					"price": 235000,
+					"plate": 864699,
+					"pictureName": "589_3_059A89.png",
+					"paintMetal": true
+				},
+				"plate": 864699,
+				"model": 589,
+				"customerType": 3,
+				"maskName": "589_3_059A89_MASK.png",
+				"titleId": 2,
+				"from": [
+					85,
+					34
+				]
+			},
+			{
+				"emailTime": 1752283982,
+				"referrer": 2,
+				"price": 195000,
+				"emailType": "offer",
+				"partNames": [
+					"Csomagtartó",
+					"Motorháztető",
+					"Hátsó lökhárító"
+				],
+				"paintMetal": true,
+				"textId": 13,
+				"pictureName": "429_2_AECB60.png",
+				"offerTimeout": 99,
+				"serverDatas": {
+					"partNames": [
+						"Csomagtartó",
+						"Motorháztető",
+						"Hátsó lökhárító"
+					],
+					"paint": "#AECB60",
+					"plate": 589345,
+					"paintMetal": true,
+					"price": 195000,
+					"maskName": "429_2_AECB60_MASK.png",
+					"pictureName": "429_2_AECB60.png",
+					"model": 429
+				},
+				"paint": "#AECB60",
+				"plate": 589345,
+				"titleId": 4,
+				"customerType": 13,
+				"maskName": "429_2_AECB60_MASK.png",
+				"from": [
+					87,
+					71
+				],
+				"model": 429
+			},
+			{
+				"emailTime": 1752285843,
+				"referrer": 6,
+				"price": 500000,
+				"emailType": "offer",
+				"partNames": [
+					"Kasztni",
+					"Jobb hátsó ajtó",
+					"Bal hátsó ajtó",
+					"Jobb első ajtó",
+					"Bal első ajtó",
+					"Csomagtartó",
+					"Hátsó lökhárító",
+					"Motorháztető",
+					"Első lökhárító"
+				],
+				"paintMetal": false,
+				"textId": 5,
+				"pictureName": "516_5_522C06.png",
+				"offerTimeout": 75,
+				"paint": "#522C06",
+				"serverDatas": {
+					"partNames": [
+						"Kasztni",
+						"Jobb hátsó ajtó",
+						"Bal hátsó ajtó",
+						"Jobb első ajtó",
+						"Bal első ajtó",
+						"Csomagtartó",
+						"Hátsó lökhárító",
+						"Motorháztető",
+						"Első lökhárító"
+					],
+					"paint": "#522C06",
+					"maskName": "516_5_522C06_MASK.png",
+					"model": 516,
+					"price": 500000,
+					"plate": 988876,
+					"pictureName": "516_5_522C06.png",
+					"paintMetal": false
+				},
+				"plate": 988876,
+				"from": 5,
+				"customerType": 5,
+				"maskName": "516_5_522C06_MASK.png",
+				"model": 516,
+				"titleId": 1
+			},
+			{
+				"emailTime": 1752287703,
+				"referrer": 2,
+				"price": 380000,
+				"emailType": "offer",
+				"partNames": [
+					"Kasztni",
+					"Bal első ajtó",
+					"Első lökhárító",
+					"Csomagtartó",
+					"Motorháztető"
+				],
+				"paintMetal": false,
+				"textId": 9,
+				"pictureName": "495_3_343641.png",
+				"offerTimeout": 83,
+				"serverDatas": {
+					"partNames": [
+						"Kasztni",
+						"Bal első ajtó",
+						"Első lökhárító",
+						"Csomagtartó",
+						"Motorháztető"
+					],
+					"paint": "#343641",
+					"plate": 420975,
+					"paintMetal": false,
+					"price": 380000,
+					"maskName": "495_3_343641_MASK.png",
+					"pictureName": "495_3_343641.png",
+					"model": 495
+				},
+				"paint": "#343641",
+				"plate": 420975,
+				"model": 495,
+				"customerType": 9,
+				"maskName": "495_3_343641_MASK.png",
+				"titleId": 3,
+				"from": [
+					62,
+					67
+				]
+			},
+			{
+				"emailTime": 1752289563,
+				"referrer": 6,
+				"price": 80000,
+				"emailType": "offer",
+				"partNames": [
+					"Első lökhárító",
+					"Bal első ajtó"
+				],
+				"paintMetal": true,
+				"textId": 1,
+				"pictureName": "580_1_261E45.png",
+				"offerTimeout": 76,
+				"paint": "#261E45",
+				"serverDatas": {
+					"partNames": [
+						"Első lökhárító",
+						"Bal első ajtó"
+					],
+					"paint": "#261E45",
+					"maskName": "580_1_261E45_MASK.png",
+					"model": 580,
+					"price": 80000,
+					"plate": 449732,
+					"pictureName": "580_1_261E45.png",
+					"paintMetal": true
+				},
+				"plate": 449732,
+				"titleId": 3,
+				"customerType": 1,
+				"maskName": "580_1_261E45_MASK.png",
+				"from": [
+					56,
+					19
+				],
+				"model": 580
+			},
+			{
+				"emailTime": 1752291424,
+				"referrer": 4,
+				"price": 80000,
+				"emailType": "offer",
+				"partNames": [
+					"Bal hátsó ajtó",
+					"Első lökhárító"
+				],
+				"paintMetal": false,
+				"textId": 11,
+				"pictureName": "547_1_0B1A1F.png",
+				"offerTimeout": 77,
+				"serverDatas": {
+					"partNames": [
+						"Bal hátsó ajtó",
+						"Első lökhárító"
+					],
+					"paint": "#0B1A1F",
+					"plate": 504364,
+					"paintMetal": false,
+					"price": 80000,
+					"maskName": "547_1_0B1A1F_MASK.png",
+					"pictureName": "547_1_0B1A1F.png",
+					"model": 547
+				},
+				"paint": "#0B1A1F",
+				"plate": 504364,
+				"from": [
+					100,
+					99
+				],
+				"customerType": 11,
+				"maskName": "547_1_0B1A1F_MASK.png",
+				"model": 547,
+				"titleId": 4
+			},
+			{
+				"emailTime": 1752293285,
+				"referrer": 3,
+				"price": 140000,
+				"emailType": "offer",
+				"partNames": [
+					"Motorháztető",
+					"Első lökhárító"
+				],
+				"paintMetal": true,
+				"textId": 13,
+				"pictureName": "580_1_685D49.png",
+				"offerTimeout": 103,
+				"paint": "#685D49",
+				"serverDatas": {
+					"partNames": [
+						"Motorháztető",
+						"Első lökhárító"
+					],
+					"paint": "#685D49",
+					"maskName": "580_1_685D49_MASK.png",
+					"model": 580,
+					"price": 140000,
+					"plate": 280263,
+					"pictureName": "580_1_685D49.png",
+					"paintMetal": true
+				},
+				"plate": 280263,
+				"model": 580,
+				"customerType": 13,
+				"maskName": "580_1_685D49_MASK.png",
+				"titleId": 1,
+				"from": [
+					72,
+					32
+				]
+			},
+			{
+				"emailTime": 1752295145,
+				"referrer": 2,
+				"price": 325000,
+				"emailType": "offer",
+				"partNames": [
+					"Hátsó lökhárító",
+					"Jobb hátsó ajtó",
+					"Motorháztető",
+					"Bal hátsó ajtó",
+					"Első lökhárító",
+					"Csomagtartó",
+					"Bal első ajtó"
+				],
+				"paintMetal": true,
+				"textId": 5,
+				"pictureName": "445_4_7E4328.png",
+				"offerTimeout": 78,
+				"serverDatas": {
+					"partNames": [
+						"Hátsó lökhárító",
+						"Jobb hátsó ajtó",
+						"Motorháztető",
+						"Bal hátsó ajtó",
+						"Első lökhárító",
+						"Csomagtartó",
+						"Bal első ajtó"
+					],
+					"paint": "#7E4328",
+					"plate": 845252,
+					"paintMetal": true,
+					"price": 325000,
+					"maskName": "445_4_7E4328_MASK.png",
+					"pictureName": "445_4_7E4328.png",
+					"model": 445
+				},
+				"paint": "#7E4328",
+				"plate": 845252,
+				"titleId": 2,
+				"customerType": 5,
+				"maskName": "445_4_7E4328_MASK.png",
+				"from": 1,
+				"model": 445
+			},
+			{
+				"emailTime": 1752297006,
+				"referrer": 1,
+				"price": 225000,
+				"emailType": "offer",
+				"partNames": [
+					"Kasztni",
+					"Jobb első ajtó",
+					"Jobb hátsó ajtó",
+					"Bal hátsó ajtó"
+				],
+				"paintMetal": false,
+				"textId": 13,
+				"pictureName": "507_2_8C0808.png",
+				"offerTimeout": 111,
+				"paint": "#8C0808",
+				"serverDatas": {
+					"partNames": [
+						"Kasztni",
+						"Jobb első ajtó",
+						"Jobb hátsó ajtó",
+						"Bal hátsó ajtó"
+					],
+					"paint": "#8C0808",
+					"maskName": "507_2_8C0808_MASK.png",
+					"model": 507,
+					"price": 225000,
+					"plate": 759035,
+					"pictureName": "507_2_8C0808.png",
+					"paintMetal": false
+				},
+				"plate": 759035,
+				"from": [
+					61,
+					7
+				],
+				"customerType": 13,
+				"maskName": "507_2_8C0808_MASK.png",
+				"model": 507,
+				"titleId": 2
+			},
+			{
+				"emailTime": 1752298866,
+				"referrer": 3,
+				"price": 365000,
+				"emailType": "offer",
+				"partNames": [
+					"Kasztni",
+					"Első lökhárító",
+					"Jobb hátsó ajtó",
+					"Motorháztető",
+					"Jobb első ajtó",
+					"Bal első ajtó"
+				],
+				"paintMetal": false,
+				"textId": 3,
+				"pictureName": "445_3_57B458.png",
+				"offerTimeout": 89,
+				"serverDatas": {
+					"partNames": [
+						"Kasztni",
+						"Első lökhárító",
+						"Jobb hátsó ajtó",
+						"Motorháztető",
+						"Jobb első ajtó",
+						"Bal első ajtó"
+					],
+					"paint": "#57B458",
+					"plate": 916528,
+					"paintMetal": false,
+					"price": 365000,
+					"maskName": "445_3_57B458_MASK.png",
+					"pictureName": "445_3_57B458.png",
+					"model": 445
+				},
+				"paint": "#57B458",
+				"plate": 916528,
+				"model": 445,
+				"customerType": 3,
+				"maskName": "445_3_57B458_MASK.png",
+				"titleId": 5,
+				"from": [
+					20,
+					48
+				]
+			},
+			{
+				"emailTime": 1752300727,
+				"referrer": 4,
+				"price": 80000,
+				"emailType": "offer",
+				"partNames": [
+					"Első lökhárító",
+					"Bal első ajtó"
+				],
+				"paintMetal": false,
+				"textId": 7,
+				"pictureName": "551_1_E55B0F.png",
+				"offerTimeout": 104,
+				"paint": "#E55B0F",
+				"serverDatas": {
+					"partNames": [
+						"Első lökhárító",
+						"Bal első ajtó"
+					],
+					"paint": "#E55B0F",
+					"maskName": "551_1_E55B0F_MASK.png",
+					"model": 551,
+					"price": 80000,
+					"plate": 743928,
+					"pictureName": "551_1_E55B0F.png",
+					"paintMetal": false
+				},
+				"plate": 743928,
+				"titleId": 2,
+				"customerType": 7,
+				"maskName": "551_1_E55B0F_MASK.png",
+				"from": [
+					75,
+					73
+				],
+				"model": 551
+			},
+			{
+				"emailTime": 1752302587,
+				"referrer": 4,
+				"price": 260000,
+				"emailType": "offer",
+				"partNames": [
+					"Hátsó lökhárító",
+					"Csomagtartó",
+					"Kasztni"
+				],
+				"paintMetal": false,
+				"textId": 8,
+				"pictureName": "602_2_CCDEE1.png",
+				"offerTimeout": 106,
+				"serverDatas": {
+					"partNames": [
+						"Hátsó lökhárító",
+						"Csomagtartó",
+						"Kasztni"
+					],
+					"paint": "#CCDEE1",
+					"plate": 372304,
+					"paintMetal": false,
+					"price": 260000,
+					"maskName": "602_2_CCDEE1_MASK.png",
+					"pictureName": "602_2_CCDEE1.png",
+					"model": 602
+				},
+				"paint": "#CCDEE1",
+				"plate": 372304,
+				"from": [
+					4,
+					44
+				],
+				"customerType": 8,
+				"maskName": "602_2_CCDEE1_MASK.png",
+				"model": 602,
+				"titleId": 1
+			},
+			{
+				"emailTime": 1752304448,
+				"referrer": 2,
+				"price": 160000,
+				"emailType": "offer",
+				"partNames": [
+					"Jobb hátsó ajtó",
+					"Jobb első ajtó",
+					"Motorháztető",
+					"Bal hátsó ajtó"
+				],
+				"paintMetal": false,
+				"textId": 6,
+				"pictureName": "560_2_959CAA.png",
+				"offerTimeout": 68,
+				"paint": "#959CAA",
+				"serverDatas": {
+					"partNames": [
+						"Jobb hátsó ajtó",
+						"Jobb első ajtó",
+						"Motorháztető",
+						"Bal hátsó ajtó"
+					],
+					"paint": "#959CAA",
+					"maskName": "560_2_959CAA_MASK.png",
+					"model": 560,
+					"price": 160000,
+					"plate": 589675,
+					"pictureName": "560_2_959CAA.png",
+					"paintMetal": false
+				},
+				"plate": 589675,
+				"model": 560,
+				"customerType": 6,
+				"maskName": "560_2_959CAA_MASK.png",
+				"titleId": 1,
+				"from": [
+					42,
+					37
+				]
+			},
+			{
+				"emailTime": 1752306308,
+				"referrer": 2,
+				"price": 300000,
+				"emailType": "offer",
+				"partNames": [
+					"Jobb hátsó ajtó",
+					"Csomagtartó",
+					"Hátsó lökhárító",
+					"Jobb első ajtó",
+					"Első lökhárító",
+					"Motorháztető"
+				],
+				"paintMetal": true,
+				"textId": 2,
+				"pictureName": "516_3_8C0808.png",
+				"offerTimeout": 82,
+				"serverDatas": {
+					"partNames": [
+						"Jobb hátsó ajtó",
+						"Csomagtartó",
+						"Hátsó lökhárító",
+						"Jobb első ajtó",
+						"Első lökhárító",
+						"Motorháztető"
+					],
+					"paint": "#8C0808",
+					"plate": 366673,
+					"paintMetal": true,
+					"price": 300000,
+					"maskName": "516_3_8C0808_MASK.png",
+					"pictureName": "516_3_8C0808.png",
+					"model": 516
+				},
+				"paint": "#8C0808",
+				"plate": 366673,
+				"titleId": 2,
+				"customerType": 2,
+				"maskName": "516_3_8C0808_MASK.png",
+				"from": [
+					60,
+					2
+				],
+				"model": 516
+			},
+			{
+				"emailTime": 1752308169,
+				"referrer": 5,
+				"price": 90000,
+				"emailType": "offer",
+				"partNames": [
+					"Jobb első ajtó",
+					"Csomagtartó"
+				],
+				"paintMetal": true,
+				"textId": 12,
+				"pictureName": "558_1_B01CB0.png",
+				"offerTimeout": 109,
+				"paint": "#B01CB0",
+				"serverDatas": {
+					"partNames": [
+						"Jobb első ajtó",
+						"Csomagtartó"
+					],
+					"paint": "#B01CB0",
+					"maskName": "558_1_B01CB0_MASK.png",
+					"model": 558,
+					"price": 90000,
+					"plate": 705722,
+					"pictureName": "558_1_B01CB0.png",
+					"paintMetal": true
+				},
+				"plate": 705722,
+				"from": [
+					58,
+					90
+				],
+				"customerType": 12,
+				"maskName": "558_1_B01CB0_MASK.png",
+				"model": 558,
+				"titleId": 5
+			},
+			{
+				"emailTime": 1752310029,
+				"referrer": 4,
+				"price": 50000,
+				"emailType": "offer",
+				"partNames": [
+					"Bal első ajtó",
+					"Bal hátsó ajtó"
+				],
+				"paintMetal": true,
+				"textId": 7,
+				"pictureName": "458_1_7E4328.png",
+				"offerTimeout": 84,
+				"serverDatas": {
+					"partNames": [
+						"Bal első ajtó",
+						"Bal hátsó ajtó"
+					],
+					"paint": "#7E4328",
+					"plate": 906256,
+					"paintMetal": true,
+					"price": 50000,
+					"maskName": "458_1_7E4328_MASK.png",
+					"pictureName": "458_1_7E4328.png",
+					"model": 458
+				},
+				"paint": "#7E4328",
+				"plate": 906256,
+				"model": 458,
+				"customerType": 7,
+				"maskName": "458_1_7E4328_MASK.png",
+				"titleId": 1,
+				"from": [
+					24,
+					89
+				]
+			},
+			{
+				"emailTime": 1752311890,
+				"referrer": 2,
+				"price": 175000,
+				"emailType": "offer",
+				"partNames": [
+					"Kasztni",
+					"Jobb első ajtó"
+				],
+				"paintMetal": false,
+				"textId": 12,
+				"pictureName": "507_1_09315F.png",
+				"offerTimeout": 81,
+				"paint": "#09315F",
+				"serverDatas": {
+					"partNames": [
+						"Kasztni",
+						"Jobb első ajtó"
+					],
+					"paint": "#09315F",
+					"maskName": "507_1_09315F_MASK.png",
+					"model": 507,
+					"price": 175000,
+					"plate": 551194,
+					"pictureName": "507_1_09315F.png",
+					"paintMetal": false
+				},
+				"plate": 551194,
+				"titleId": 3,
+				"customerType": 12,
+				"maskName": "507_1_09315F_MASK.png",
+				"from": [
+					90,
+					38
+				],
+				"model": 507
+			}
+		],
+		"gunStates": [
+			{
+				"player": false,
+				"paintLevel": 0,
+				"paintType": false,
+				"tank": false,
+				"mixer": false
+			},
+			{
+				"player": false,
+				"paintLevel": 0,
+				"paintType": false,
+				"tank": false,
+				"mixer": false
+			}
+		],
+		"workshopPoint": 0
+	}
+]

@@ -1,0 +1,448 @@
+﻿<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.lua" type="client" cache="false" />
+    
+    <script src="radioS.lua" type="server" />
+    <script src="radioC.luac" type="client" cache="false" />
+    
+    <export function="processPlayerGroupSkin" type="client" />
+    <export function="setDutySkinForceOff" type="client" />
+    <export function="getGroupSkinId" type="client" />
+    <export function="countGroupSkins" type="client" />
+    <export function="loadAGroupSkin" type="client" />
+    <export function="isLawEnforcementGroup" type="shared" />
+    <export function="sendGroupMessage" type="client" />
+    <export function="isPlayerInLawEnforcement" type="client" />
+    <export function="getPlayerGroupMembership" type="client" />
+    <export function="getD2State" type="client" />
+    <export function="setD2State" type="client" />
+    <export function="getAirfieldState" type="client" />
+    <export function="setAirfieldState" type="client" />
+    <export function="getTogGroupMsg" type="client" />
+    <export function="setTogGroupMsg" type="client" />
+    <export function="getTogTraffi" type="client" />
+    <export function="setTogTraffi" type="client" />
+    <export function="getPlayerPermission" type="client" />
+    <export function="getPlayerPermissionInGroup" type="client" />
+    <export function="getPlayerInterior" type="client" />
+    <export function="getPlayerGate" type="client" />
+    
+    
+    <export function="refreshGroupGates" type="server" />
+    <export function="takeGroupBalance" type="server" />
+    <export function="sendGroupMessage" type="server" />
+    <export function="addGroupBalance" type="server" />
+    <export function="getPlayerPermission" type="server" />
+    <export function="removeBlipOnPhoneDrop" type="server" />
+    <export function="getPlayerRank" type="server" />
+    <export function="isVehicleInGroup" type="server" />
+    <export function="getPlayerPermissionInGroup" type="server" />
+    <export function="refreshGroupInteriors" type="server" />
+    <export function="refreshPlayerPermissions" type="server" />
+    <export function="getPlayerGroups" type="server" />
+    <export function="getGroupRankName" type="server" />
+    <export function="takeGroupBalance" type="server" />
+    <export function="giveGroupBalance" type="server" />
+    <export function="requestGroupVehicles" type="server" />
+    <export function="getPlayerVehiclePermission" type="server" />
+    
+    <export function="getRankColorList" type="shared" />
+    <export function="getPlayerGroupSkins" type="shared" />
+    <export function="getRankColors" type="shared" />
+    <export function="hasGroupMDC" type="shared" />
+    <export function="getBadgeGroups" type="shared" />
+    <export function="getGroupBadgeTitle" type="shared" />
+    <export function="getGroupBadgeEx" type="shared" />
+    <export function="getDutyItemPrice" type="shared" />
+    <export function="getDutySkinName" type="shared" />
+    <export function="isGroupValid" type="shared" />
+    <export function="getGroupName" type="shared" />
+    <export function="getMaxRanks" type="shared" />
+    <export function="getPermissionName" type="shared" />
+    <export function="isPlayerInGroup" type="shared" />
+    <export function="getDepRadio" type="shared" />
+    <export function="isLegalGroup" type="shared" />
+    <export function="getGroups" type="shared" />
+    
+    <export function="isValidGroup" type="server" />
+    <export function="requestGroupVehicles" type="server" />
+    <export function="getPlayerVehicle" type="client" />
+    <export function="getPlayerVehicle" type="server" />
+    
+    <file src="files/backup.mp3" />
+    <file src="files/dutyin.wav" />
+    <file src="files/dutyout.wav" />
+    
+    <file src="files/skins/APMS/1.dff" />
+    <file src="files/skins/APMS/1.txd" />
+    <file src="files/skins/APMS/2.dff" />
+    <file src="files/skins/APMS/2.txd" />
+    <file src="files/skins/APMS/3.dff" />
+    <file src="files/skins/APMS/3.txd" />
+    <file src="files/skins/APMS/4.dff" />
+    <file src="files/skins/APMS/4.txd" />
+    
+    <file src="files/skins/ARMY/1.dff" />
+    <file src="files/skins/ARMY/1.txd" />
+    <file src="files/skins/ARMY/2.dff" />
+    <file src="files/skins/ARMY/2.txd" />
+    <file src="files/skins/ARMY/3.dff" />
+    <file src="files/skins/ARMY/3.txd" />
+    <file src="files/skins/ARMY/4.dff" />
+    <file src="files/skins/ARMY/4.txd" />
+    <file src="files/skins/ARMY/5.dff" />
+    <file src="files/skins/ARMY/5.txd" />
+    <file src="files/skins/ARMY/6.dff" />
+    <file src="files/skins/ARMY/6.txd" />
+    <file src="files/skins/ARMY/7.dff" />
+    <file src="files/skins/ARMY/7.txd" />
+    
+    <file src="files/skins/BMS/1.dff" />
+    <file src="files/skins/BMS/1.txd" />
+    <file src="files/skins/BMS/2.dff" />
+    <file src="files/skins/BMS/2.txd" />
+    <file src="files/skins/BMS/3.dff" />
+    <file src="files/skins/BMS/3.txd" />
+    <file src="files/skins/BMS/4.dff" />
+    <file src="files/skins/BMS/4.txd" />
+    <file src="files/skins/BMS/5.dff" />
+    <file src="files/skins/BMS/5.txd" />
+    <file src="files/skins/BMS/6.dff" />
+    <file src="files/skins/BMS/6.txd" />
+    
+    <file src="files/skins/CNC/1.dff" />
+    <file src="files/skins/CNC/1.txd" />
+    <file src="files/skins/CNC/2.dff" />
+    <file src="files/skins/CNC/2.txd" />
+    <file src="files/skins/CNC/3.dff" />
+    <file src="files/skins/CNC/3.txd" />
+    <file src="files/skins/CNC/4.dff" />
+    <file src="files/skins/CNC/4.txd" />
+    <file src="files/skins/CNC/5.dff" />
+    <file src="files/skins/CNC/5.txd" />
+    <file src="files/skins/CNC/6.dff" />
+    <file src="files/skins/CNC/6.txd" />
+    <file src="files/skins/CNC/7.dff" />
+    <file src="files/skins/CNC/7.txd" />
+    
+    <file src="files/skins/CVD/1.dff" />
+    <file src="files/skins/CVD/1.txd" />
+    <file src="files/skins/CVD/2.dff" />
+    <file src="files/skins/CVD/2.txd" />
+    <file src="files/skins/CVD/3.dff" />
+    <file src="files/skins/CVD/3.txd" />
+    <file src="files/skins/CVD/4.dff" />
+    <file src="files/skins/CVD/4.txd" />
+    <file src="files/skins/CVD/5.dff" />
+    <file src="files/skins/CVD/5.txd" />
+    <file src="files/skins/CVD/6.dff" />
+    <file src="files/skins/CVD/6.txd" />
+    <file src="files/skins/CVD/7.dff" />
+    <file src="files/skins/CVD/7.txd" />
+    
+    <file src="files/skins/DV/1.dff" />
+    <file src="files/skins/DV/1.txd" />
+    <file src="files/skins/DV/2.dff" />
+    <file src="files/skins/DV/2.txd" />
+    <file src="files/skins/DV/3.dff" />
+    <file src="files/skins/DV/3.txd" />
+    <file src="files/skins/DV/4.dff" />
+    <file src="files/skins/DV/4.txd" />
+    <file src="files/skins/DV/5.dff" />
+    <file src="files/skins/DV/5.txd" />
+    <file src="files/skins/DV/6.dff" />
+    <file src="files/skins/DV/6.txd" />
+    <file src="files/skins/DV/7.dff" />
+    <file src="files/skins/DV/7.txd" />
+    
+    <file src="files/skins/FIX/1.dff" />
+    <file src="files/skins/FIX/1.txd" />
+    <file src="files/skins/FIX/2.dff" />
+    <file src="files/skins/FIX/2.txd" />
+    <file src="files/skins/FIX/3.dff" />
+    <file src="files/skins/FIX/3.txd" />
+    <file src="files/skins/FIX/4.dff" />
+    <file src="files/skins/FIX/4.txd" />
+    <file src="files/skins/FIX/5.dff" />
+    <file src="files/skins/FIX/5.txd" />
+    
+    <file src="files/skins/LM/1.dff" />
+    <file src="files/skins/LM/1.txd" />
+    <file src="files/skins/LM/2.dff" />
+    <file src="files/skins/LM/2.txd" />
+    <file src="files/skins/LM/3.dff" />
+    <file src="files/skins/LM/3.txd" />
+    <file src="files/skins/LM/4.dff" />
+    <file src="files/skins/LM/4.txd" />
+    <file src="files/skins/LM/5.dff" />
+    <file src="files/skins/LM/5.txd" />
+    <file src="files/skins/LM/6.dff" />
+    <file src="files/skins/LM/6.txd" />
+    <file src="files/skins/LM/7.dff" />
+    <file src="files/skins/LM/7.txd" />
+    
+    <file src="files/skins/MABUSZ/1.dff" />
+    <file src="files/skins/MABUSZ/1.txd" />
+    
+    <file src="files/skins/NAV/1.dff" />
+    <file src="files/skins/NAV/1.txd" />
+    <file src="files/skins/NAV/2.dff" />
+    <file src="files/skins/NAV/2.txd" />
+    <file src="files/skins/NAV/3.dff" />
+    <file src="files/skins/NAV/3.txd" />
+    <file src="files/skins/NAV/4.dff" />
+    <file src="files/skins/NAV/4.txd" />
+    <file src="files/skins/NAV/5.dff" />
+    <file src="files/skins/NAV/5.txd" />
+    <file src="files/skins/NAV/6.dff" />
+    <file src="files/skins/NAV/6.txd" />
+    <file src="files/skins/NAV/7.dff" />
+    <file src="files/skins/NAV/7.txd" />
+    
+    <file src="files/skins/NDR/1.dff" />
+    <file src="files/skins/NDR/1.txd" />
+    <file src="files/skins/NDR/2.dff" />
+    <file src="files/skins/NDR/2.txd" />
+    <file src="files/skins/NDR/3.dff" />
+    <file src="files/skins/NDR/3.txd" />
+    <file src="files/skins/NDR/4.dff" />
+    <file src="files/skins/NDR/4.txd" />
+    <file src="files/skins/NDR/5.dff" />
+    <file src="files/skins/NDR/5.txd" />
+    <file src="files/skins/NDR/6.dff" />
+    <file src="files/skins/NDR/6.txd" />
+    <file src="files/skins/NDR/7.dff" />
+    <file src="files/skins/NDR/7.txd" />
+    
+    <file src="files/skins/NNI/1.dff" />
+    <file src="files/skins/NNI/1.txd" />
+    <file src="files/skins/NNI/2.dff" />
+    <file src="files/skins/NNI/2.txd" />
+    <file src="files/skins/NNI/3.dff" />
+    <file src="files/skins/NNI/3.txd" />
+    <file src="files/skins/NNI/4.dff" />
+    <file src="files/skins/NNI/4.txd" />
+    <file src="files/skins/NNI/5.dff" />
+    <file src="files/skins/NNI/5.txd" />
+    <file src="files/skins/NNI/6.dff" />
+    <file src="files/skins/NNI/6.txd" />
+    <file src="files/skins/NNI/7.dff" />
+    <file src="files/skins/NNI/7.txd" />
+    
+    <file src="files/skins/NSM/1.dff" />
+    <file src="files/skins/NSM/1.txd" />
+    <file src="files/skins/NSM/2.dff" />
+    <file src="files/skins/NSM/2.txd" />
+    <file src="files/skins/NSM/3.dff" />
+    <file src="files/skins/NSM/3.txd" />
+    <file src="files/skins/NSM/4.dff" />
+    <file src="files/skins/NSM/4.txd" />
+    <file src="files/skins/NSM/5.dff" />
+    <file src="files/skins/NSM/5.txd" />
+    <file src="files/skins/NSM/6.dff" />
+    <file src="files/skins/NSM/6.txd" />
+    <file src="files/skins/NSM/7.dff" />
+    <file src="files/skins/NSM/7.txd" />
+    
+    <file src="files/skins/OKF/1.dff" />
+    <file src="files/skins/OKF/1.txd" />
+    <file src="files/skins/OKF/2.dff" />
+    <file src="files/skins/OKF/2.txd" />
+    <file src="files/skins/OKF/3.dff" />
+    <file src="files/skins/OKF/3.txd" />
+    <file src="files/skins/OKF/4.dff" />
+    <file src="files/skins/OKF/4.txd" />
+    <file src="files/skins/OKF/5.dff" />
+    <file src="files/skins/OKF/5.txd" />
+    <file src="files/skins/OKF/6.dff" />
+    <file src="files/skins/OKF/6.txd" />
+    <file src="files/skins/OKF/7.dff" />
+    <file src="files/skins/OKF/7.txd" />
+    
+    <file src="files/skins/OMSZ/1.dff" />
+    <file src="files/skins/OMSZ/1.txd" />
+    <file src="files/skins/OMSZ/2.dff" />
+    <file src="files/skins/OMSZ/2.txd" />
+    <file src="files/skins/OMSZ/3.dff" />
+    <file src="files/skins/OMSZ/3.txd" />
+    <file src="files/skins/OMSZ/4.dff" />
+    <file src="files/skins/OMSZ/4.txd" />
+    <file src="files/skins/OMSZ/5.dff" />
+    <file src="files/skins/OMSZ/5.txd" />
+    <file src="files/skins/OMSZ/6.dff" />
+    <file src="files/skins/OMSZ/6.txd" />
+    <file src="files/skins/OMSZ/7.dff" />
+    <file src="files/skins/OMSZ/7.txd" />
+    
+    <file src="files/skins/OS/1.dff" />
+    <file src="files/skins/OS/1.txd" />
+    <file src="files/skins/OS/2.dff" />
+    <file src="files/skins/OS/2.txd" />
+    <file src="files/skins/OS/3.dff" />
+    <file src="files/skins/OS/3.txd" />
+    <file src="files/skins/OS/4.dff" />
+    <file src="files/skins/OS/4.txd" />
+    <file src="files/skins/OS/5.dff" />
+    <file src="files/skins/OS/5.txd" />
+    <file src="files/skins/OS/6.dff" />
+    <file src="files/skins/OS/6.txd" />
+    <file src="files/skins/OS/7.dff" />
+    <file src="files/skins/OS/7.txd" />
+    
+    <file src="files/skins/OV/1.dff" />
+    <file src="files/skins/OV/1.txd" />
+    <file src="files/skins/OV/2.dff" />
+    <file src="files/skins/OV/2.txd" />
+    <file src="files/skins/OV/3.dff" />
+    <file src="files/skins/OV/3.txd" />
+    <file src="files/skins/OV/4.dff" />
+    <file src="files/skins/OV/4.txd" />
+    <file src="files/skins/OV/5.dff" />
+    <file src="files/skins/OV/5.txd" />
+    <file src="files/skins/OV/6.dff" />
+    <file src="files/skins/OV/6.txd" />
+    <file src="files/skins/OV/7.dff" />
+    <file src="files/skins/OV/7.txd" />
+    
+    <file src="files/skins/PD/1.dff" />
+    <file src="files/skins/PD/1.txd" />
+    <file src="files/skins/PD/2.dff" />
+    <file src="files/skins/PD/2.txd" />
+    <file src="files/skins/PD/3.dff" />
+    <file src="files/skins/PD/3.txd" />
+    <file src="files/skins/PD/4.dff" />
+    <file src="files/skins/PD/4.txd" />
+    <file src="files/skins/PD/5.dff" />
+    <file src="files/skins/PD/5.txd" />
+    <file src="files/skins/PD/6.dff" />
+    <file src="files/skins/PD/6.txd" />
+    <file src="files/skins/PD/7.dff" />
+    <file src="files/skins/PD/7.txd" />
+    
+    <file src="files/skins/PF/1.dff" />
+    <file src="files/skins/PF/1.txd" />
+    <file src="files/skins/PF/2.dff" />
+    <file src="files/skins/PF/2.txd" />
+    <file src="files/skins/PF/3.dff" />
+    <file src="files/skins/PF/3.txd" />
+    <file src="files/skins/PF/4.dff" />
+    <file src="files/skins/PF/4.txd" />
+    
+    <file src="files/skins/RAS/1.dff" />
+    <file src="files/skins/RAS/1.txd" />
+    <file src="files/skins/RAS/2.dff" />
+    <file src="files/skins/RAS/2.txd" />
+    <file src="files/skins/RAS/3.dff" />
+    <file src="files/skins/RAS/3.txd" />
+    <file src="files/skins/RAS/4.dff" />
+    <file src="files/skins/RAS/4.txd" />
+    <file src="files/skins/RAS/5.dff" />
+    <file src="files/skins/RAS/5.txd" />
+    <file src="files/skins/RAS/6.dff" />
+    <file src="files/skins/RAS/6.txd" />
+    
+    <file src="files/skins/ROB/1.dff" />
+    <file src="files/skins/ROB/1.txd" />
+    <file src="files/skins/ROB/2.dff" />
+    <file src="files/skins/ROB/2.txd" />
+    <file src="files/skins/ROB/3.dff" />
+    <file src="files/skins/ROB/3.txd" />
+    <file src="files/skins/ROB/4.dff" />
+    <file src="files/skins/ROB/4.txd" />
+    <file src="files/skins/ROB/5.dff" />
+    <file src="files/skins/ROB/5.txd" />
+    <file src="files/skins/ROB/6.dff" />
+    <file src="files/skins/ROB/6.txd" />
+    <file src="files/skins/ROB/7.dff" />
+    <file src="files/skins/ROB/7.txd" />
+    
+    <file src="files/skins/SG/1.dff" />
+    <file src="files/skins/SG/1.txd" />
+    <file src="files/skins/SG/2.dff" />
+    <file src="files/skins/SG/2.txd" />
+    <file src="files/skins/SG/3.dff" />
+    <file src="files/skins/SG/3.txd" />
+    <file src="files/skins/SG/4.dff" />
+    <file src="files/skins/SG/4.txd" />
+    <file src="files/skins/SG/5.dff" />
+    <file src="files/skins/SG/5.txd" />
+    <file src="files/skins/SG/6.dff" />
+    <file src="files/skins/SG/6.txd" />
+    <file src="files/skins/SG/7.dff" />
+    <file src="files/skins/SG/7.txd" />
+    <file src="files/skins/SG/8.dff" />
+    <file src="files/skins/SG/8.txd" />
+    <file src="files/skins/SG/9.dff" />
+    <file src="files/skins/SG/9.txd" />
+    <file src="files/skins/SG/10.dff" />
+    <file src="files/skins/SG/10.txd" />
+    <file src="files/skins/SG/11.dff" />
+    <file src="files/skins/SG/11.txd" />
+    <file src="files/skins/SG/12.dff" />
+    <file src="files/skins/SG/12.txd" />
+    <file src="files/skins/SG/13.dff" />
+    <file src="files/skins/SG/13.txd" />
+    <file src="files/skins/SG/14.dff" />
+    <file src="files/skins/SG/14.txd" />
+    <file src="files/skins/SG/15.dff" />
+    <file src="files/skins/SG/15.txd" />
+    <file src="files/skins/SG/16.dff" />
+    <file src="files/skins/SG/16.txd" />
+    <file src="files/skins/SG/17.dff" />
+    <file src="files/skins/SG/17.txd" />
+    <file src="files/skins/SG/18.dff" />
+    <file src="files/skins/SG/18.txd" />
+    <file src="files/skins/SG/19.dff" />
+    <file src="files/skins/SG/19.txd" />
+    <file src="files/skins/SG/20.dff" />
+    <file src="files/skins/SG/20.txd" />
+    <file src="files/skins/SG/21.dff" />
+    <file src="files/skins/SG/21.txd" />
+    <file src="files/skins/SG/22.dff" />
+    <file src="files/skins/SG/22.txd" />
+    
+    <file src="files/skins/SOD/1.dff" />
+    <file src="files/skins/SOD/1.txd" />
+    <file src="files/skins/SOD/2.dff" />
+    <file src="files/skins/SOD/2.txd" />
+    <file src="files/skins/SOD/3.dff" />
+    <file src="files/skins/SOD/3.txd" />
+    <file src="files/skins/SOD/4.dff" />
+    <file src="files/skins/SOD/4.txd" />
+    <file src="files/skins/SOD/5.dff" />
+    <file src="files/skins/SOD/5.txd" />
+    <file src="files/skins/SOD/6.dff" />
+    <file src="files/skins/SOD/6.txd" />
+    <file src="files/skins/SOD/7.dff" />
+    <file src="files/skins/SOD/7.txd" />
+    
+    <file src="files/skins/SSFF/1.dff" />
+    <file src="files/skins/SSFF/1.txd" />
+    <file src="files/skins/SSFF/2.dff" />
+    <file src="files/skins/SSFF/2.txd" />
+    <file src="files/skins/SSFF/3.dff" />
+    <file src="files/skins/SSFF/3.txd" />
+    <file src="files/skins/SSFF/4.dff" />
+    <file src="files/skins/SSFF/4.txd" />
+    <file src="files/skins/SSFF/5.dff" />
+    <file src="files/skins/SSFF/5.txd" />
+    <file src="files/skins/SSFF/6.dff" />
+    <file src="files/skins/SSFF/6.txd" />
+    <file src="files/skins/SSFF/7.dff" />
+    <file src="files/skins/SSFF/7.txd" />
+    
+    <file src="files/skins/TEK/1.dff" />
+    <file src="files/skins/TEK/1.txd" />
+    <file src="files/skins/TEK/2.dff" />
+    <file src="files/skins/TEK/2.txd" />
+    <file src="files/skins/TEK/3.dff" />
+    <file src="files/skins/TEK/3.txd" />
+    <file src="files/skins/TEK/4.dff" />
+    <file src="files/skins/TEK/4.txd" />
+    <file src="files/skins/TEK/5.dff" />
+    <file src="files/skins/TEK/5.txd" />
+    
+    <download_priority_group>-127</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

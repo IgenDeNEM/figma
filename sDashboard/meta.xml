@@ -1,0 +1,255 @@
+<meta>
+    <script src="sourceG-obfuscated.luac" type="shared" cache="false" />
+    
+    <script src="animalsS.lua" type="server" />
+    <script src="animalsC.luac" type="client" cache="false" />
+    
+    <script src="groupsC.lua" type="client" cache="false" />
+    
+    <script src="interiorsS.lua" type="server" />
+    <script src="interiorsC-obfuscated.luac" type="client" cache="false" />
+    
+    <script src="newsS.lua" type="server" />
+    <script src="newsC.luac" type="client" cache="false" />
+    
+    <script src="ppshopG.luac" type="shared" cache="false" />
+    <script src="ppShopS.lua" type="server" />
+    <script src="ppshopC.luac" type="client" cache="false" />
+    
+    <script src="settingsS.lua" type="server" />
+    <script src="settingsC-obfuscated.luac" type="client" cache="false" />
+    
+    <script src="vehiclesS.lua" type="server" />
+    <script src="vehiclesC-obfuscated.luac" type="client" cache="false" />
+    
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <export function="getStreamerMode" type="client" />
+    <export function="loadLateSettings" type="client" />
+    <export function="resetFogAndFarClip" type="client" />
+    <export function="getCurrentChatAnim" type="client" />
+    <export function="getChatAnims" type="client" />
+    <export function="saveValue" type="client" />
+    <export function="loadSettings" type="client" />
+    <export function="loadColorset" type="client" />
+    
+    <export function="getWalkingStyle" type="server" />
+    <export function="generateInviteCode" type="server" />
+    <export function="givePlayerRentedVehicle" type="server" />
+    <export function="givePlayerAchievement" type="server" />
+    <export function="isInviteCodeOccupied" type="server" />
+    
+    <file src="files/dogs/boxer.dds" />
+    <file src="files/dogs/bullterrier.dds" />
+    <file src="files/dogs/diszno.dds" />
+    <file src="files/dogs/doberman.dds" />
+    <file src="files/dogs/franciabulldog.dds" />
+    <file src="files/dogs/husky.dds" />
+    <file src="files/dogs/kecske.dds" />
+    <file src="files/dogs/rottweiler.dds" />
+    
+    <file src="files/inti/interior_render1.dds" />
+    <file src="files/inti/interior_render2.dds" />
+    <file src="files/inti/interior_render3.dds" />
+    <file src="files/inti/interior_render4.dds" />
+    <file src="files/inti/interior_render5.dds" />
+    <file src="files/inti/interior_render6.dds" />
+    <file src="files/inti/interior_render7.dds" />
+    <file src="files/inti/interior_render8.dds" />
+    <file src="files/inti/interior_render9.dds" />
+    <file src="files/inti/interior_render10.dds" />
+    
+    <file src="files/sound/Swipe1.wav" />
+    <file src="files/sound/Swipe2.wav" />
+    <file src="files/sound/Swipe3.wav" />
+    <file src="files/sound/Swipe4.wav" />
+    <file src="files/sound/Whoo1.wav" />
+    <file src="files/sound/Whoo2.wav" />
+    <file src="files/sound/Whoo3.wav" />
+    <file src="files/sound/Whoo4.wav" />
+    
+    <file src="files/weps/ak47.dds" />
+    <file src="files/weps/ak47_skin_camo.dds" />
+    <file src="files/weps/ak47_skin_camo2.dds" />
+    <file src="files/weps/ak47_skin_camo3.dds" />
+    <file src="files/weps/ak47_skin_gold.dds" />
+    <file src="files/weps/ak47_skin_gold2.dds" />
+    <file src="files/weps/ak47_skin_kitty.dds" />
+    <file src="files/weps/ak47_skin_silver.dds" />
+    <file src="files/weps/bard.dds" />
+    <file src="files/weps/bard_skin_1.dds" />
+    <file src="files/weps/bard_skin_2.dds" />
+    <file src="files/weps/bat.dds" />
+    <file src="files/weps/boxer.dds" />
+    <file src="files/weps/camera.dds" />
+    <file src="files/weps/cane.dds" />
+    <file src="files/weps/chnsaw.dds" />
+    <file src="files/weps/colt45.dds" />
+    <file src="files/weps/desert_eagle.dds" />
+    <file src="files/weps/desert_eagle_skin_camo.dds" />
+    <file src="files/weps/desert_eagle_skin_gold.dds" />
+    <file src="files/weps/desert_eagle_skin_hellokitty.dds" />
+    <file src="files/weps/fire_ex.dds" />
+    <file src="files/weps/flower.dds" />
+    <file src="files/weps/golfclub.dds" />
+    <file src="files/weps/grenade.dds" />
+    <file src="files/weps/gun_para.dds" />
+    <file src="files/weps/katana.dds" />
+    <file src="files/weps/knife.dds" />
+    <file src="files/weps/knife_skin_knife1.dds" />
+    <file src="files/weps/knife_skin_knife2.dds" />
+    <file src="files/weps/knife_skin_knife3.dds" />
+    <file src="files/weps/knife_skin_knife4.dds" />
+    <file src="files/weps/knife_skin_knife5.dds" />
+    <file src="files/weps/knife_skin_knife6.dds" />
+    <file src="files/weps/m4.dds" />
+    <file src="files/weps/molotov.dds" />
+    <file src="files/weps/mp5lng.dds" />
+    <file src="files/weps/mp5lng_skin_mp51.dds" />
+    <file src="files/weps/mp5lng_skin_mp52.dds" />
+    <file src="files/weps/mp5lng_skin_mp53.dds" />
+    <file src="files/weps/mp5lng_skin_mp54.dds" />
+    <file src="files/weps/nitestick.dds" />
+    <file src="files/weps/rifle.dds" />
+    <file src="files/weps/sawnoff.dds" />
+    <file src="files/weps/sawnoff_skin_1.dds" />
+    <file src="files/weps/sawnoff_skin_2.dds" />
+    <file src="files/weps/sawnoff_skin_3.dds" />
+    <file src="files/weps/sawnoff_skin_4.dds" />
+    <file src="files/weps/sawnoff_skin_5.dds" />
+    <file src="files/weps/sawnoff_skin_6.dds" />
+    <file src="files/weps/shotgun.dds" />
+    <file src="files/weps/shotgun_skin_1.dds" />
+    <file src="files/weps/shotgun_skin_2.dds" />
+    <file src="files/weps/shotgun_skin_3.dds" />
+    <file src="files/weps/shotgun_skin_4.dds" />
+    <file src="files/weps/shovel.dds" />
+    <file src="files/weps/silenced.dds" />
+    <file src="files/weps/sniper.dds" />
+    <file src="files/weps/sniper2.dds" />
+    <file src="files/weps/sniper_skin_camo.dds" />
+    <file src="files/weps/sniper_skin_camo2.dds" />
+    <file src="files/weps/spaz-12.dds" />
+    <file src="files/weps/spraycan.dds" />
+    <file src="files/weps/teargas.dds" />
+    <file src="files/weps/tec9.dds" />
+    <file src="files/weps/tec9_skin_tec1.dds" />
+    <file src="files/weps/tec9_skin_tec2.dds" />
+    <file src="files/weps/tec9_skin_tec3.dds" />
+    <file src="files/weps/tec9_skin_tec4.dds" />
+    <file src="files/weps/uzi.dds" />
+    <file src="files/weps/uzi_skin_uzi1.dds" />
+    <file src="files/weps/uzi_skin_uzi2.dds" />
+    <file src="files/weps/uzi_skin_uzi3.dds" />
+    <file src="files/weps/uzi_skin_uzi4.dds" />
+    <file src="files/weps/wep_ak-74.dds" />
+    <file src="files/weps/wep_ak-74_skin_1.dds" />
+    <file src="files/weps/wep_ak-74_skin_2.dds" />
+    <file src="files/weps/wep_ak-74_skin_3.dds" />
+    <file src="files/weps/wep_ak-74_skin_4.dds" />
+    <file src="files/weps/wep_ar-15.dds" />
+    <file src="files/weps/wep_ar-15_aimpoint.dds" />
+    <file src="files/weps/wep_ar-15_aimpoint_skin_1.dds" />
+    <file src="files/weps/wep_ar-15_aimpoint_skin_2.dds" />
+    <file src="files/weps/wep_ar-15_holo.dds" />
+    <file src="files/weps/wep_ar-15_holo_skin_1.dds" />
+    <file src="files/weps/wep_ar-15_holo_skin_2.dds" />
+    <file src="files/weps/wep_ar-15_skin_1.dds" />
+    <file src="files/weps/wep_ar-15_skin_2.dds" />
+    <file src="files/weps/wep_axe.dds" />
+    <file src="files/weps/wep_benelli_m4.dds" />
+    <file src="files/weps/wep_benelli_m4_skin_1.dds" />
+    <file src="files/weps/wep_benelli_m4_skin_2.dds" />
+    <file src="files/weps/wep_colt_1911.dds" />
+    <file src="files/weps/wep_colt_1911_skin_1.dds" />
+    <file src="files/weps/wep_colt_1911_skin_2.dds" />
+    <file src="files/weps/wep_colt_1911_skin_3.dds" />
+    <file src="files/weps/wep_glock-17.dds" />
+    <file src="files/weps/wep_glock-19.dds" />
+    <file src="files/weps/wep_glock-19_laser.dds" />
+    <file src="files/weps/wep_glock-19_laser_skin_1.dds" />
+    <file src="files/weps/wep_glock-19_laser_skin_2.dds" />
+    <file src="files/weps/wep_glock-19_laser_skin_3.dds" />
+    <file src="files/weps/wep_glock-19_laser_skin_4.dds" />
+    <file src="files/weps/wep_glock-19_laser_skin_5.dds" />
+    <file src="files/weps/wep_glock-19_laser_skin_6.dds" />
+    <file src="files/weps/wep_glock-19_skin_1.dds" />
+    <file src="files/weps/wep_glock-19_skin_2.dds" />
+    <file src="files/weps/wep_glock-19_skin_3.dds" />
+    <file src="files/weps/wep_glock-19_skin_4.dds" />
+    <file src="files/weps/wep_glock-19_skin_5.dds" />
+    <file src="files/weps/wep_glock-19_skin_6.dds" />
+    <file src="files/weps/wep_hammer.dds" />
+    <file src="files/weps/wep_hk_usp45.dds" />
+    <file src="files/weps/wep_hk_usp45_skin_1.dds" />
+    <file src="files/weps/wep_hk_usp45_skin_2.dds" />
+    <file src="files/weps/wep_hk_usp45_skin_3.dds" />
+    <file src="files/weps/wep_hk_usp45_skin_4.dds" />
+    <file src="files/weps/wep_m4a1.dds" />
+    <file src="files/weps/wep_m4a1_skin_1.dds" />
+    <file src="files/weps/wep_m4a1_skin_2.dds" />
+    <file src="files/weps/wep_m4a1_skin_3.dds" />
+    <file src="files/weps/wep_m4a1_skin_4.dds" />
+    <file src="files/weps/wep_m4a1_sopmod.dds" />
+    <file src="files/weps/wep_m4a1_sopmod_skin_1.dds" />
+    <file src="files/weps/wep_m4a1_sopmod_skin_2.dds" />
+    <file src="files/weps/wep_m4a1_sopmod_skin_3.dds" />
+    <file src="files/weps/wep_m4a1_sopmod_skin_4.dds" />
+    <file src="files/weps/wep_m110.dds" />
+    <file src="files/weps/wep_m110_skin_1.dds" />
+    <file src="files/weps/wep_m700.dds" />
+    <file src="files/weps/wep_micro_draco.dds" />
+    <file src="files/weps/wep_mosin_nagant.dds" />
+    <file src="files/weps/wep_mosin_nagant_skin_1.dds" />
+    <file src="files/weps/wep_mosin_nagant_skin_2.dds" />
+    <file src="files/weps/wep_mp7a1.dds" />
+    <file src="files/weps/wep_mp7a1_aimpoint.dds" />
+    <file src="files/weps/wep_mp7a1_aimpoint_skin_1.dds" />
+    <file src="files/weps/wep_mp7a1_aimpoint_skin_2.dds" />
+    <file src="files/weps/wep_mp7a1_skin_1.dds" />
+    <file src="files/weps/wep_mp7a1_skin_2.dds" />
+    <file src="files/weps/wep_p90.dds" />
+    <file src="files/weps/wep_p90_skin_1.dds" />
+    <file src="files/weps/wep_p90_skin_2.dds" />
+    <file src="files/weps/wep_p90_skin_3.dds" />
+    <file src="files/weps/wep_p90_skin_4.dds" />
+    <file src="files/weps/wep_p90_skin_5.dds" />
+    <file src="files/weps/wep_p90_skin_6.dds" />
+    <file src="files/weps/wep_p90_skin_7.dds" />
+    <file src="files/weps/wep_p90_skin_8.dds" />
+    <file src="files/weps/wep_p90_skin_9.dds" />
+    <file src="files/weps/wep_pipe_wrench.dds" />
+    <file src="files/weps/wep_suspension.dds" />
+    <file src="files/weps/wep_sw_model66.dds" />
+    <file src="files/weps/wep_sw_model66_skin_1.dds" />
+    <file src="files/weps/wep_sw_model66_skin_2.dds" />
+    <file src="files/weps/wep_sw_model66_skin_3.dds" />
+    <file src="files/weps/wep_sw_model66_skin_4.dds" />
+    <file src="files/weps/wep_taser_x26.dds" />
+    <file src="files/weps/wep_vipera.dds" />
+    
+    <file src="files/admins_bcg.dds" />
+    <file src="files/black.dds" />
+    <file src="files/dashchange.mp3" />
+    <file src="files/fado.dds" />
+    <file src="files/fado2.dds" />
+    <file src="files/groups_bcg.dds" />
+    <file src="files/ill.dds" />
+    <file src="files/mapcorner.dds" />
+    <file src="files/mapside.dds" />
+    <file src="files/mapside2.dds" />
+    <file src="files/money.dds" />
+    <file src="files/mta-helper.fx" />
+    <file src="files/pets_bcg.dds" />
+    <file src="files/pp_bcg.dds" />
+    <file src="files/pp_bcg_center.dds" />
+    <file src="files/settings_bcg.dds" />
+    <file src="files/settings_bcg_big.dds" />
+    <file src="files/vehswitch.wav" />
+    <file src="files/wallp.dds" />
+    
+    <file src="news/def.dds" />
+    
+    <download_priority_group>-102</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

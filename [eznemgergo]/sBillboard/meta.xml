@@ -1,0 +1,117 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="setBillboardState" type="client" />
+    <export function="getBillboardState" type="client" />
+    
+    <file src="files/1.dds" />
+    <file src="files/2.dds" />
+    <file src="files/3.dds" />
+    <file src="files/4.dds" />
+    <file src="files/5.dds" />
+    <file src="files/6.dds" />
+    <file src="files/7.dds" />
+    <file src="files/8.dds" />
+    <file src="files/9.dds" />
+    <file src="files/10.dds" />
+    <file src="files/11.dds" />
+    <file src="files/12.dds" />
+    <file src="files/13.dds" />
+    <file src="files/14.dds" />
+    <file src="files/15.dds" />
+    <file src="files/16.dds" />
+    <file src="files/17.dds" />
+    <file src="files/18.dds" />
+    <file src="files/19.dds" />
+    <file src="files/20.dds" />
+    <file src="files/21.dds" />
+    <file src="files/22.dds" />
+    <file src="files/23.dds" />
+    <file src="files/24.dds" />
+    <file src="files/25.dds" />
+    <file src="files/26.dds" />
+    <file src="files/27.dds" />
+    <file src="files/28.dds" />
+    <file src="files/29.dds" />
+    <file src="files/30.dds" />
+    <file src="files/31.dds" />
+    <file src="files/32.dds" />
+    <file src="files/33.dds" />
+    <file src="files/34.dds" />
+    <file src="files/35.dds" />
+    <file src="files/36.dds" />
+    
+    <file src="files/lod/1.dds" />
+    <file src="files/lod/2.dds" />
+    <file src="files/lod/3.dds" />
+    <file src="files/lod/4.dds" />
+    <file src="files/lod/5.dds" />
+    <file src="files/lod/6.dds" />
+    <file src="files/lod/7.dds" />
+    <file src="files/lod/8.dds" />
+    <file src="files/lod/9.dds" />
+    <file src="files/lod/10.dds" />
+    <file src="files/lod/11.dds" />
+    <file src="files/lod/12.dds" />
+    <file src="files/lod/13.dds" />
+    <file src="files/lod/14.dds" />
+    <file src="files/lod/15.dds" />
+    <file src="files/lod/16.dds" />
+    <file src="files/lod/17.dds" />
+    <file src="files/lod/18.dds" />
+    <file src="files/lod/19.dds" />
+    <file src="files/lod/20.dds" />
+    <file src="files/lod/21.dds" />
+    <file src="files/lod/22.dds" />
+    <file src="files/lod/23.dds" />
+    <file src="files/lod/24.dds" />
+    <file src="files/lod/25.dds" />
+    <file src="files/lod/26.dds" />
+    <file src="files/lod/27.dds" />
+    <file src="files/lod/28.dds" />
+    <file src="files/lod/29.dds" />
+    <file src="files/lod/30.dds" />
+    <file src="files/lod/31.dds" />
+    <file src="files/lod/32.dds" />
+    <file src="files/lod/33.dds" />
+    <file src="files/lod/34.dds" />
+    <file src="files/lod/35.dds" />
+    <file src="files/lod/36.dds" />
+    
+    <file src="files/lod/sight/1.dds" />
+    <file src="files/lod/sight/2.dds" />
+    <file src="files/lod/sight/3.dds" />
+    <file src="files/lod/sight/4.dds" />
+    <file src="files/lod/sight/5.dds" />
+    <file src="files/lod/sight/6.dds" />
+    <file src="files/lod/sight/7.dds" />
+    <file src="files/lod/sight/8.dds" />
+    <file src="files/lod/sight/9.dds" />
+    <file src="files/lod/sight/10.dds" />
+    <file src="files/lod/sight/11.dds" />
+    <file src="files/lod/sight/12.dds" />
+    <file src="files/lod/sight/13.dds" />
+    <file src="files/lod/sight/14.dds" />
+    <file src="files/lod/sight/15.dds" />
+    
+    <file src="files/sight/1.dds" />
+    <file src="files/sight/2.dds" />
+    <file src="files/sight/3.dds" />
+    <file src="files/sight/4.dds" />
+    <file src="files/sight/5.dds" />
+    <file src="files/sight/6.dds" />
+    <file src="files/sight/7.dds" />
+    <file src="files/sight/8.dds" />
+    <file src="files/sight/9.dds" />
+    <file src="files/sight/10.dds" />
+    <file src="files/sight/11.dds" />
+    <file src="files/sight/12.dds" />
+    <file src="files/sight/13.dds" />
+    <file src="files/sight/14.dds" />
+    <file src="files/sight/15.dds" />
+    
+    <download_priority_group>-74</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

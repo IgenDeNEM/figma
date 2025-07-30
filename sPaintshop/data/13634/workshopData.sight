@@ -1,0 +1,180 @@
+[
+	{
+		"workshopPoint": 0,
+		"lastMail": 30,
+		"upgrades": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"paintshopWorks": [],
+		"maintanceData": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"mixerTank": {
+			"color": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"primer": 0,
+			"base": [
+				0,
+				0
+			]
+		},
+		"workshopPermissions": [],
+		"mails": [
+			{
+				"emailTime": 1752014697,
+				"referrer": 1,
+				"price": 90000,
+				"emailType": "offer",
+				"partNames": [
+					"Bal első ajtó",
+					"Csomagtartó"
+				],
+				"paintMetal": false,
+				"textId": 7,
+				"pictureName": "567_1_132F26.png",
+				"offerTimeout": 110,
+				"paint": "#132F26",
+				"serverDatas": {
+					"partNames": "^T^10",
+					"paint": "#132F26",
+					"maskName": "567_1_132F26_MASK.png",
+					"model": 567,
+					"price": 90000,
+					"plate": 173747,
+					"pictureName": "567_1_132F26.png",
+					"paintMetal": false
+				},
+				"customerType": 7,
+				"titleId": 3,
+				"plate": 173747,
+				"maskName": "567_1_132F26_MASK.png",
+				"from": [
+					17,
+					19
+				],
+				"model": 567
+			}
+		],
+		"gunStates": [
+			{
+				"paintType": false,
+				"paintLevel": 0,
+				"tank": false,
+				"player": false,
+				"mixer": false
+			},
+			{
+				"paintType": false,
+				"paintLevel": 0,
+				"tank": false,
+				"player": false,
+				"mixer": false
+			}
+		],
+		"stockData": [
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			]
+		]
+	}
+]

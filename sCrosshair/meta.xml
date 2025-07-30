@@ -1,0 +1,27 @@
+<meta>
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="getCrosshair" type="client" />
+    <export function="setCrosshair" type="client" />
+    
+    <file src="files/1.dds" />
+    <file src="files/2.dds" />
+    <file src="files/3.dds" />
+    <file src="files/4.dds" />
+    <file src="files/5.dds" />
+    <file src="files/6.dds" />
+    <file src="files/7.dds" />
+    <file src="files/8.dds" />
+    <file src="files/9.dds" />
+    <file src="files/10.dds" />
+    <file src="files/11.dds" />
+    <file src="files/12.dds" />
+    <file src="files/13.dds" />
+    <file src="files/14.dds" />
+    <file src="files/15.dds" />
+    <file src="files/16.dds" />
+    <file src="files/17.dds" />
+    
+    <download_priority_group>-97</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

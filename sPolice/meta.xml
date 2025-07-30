@@ -1,0 +1,66 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/cuff.dds" />
+    <file src="files/cuff.mp3" />
+    <file src="files/drop1.wav" />
+    <file src="files/drop2.wav" />
+    <file src="files/light.dds" />
+    <file src="files/punct.wav" />
+    <file src="files/ramp.wav" />
+    <file src="files/shock.mp3" />
+    <file src="files/spike.ifp" />
+    <file src="files/spike.mp3" />
+    <file src="files/visz.dds" />
+    <file src="files/walk.ifp" />
+    
+    <file src="files/rbs/rbs1.dds" />
+    <file src="files/rbs/rbs2.dds" />
+    <file src="files/rbs/rbs3.dds" />
+    <file src="files/rbs/rbs4.dds" />
+    <file src="files/rbs/rbs5.dds" />
+    <file src="files/rbs/rbs6.dds" />
+    <file src="files/rbs/rbs7.dds" />
+    <file src="files/rbs/rbs8.dds" />
+    <file src="files/rbs/rbs9.dds" />
+    <file src="files/rbs/rbs10.dds" />
+    <file src="files/rbs/rbs11.dds" />
+    <file src="files/rbs/rbs12.dds" />
+    <file src="files/rbs/rbs13.dds" />
+    <file src="files/rbs/rbs14.dds" />
+    <file src="files/rbs/rbs15.dds" />
+    <file src="files/rbs/rbs16.dds" />
+    <file src="files/rbs/rbs17.dds" />
+    <file src="files/rbs/rbs18.dds" />
+    <file src="files/rbs/rbs19.dds" />
+    <file src="files/rbs/rbs20.dds" />
+    <file src="files/rbs/rbs21.dds" />
+    <file src="files/rbs/rbs22.dds" />
+    <file src="files/rbs/rbs23.dds" />
+    <file src="files/rbs/rbs24.dds" />
+    <file src="files/rbs/rbs25.dds" />
+    <file src="files/rbs/rbs26.dds" />
+    <file src="files/rbs/rbs27.dds" />
+    <file src="files/rbs/rbs28.dds" />
+    <file src="files/rbs/rbs29.dds" />
+    <file src="files/rbs/rbs30.dds" />
+    <file src="files/rbs/rbs31.dds" />
+    <file src="files/rbs/rbs32.dds" />
+    <file src="files/rbs/rbs33.dds" />
+    <file src="files/rbs/rbs34.dds" />
+    <file src="files/rbs/rbs35.dds" />
+    <file src="files/rbs/rbs36.dds" />
+    <file src="files/rbs/rbs37.dds" />
+    <file src="files/rbs/rbs38.dds" />
+    <file src="files/rbs/rbs39.dds" />
+    <file src="files/rbs/rbs40.dds" />
+    <file src="files/rbs/rbs41.dds" />
+    <file src="files/rbs/rbs42.dds" />
+    <file src="files/rbs/rbs43.dds" />
+    <file src="files/rbs/rbs44.dds" />
+    
+    <download_priority_group>-163</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

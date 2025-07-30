@@ -1,0 +1,16 @@
+<meta>
+    <script src="mainC.luac" type="client" cache="false" />
+    <script src="switchC.luac" type="client" cache="false" />
+    
+    <file src="fx/primitive3D_ssao.fx" type="client" />
+    <file src="fx/primitive3D_ssao_dr.fx" type="client" />
+    <file src="fx/material3D_ssao.fx" type="client" />
+    <file src="fx/material3D_ssao_dr.fx" type="client" />
+    <file src="fx/ssao_dr_settings.txt" type="client" />
+    
+    <export function="setSSAOEffectState" type="client" />
+    <export function="getSSAOEffectState" type="client" />
+    
+    <download_priority_group>-174</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

@@ -1,0 +1,16 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="getVoiceVolume" type="client" />
+    <export function="setVoiceVolume" type="client" />
+    <export function="getCustomBind" type="client" />
+    <export function="setCustomBind" type="client" />
+    <export function="setCallState" type="client" />
+    
+    <file src="files/radioff.mp3" />
+    <file src="files/radion.mp3" />
+    
+    <download_priority_group>-197</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

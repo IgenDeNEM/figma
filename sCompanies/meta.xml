@@ -1,0 +1,29 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="invoiceC.luac" type="client" cache="false" />
+    
+    <export function="createInvoice" type="client" />
+    <export function="createInvoiceBook" type="client" />
+    <export function="deleteInvoice" type="client" />
+    <export function="deleteInvoiceBook" type="client" />
+    
+    <file src="files/bg.dds" />
+    <file src="files/grunge.dds" />
+    <file src="files/load.dds" />
+    <file src="files/load2.dds" />
+    <file src="files/lunabar.ttf" />
+    <file src="files/mathilde.otf" />
+    
+    <file src="files/over.dds" />
+    <file src="files/over2.dds" />
+    
+    <file src="files/paper.wav" />
+    <file src="files/paper1.mp3" />
+    <file src="files/paper2.mp3" />
+    
+    <download_priority_group>-91</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

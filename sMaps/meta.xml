@@ -1,0 +1,14 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <script src="removeC.luac" type="client" cache="false" />
+    
+    <script src="editorC.luac" type="client" cache="false" />
+    <script src="editorS.lua" type="server" />
+    
+    <export function="processMapData" type="client" />
+    
+    <download_priority_group>-142</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

@@ -1,0 +1,58 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export type="client" function="openChest" />
+    
+    <file src="files/bogyesz.dds" />
+    <file src="files/boxfall.wav" />
+    <file src="files/csilla.dds" />
+    <file src="files/end.wav" />
+    <file src="files/fiddlerscove.ttf" />
+    <file src="files/iname.dds" />
+    <file src="files/item.dds" />
+    <file src="files/items.dds" />
+    <file src="files/itemHover.dds" />
+    
+    <file src="files/logo.dds" />
+    <file src="files/logof.dds" />
+    <file src="files/logom.dds" />
+    <file src="files/logos.dds" />
+    
+    <file src="files/map.dds" />
+    
+    <file src="files/nota.wav" />
+    <file src="files/nota2.wav" />
+    <file src="files/notaf.wav" />
+    <file src="files/notaf2.wav" />
+    <file src="files/notam.wav" />
+    <file src="files/notam2.wav" />
+    
+    <file src="files/notas.wav" />
+    <file src="files/notas2.wav" />
+    
+    <file src="files/shad.dds" />
+    
+    <file src="files/shine.dds" />
+    <file src="files/shine2.dds" />
+    
+    <file src="files/spin.wav" />
+    <file src="files/spinf.wav" />
+    <file src="files/spinm.wav" />
+    <file src="files/spins.wav" />
+    
+    <file src="files/waawin.wav" />
+    <file src="files/waawinf.wav" />
+    <file src="files/waawinm.wav" />
+    
+    <file src="files/Whoo1.wav" />
+    <file src="files/Whoo2.wav" />
+    <file src="files/Whoo3.wav" />
+    <file src="files/Whoo4.wav" />
+    
+    <file src="files/win.dds" />
+    
+    <download_priority_group>-87</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

@@ -1,0 +1,13 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="refreshSprintControls" type="client" />
+    <export function="toggleControl" type="client" />
+    <export function="toggleAllControls" type="client" />
+    <export function="toggleControl" type="server" />
+    <export function="toggleAllControls" type="server" />
+    
+    <download_priority_group>-94</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

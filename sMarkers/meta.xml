@@ -1,0 +1,74 @@
+<meta>
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export type="client" function="getCustomMarkerTexture" />
+    <export type="client" function="setCustomMarkerText" />
+    <export type="client" function="setCustomMarkerColor" />
+    <export type="client" function="setCustomMarkerType" />
+    <export type="client" function="setCustomMarkerPosition" />
+    <export type="client" function="setCustomMarkerInt" />
+    <export type="client" function="setCustomMarkerDimension" />
+    <export type="client" function="deleteCustomMarker" />
+    <export type="client" function="setCustomMarkerInterior" />
+    <export type="client" function="setCustomMarkerPolice" />
+    <export type="client" function="createCustomMarker" />
+    <export type="client" function="setMarkedVehicle" />
+    <export type="client" function="setCustomMarkerMarked" />
+    
+    <file src="files/armor.dds" />
+    <file src="files/briefcase.dds" />
+    <file src="files/arrow.dds" />
+    <file src="files/arrow2.dds" />
+    <file src="files/barn_rent.dds" />
+    <file src="files/barn.dds" />
+    <file src="files/bike.dds" />
+    <file src="files/boat.dds" />
+    <file src="files/boatsale.dds" />
+    <file src="files/building.dds" />
+    <file src="files/business_group.dds" />
+    <file src="files/business_sale.dds" />
+    <file src="files/business.dds" />
+    <file src="files/car.dds" />
+    <file src="files/carsale.dds" />
+    <file src="files/cctv.dds" />
+    <file src="files/charset.dds" />
+    <file src="files/cloth.dds" />
+    <file src="files/cloth2.dds" />
+    <file src="files/door_group.dds" />
+    <file src="files/door_sale.dds" />
+    <file src="files/door.dds" />
+    <file src="files/duty.dds" />
+    
+    <file src="files/garage_group.dds" />
+    <file src="files/garage_paint_rent.dds" />
+    <file src="files/garage_paint.dds" />
+    <file src="files/garage_sale.dds" />
+    <file src="files/garage_rent.dds" />
+    <file src="files/garage.dds" />
+    
+    <file src="files/egg.dds" />
+    <file src="files/deal.dds" />
+    <file src="files/gift.dds" />
+    <file src="files/helicopter.dds" />
+    <file src="files/helisale.dds" />
+    <file src="files/house_group.dds" />
+    <file src="files/house_sale.dds" />
+    <file src="files/house.dds" />
+    <file src="files/lift_group.dds" />
+    <file src="files/lift_sale.dds" />
+    <file src="files/lift.dds" />
+    <file src="files/mdc.dds" />
+    <file src="files/medic.dds" />
+    <file src="files/police.dds" />
+    <file src="files/rentable_forrent.dds" />
+    <file src="files/seedyno.dds" />
+    <file src="files/stairs_group.dds" />
+    <file src="files/stairs_sale.dds" />
+    <file src="files/stairs.dds" />
+    <file src="files/tuning.dds" />
+    <file src="files/yunk.dds" />
+    <file src="files/mine.dds" />
+    
+    <download_priority_group>-143</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

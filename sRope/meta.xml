@@ -1,0 +1,8 @@
+<meta>
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="createRopeAttachedTo" type="client" />
+    
+    <download_priority_group>-171</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

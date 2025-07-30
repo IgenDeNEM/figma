@@ -1,0 +1,161 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="handlingS.lua" type="server" />
+    <script src="vehicleDatasG.luac" type="shared" cache="false" />
+    
+    <script src="soundC.luac" type="client" cache="false" />
+    <script src="wheelSizeC.luac" type="client" cache="false" />
+    <script src="doorC.luac" type="client" cache="false" />
+    
+    
+    <export function="getSuperChargerOffset" type="shared" />
+    <export function="getModelHandlingOverride" type="server" />
+    <export function="getFuelType" type="shared" />
+    <export function="getSuperChargerOffset" type="shared" />
+    <export function="getTankSize" type="shared" />
+    <export function="getFuelConsumption" type="shared" />
+    <export function="getBatteryValues" type="shared" />
+    
+    <export function="getPlayerVehicles" type="server" />
+    <export function="saveOdoMeter" type="server" />
+    <export function="getOdoMeter" type="server" />
+    <export function="createPermVehicle" type="server" />
+    <export function="destroyVehicle" type="server" />
+    <export function="getVehicleEcuData" type="server" />
+    <export function="saveVehicleEcuData" type="server" />
+    <export function="resetVehicle" type="server" />
+    
+    <export function="updateSpeedoVehicleLight" type="client" />
+    <export function="startClipping" type="client" />
+    <export function="stopClipping" type="client" />
+    <export function="updateSpeedoVehicle" type="client" />
+    <export function="canShowVehicleLoader" type="client" />
+    <export function="setFumeDisable" type="client" />
+    <export function="processSuperCharger" type="client" />
+    <export function="createPreviewSupercharger" type="client" />
+    <export function="deleteSuperCharger" type="client" />
+    <export function="getAvailableFuelTypes" type="client" />
+    <export function="resetPreviewSuperchargers" type="client" />
+    <export function="previewTurboSound" type="client" />
+    <export function="getBatteryValues" type="client" />
+    
+    
+    <file src="files/turbo/base.dds" />
+    <file src="files/turbo/indicator.dds" />
+    <file src="files/turbo/light.dds" />
+    <file src="files/turbo/light2.dds" />
+    <file src="files/turbo/line.dds" />
+    <file src="files/turbo/redline.dds" />
+    <file src="files/turbo/section.dds" />
+    <file src="files/turbo/section2.dds" />
+    
+    <file src="files/batt1.mp3" />
+    <file src="files/batt2.mp3" />
+    <file src="files/batt3.mp3" />
+    <file src="files/batt4.mp3" />
+    <file src="files/batt5.mp3" />
+    
+    <file src="files/dooropen.mp3" />
+    <file src="files/doorclose.mp3" />
+    
+    <file src="files/battin1.mp3" />
+    <file src="files/battin2.mp3" />
+    
+    <file src="files/boff1.wav" />
+    <file src="files/boff2.wav" />
+    <file src="files/boff3.wav" />
+    <file src="files/boff4.wav" />
+    <file src="files/boff5.wav" />
+    <file src="files/boff6.wav" />
+    <file src="files/boff7.wav" />
+    <file src="files/boff8.wav" />
+    <file src="files/boff9.wav" />
+    <file src="files/boff10.wav" />
+    <file src="files/boff11.wav" />
+    <file src="files/boff12.wav" />
+    <file src="files/boff13.wav" />
+    <file src="files/boff14.wav" />
+    <file src="files/boff15.wav" />
+    <file src="files/boff16.wav" />
+    <file src="files/boff17.wav" />
+    <file src="files/boff18.wav" />
+    
+    <file src="files/cardebris1.dds" />
+    <file src="files/cardebris2.dds" />
+    <file src="files/cardebris3.dds" />
+    <file src="files/cardebris4.dds" />
+    <file src="files/cardebris5.dds" />
+    
+    <file src="files/charge.wav" />
+    
+    <file src="files/clip.dds" />
+    <file src="files/clip2.dds" />
+    
+    <file src="files/collisionsmoke.dds" />
+    
+    <file src="files/crash1.dds" />
+    <file src="files/crash2.dds" />
+    <file src="files/crash3.dds" />
+    <file src="files/crash4.dds" />
+    
+    <file src="files/crash1.mp3" />
+    <file src="files/crash2.mp3" />
+    <file src="files/crash3.mp3" />
+    <file src="files/crash4.mp3" />
+    <file src="files/crash5.mp3" />
+    <file src="files/crash6.mp3" />
+    <file src="files/crash7.mp3" />
+    <file src="files/crash8.mp3" />
+    <file src="files/crash9.mp3" />
+    
+    <file src="files/ekszij1.mp3" />
+    <file src="files/ekszij2.mp3" />
+    
+    <file src="files/elon.mp3" />
+    <file src="files/eloff.mp3" />
+    
+    <file src="files/kerreges.mp3" />
+    
+    <file src="files/key.mp3" />
+    <file src="files/lock_in.mp3" />
+    <file src="files/lock_out.mp3" />
+    
+    <file src="files/newengine.mp3" />
+    <file src="files/newengine2.mp3" />
+    <file src="files/newengine3.mp3" />
+    <file src="files/newengine4.mp3" />
+    
+    <file src="files/old_turbo.mp3" />
+    
+    <file src="files/shard1.dds" />
+    <file src="files/shard2.dds" />
+    <file src="files/shard3.dds" />
+    <file src="files/shard4.dds" />
+    <file src="files/shard5.dds" />
+    
+    <file src="files/sp1.dds" />
+    <file src="files/sp2.dds" />
+    
+    <file src="files/started.mp3" />
+    <file src="files/starting.mp3" />
+    
+    <file src="files/texturechanger.fx" />
+    
+    <file src="files/turbo1.wav" />
+    <file src="files/turbo2.wav" />
+    <file src="files/turbo3.wav" />
+    <file src="files/turbo4.wav" />
+    <file src="files/turbo5.wav" />
+    <file src="files/turbo6.wav" />
+    <file src="files/turbo7.wav" />
+    <file src="files/turbo8.wav" />
+    
+    <file src="files/unlock_in.mp3" />
+    
+    <file src="files/whine.wav" />
+    
+    <download_priority_group>-10</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

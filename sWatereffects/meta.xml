@@ -1,0 +1,17 @@
+<meta>
+    <script src="client/CoreClassC.luac" type="client" cache="false" />
+    <script src="shared/classlib.lua" type="client" cache="false" />
+    
+    <export function="setWaterEffectState" type="client" />
+    <export function="getWaterEffectState" type="client" />
+    
+    <file src="res/shaders/waterEffects.fx" />
+    <file src="res/textures/waterDrop.png" />
+    <file src="res/textures/waterNormal.png" />
+    
+    
+    <oop>true</oop>
+    
+    <download_priority_group>-200</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

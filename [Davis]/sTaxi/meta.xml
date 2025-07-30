@@ -1,0 +1,28 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="setTaxiCheckoutData" type="client" />
+    <export function="getTaxiPosition" type="shared" />
+    
+    <file src="files/back.dds" />
+    <file src="files/btnoff.dds" />
+    <file src="files/btnon.dds" />
+    <file src="files/fore.dds" />
+    <file src="files/paper.dds" />
+    <file src="files/papgrad.dds" />
+    
+    <file src="files/paper.wav" />
+    
+    <file src="files/beep1.mp3" />
+    <file src="files/beep2.mp3" />
+    <file src="files/beep3.mp3" />
+    <file src="files/receipt.mp3" />
+    
+    <file src="files/ThermalPrinter.ttf" />
+    <file src="files/DePixelHalbfett.ttf" />
+    
+    <download_priority_group>-186</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

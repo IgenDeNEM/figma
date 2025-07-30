@@ -1,0 +1,31 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="vehicleS.lua" type="server" />
+    <script src="flyC.luac" type="client" cache="false" />
+    <script src="spectateC.luac" type="client" cache="false" />
+    
+    <export function="getTogKick" type="client" />
+    <export function="setTogKick" type="client" />
+    <export function="getPlayerAdminTitle" type="shared" />
+    <export function="getPlayerAdminTitleLOG" type="shared" />
+    <export function="isPlayerInAdminDuty" type="shared" />
+    <export function="getFly" type="client" />
+    <export function="showMessageForAdmins" type="server" />
+    <export function="getSpectatePlayers" type="server" />
+    <export function="findVehicle" type="server" />
+    
+    <file src="files/1.png" />
+    <file src="files/2.png" />
+    <file src="files/3.png" />
+    <file src="files/4.png" />
+    <file src="files/5.png" />
+    
+    <file src="files/asay.wav" />
+    <file src="files/elec.mp3" />
+    
+    <download_priority_group>-9</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

@@ -1,0 +1,39 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/admiral_lights.dds" />
+    <file src="files/texturechanger.fx" />
+    <file src="files/ball.dds" />
+    <file src="files/bubble.dds" />
+    <file src="files/cards.dds" />
+    <file src="files/cash.dds" />
+    <file src="files/coins.dds" />
+    
+    <file src="files/fish1.dds" />
+    <file src="files/fish2.dds" />
+    <file src="files/fish3.dds" />
+    <file src="files/fish4.dds" />
+    <file src="files/fish5.dds" />
+    
+    <file src="files/fruit.dds" />
+    <file src="files/glass.dds" />
+    
+    <file src="files/lcd1.dds" />
+    <file src="files/lcd2.dds" />
+    <file src="files/lcd3.dds" />
+    <file src="files/lcd4.dds" />
+    <file src="files/lcd5.dds" />
+    <file src="files/lcd6.dds" />
+    <file src="files/lcd71.dds" />
+    <file src="files/lcd72.dds" />
+    <file src="files/lcd81.dds" />
+    <file src="files/lcd82.dds" />
+    
+    <file src="files/neon.dds" />
+    <file src="files/neon2.dds" />
+    
+    <download_priority_group>-85</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

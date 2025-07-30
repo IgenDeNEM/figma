@@ -1,0 +1,6 @@
+<meta>
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    
+    <download_priority_group>-62</download_priority_group>
+</meta>

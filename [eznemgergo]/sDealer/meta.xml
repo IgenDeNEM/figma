@@ -1,0 +1,22 @@
+<meta>
+    <script src="sourceG-obfuscated.luac" type="shared" cache="false" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    
+    <export function="getDealDetails" type="server" />
+    <export function="doHasDelivery" type="client" />
+    <export function="getDelivery" type="client" />
+    <export function="getAppState" type="client" />
+    <export function="unsubscribeToAdvertisementList" type="client" />
+    <export function="subscribeToAdvertisementList" type="client" />
+    <export function="formatResponseMessage" type="client" />
+    <export function="formatBuyerResponseMessage" type="client" />
+    <export function="startDelivery" type="client" />
+    <export function="getAdMessage" type="client" />
+    <export function="getAdvertisement" type="client" />
+    <export function="getAdvertisementNum" type="client" />
+    <export function="getAdvertisementId" type="client" />
+    <export function="formatAdMessage" type="client" />
+    
+    <download_priority_group>-207</download_priority_group>
+</meta>

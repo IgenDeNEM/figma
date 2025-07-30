@@ -1,0 +1,31 @@
+<meta>
+    <script src="sourceG.lua" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="pickItem" type="shared" />
+    <export function="getDetailsForWeight" type="shared" />
+    <export function="getOpenPoses" type="shared" />
+    <export function="getOpenPos" type="shared" />
+    
+    <export function="startCrateOpening" type="server" />
+    
+    <file src="files/cut.dds" />
+    <file src="files/cut.mp3" />
+    <file src="files/gecus.dds" />
+    <file src="files/mta-helper.fx" />
+    <file src="files/pop.mp3" />
+    <file src="files/money.mp3" />
+    
+    <file src="files/loop.mp3" />
+    <file src="files/loot1.mp3" />
+    <file src="files/loot2.mp3" />
+    
+    <file src="files/move1.mp3" />
+    <file src="files/move2.mp3" />
+    <file src="files/move3.mp3" />
+    <file src="files/move4.mp3" />
+    
+    <download_priority_group>-96</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

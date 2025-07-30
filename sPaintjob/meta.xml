@@ -1,0 +1,447 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="dataG.luac" type="shared" cache="false" />
+    <script src="textureCacheC.luac" type="client" cache="false" />
+    
+    <export function="getVehicleHeadlight" type="client" />
+    <export function="getWheelPaintJobCount" type="client" />
+    <export function="getHeadlightPaintJobCount" type="client" />
+    <export function="removeVehicleCurrentPjTexture" type="client" />
+    <export function="maybeApplyVehicleStoredPj" type="client" />
+    <export function="removeVehicleCurrentHeadlightTexture" type="client" />
+    <export function="maybeApplyVehicleStoredHeadlight" type="client" />
+    <export function="removeVehicleCurrentWheelTexture" type="client" />
+    <export function="maybeApplyVehicleStoredWheel" type="client" />
+    <export function="getVehiclePJ" type="client" />
+    <export function="getVehicleWheel" type="client" />
+    
+    <export function="isTextureValid" type="shared" />
+    <export function="getCustomPrice" type="shared" />
+    
+    <file src="textures/car_trailer/1.dds" />
+    <file src="textures/car_trailer/2.dds" />
+    <file src="textures/car_trailer/3.dds" />
+    
+    <file src="textures/emergency_sight/audi_q7/army.dds" />
+    <file src="textures/emergency_sight/audi_q7/army2.dds" />
+    <file src="textures/emergency_sight/audi_q7/nav.dds" />
+    <file src="textures/emergency_sight/audi_q7/okf.dds" />
+    <file src="textures/emergency_sight/audi_q7/pd.dds" />
+    
+    <file src="textures/emergency_sight/audi_rs6/nav.dds" />
+    <file src="textures/emergency_sight/audi_rs6/okf.dds" />
+    <file src="textures/emergency_sight/audi_rs6/omsz1.dds" />
+    <file src="textures/emergency_sight/audi_rs6/omsz2.dds" />
+    <file src="textures/emergency_sight/audi_rs6/pd.dds" />
+    
+    <file src="textures/emergency_sight/audi_tt/army1.dds" />
+    <file src="textures/emergency_sight/audi_tt/army2.dds" />
+    <file src="textures/emergency_sight/audi_tt/nav.dds" />
+    <file src="textures/emergency_sight/audi_tt/okf.dds" />
+    <file src="textures/emergency_sight/audi_tt/pd1.dds" />
+    <file src="textures/emergency_sight/audi_tt/pd2.dds" />
+    
+    <file src="textures/emergency_sight/bmw_f11/army1.dds" />
+    <file src="textures/emergency_sight/bmw_f11/army2.dds" />
+    <file src="textures/emergency_sight/bmw_f11/nav.dds" />
+    <file src="textures/emergency_sight/bmw_f11/omsz.dds" />
+    <file src="textures/emergency_sight/bmw_f11/pd.dds" />
+    
+    <file src="textures/emergency_sight/firetruck/1.dds" />
+    
+    <file src="textures/emergency_sight/police_maverick/heli1.dds" />
+    <file src="textures/emergency_sight/police_maverick/heli2.dds" />
+    <file src="textures/emergency_sight/police_maverick/heli3.dds" />
+    <file src="textures/emergency_sight/police_maverick/heli4.dds" />
+    <file src="textures/emergency_sight/police_maverick/heli5.dds" />
+    <file src="textures/emergency_sight/police_maverick/heli6.dds" />
+    <file src="textures/emergency_sight/police_maverick/heli7.dds" />
+    
+    <file src="textures/emergency_sight/skoda_octavia/army.dds" />
+    <file src="textures/emergency_sight/skoda_octavia/army2.dds" />
+    <file src="textures/emergency_sight/skoda_octavia/nav.dds" />
+    <file src="textures/emergency_sight/skoda_octavia/okf.dds" />
+    <file src="textures/emergency_sight/skoda_octavia/omsz.dds" />
+    <file src="textures/emergency_sight/skoda_octavia/pd.dds" />
+    
+    <file src="textures/emergency_sight/sprinter/army.dds" />
+    <file src="textures/emergency_sight/sprinter/nav.dds" />
+    <file src="textures/emergency_sight/sprinter/okf.dds" />
+    <file src="textures/emergency_sight/sprinter/omsz.dds" />
+    <file src="textures/emergency_sight/sprinter/pd.dds" />
+    
+    <file src="textures/emergency_sight/bearcat/1.dds" />
+    
+    <file src="textures/futo/1.dds" />
+    <file src="textures/futo/2.dds" />
+    <file src="textures/futo/3.dds" />
+    <file src="textures/futo/4.dds" />
+    
+    <file src="textures/headlight/audi_a8/1.dds" />
+    <file src="textures/headlight/audi_a8/2.dds" />
+    <file src="textures/headlight/audi_a8/3.dds" />
+    
+    <file src="textures/headlight/bmw_3_series_g20/1.dds" />
+    
+    <file src="textures/headlight/bmw_3_series_e46/1.dds" />
+    <file src="textures/headlight/bmw_3_series_e46/2.dds" />
+    <file src="textures/headlight/bmw_3_series_e46/3.dds" />
+    <file src="textures/headlight/bmw_3_series_e46/4.dds" />
+    
+    <file src="textures/headlight/bmw_5_series_e34/1.dds" />
+    <file src="textures/headlight/bmw_5_series_e34/2.dds" />
+    <file src="textures/headlight/bmw_5_series_e34/3.dds" />
+    <file src="textures/headlight/bmw_5_series_e34/4.dds" />
+    <file src="textures/headlight/bmw_5_series_e34/5.dds" />
+    <file src="textures/headlight/bmw_5_series_e34/6.dds" />
+    
+    <file src="textures/headlight/bmw_5_series_e60/1.dds" />
+    <file src="textures/headlight/bmw_5_series_e60/2.dds" />
+    <file src="textures/headlight/bmw_5_series_e60/3.dds" />
+    <file src="textures/headlight/bmw_5_series_e60/4.dds" />
+    <file src="textures/headlight/bmw_5_series_e60/5.dds" />
+    <file src="textures/headlight/bmw_5_series_e60/6.dds" />
+    
+    <file src="textures/headlight/bmw_7_series_e38/1.dds" />
+    <file src="textures/headlight/bmw_7_series_e38/2.dds" />
+    <file src="textures/headlight/bmw_7_series_e38/3.dds" />
+    <file src="textures/headlight/bmw_7_series_e38/4.dds" />
+    <file src="textures/headlight/bmw_7_series_e38/5.dds" />
+    <file src="textures/headlight/bmw_7_series_e38/6.dds" />
+    <file src="textures/headlight/bmw_7_series_e38/7.dds" />
+    <file src="textures/headlight/bmw_7_series_e38/8.dds" />
+    <file src="textures/headlight/bmw_7_series_e38/9.dds" />
+    <file src="textures/headlight/bmw_7_series_e38/10.dds" />
+    <file src="textures/headlight/bmw_7_series_e38/11.dds" />
+    
+    <file src="textures/headlight/bmw_m635/1.dds" />
+    <file src="textures/headlight/bmw_m635/2.dds" />
+    <file src="textures/headlight/bmw_m635/3.dds" />
+    
+    <file src="textures/headlight/chevrolet_caprice_87/1.dds" />
+    <file src="textures/headlight/chevrolet_caprice_87/2.dds" />
+    <file src="textures/headlight/chevrolet_caprice_87/3.dds" />
+    <file src="textures/headlight/chevrolet_caprice_87/4.dds" />
+    <file src="textures/headlight/chevrolet_caprice_87/5.dds" />
+    <file src="textures/headlight/chevrolet_caprice_87/6.dds" />
+    <file src="textures/headlight/chevrolet_caprice_87/7.dds" />
+    <file src="textures/headlight/chevrolet_caprice_87/8.dds" />
+    <file src="textures/headlight/chevrolet_caprice_87/9.dds" />
+    
+    <file src="textures/headlight/ford_mustang_gt/1.dds" />
+    <file src="textures/headlight/ford_mustang_gt/2.dds" />
+    
+    <file src="textures/headlight/honda_civic/1.dds" />
+    <file src="textures/headlight/honda_civic/2.dds" />
+    <file src="textures/headlight/honda_civic/3.dds" />
+    <file src="textures/headlight/honda_civic/4.dds" />
+    <file src="textures/headlight/honda_civic/5.dds" />
+    <file src="textures/headlight/honda_civic/6.dds" />
+    <file src="textures/headlight/honda_civic/7.dds" />
+    
+    <file src="textures/headlight/mercedes-benz_amg_gt/1.dds" />
+    
+    <file src="textures/headlight/mercedes-benz_w220/1.dds" />
+    <file src="textures/headlight/mercedes-benz_w220/2.dds" />
+    <file src="textures/headlight/mercedes-benz_w220/3.dds" />
+    <file src="textures/headlight/mercedes-benz_w220/4.dds" />
+    <file src="textures/headlight/mercedes-benz_w220/5.dds" />
+    
+    <file src="textures/headlight/nissan_240sx/1.dds" />
+    <file src="textures/headlight/nissan_240sx/2.dds" />
+    <file src="textures/headlight/nissan_240sx/3.dds" />
+    <file src="textures/headlight/nissan_240sx/4.dds" />
+    
+    <file src="textures/headlight/nissan_skyline_r34_gtr/1.dds" />
+    <file src="textures/headlight/nissan_skyline_r34_gtr/2.dds" />
+    <file src="textures/headlight/nissan_skyline_r34_gtr/3.dds" />
+    <file src="textures/headlight/nissan_skyline_r34_gtr/4.dds" />
+    <file src="textures/headlight/nissan_skyline_r34_gtr/5.dds" />
+    <file src="textures/headlight/nissan_skyline_r34_gtr/6.dds" />
+    <file src="textures/headlight/nissan_skyline_r34_gtr/7.dds" />
+    <file src="textures/headlight/nissan_skyline_r34_gtr/8.dds" />
+    
+    <file src="textures/headlight/toyota_supra_a90/1.dds" />
+    
+    <file src="textures/headlight/volkswagen_scirocco/1.dds" />
+    <file src="textures/headlight/volkswagen_scirocco/2.dds" />
+    <file src="textures/headlight/volkswagen_scirocco/3.dds" />
+    <file src="textures/headlight/volkswagen_scirocco/4.dds" />
+    <file src="textures/headlight/volkswagen_scirocco/5.dds" />
+    <file src="textures/headlight/volkswagen_scirocco/6.dds" />
+    
+    <file src="textures/headlight/w206/1.dds" />
+    <file src="textures/headlight/w206/2.dds" />
+    
+    <file src="textures/headlight/vw_golf_vii/1.dds" />
+    
+    <file src="textures/headlight/ram1500/1.dds" />
+    
+    <file src="textures/headlight_sight/audi_80/1.dds" />
+    <file src="textures/headlight_sight/audi_80/2.dds" />
+    
+    <file src="textures/headlight_sight/audi_a6/1.dds" />
+    
+    <file src="textures/headlight_sight/bmw_x5/1.dds" />
+    <file src="textures/headlight_sight/bmw_x5/2.dds" />
+    <file src="textures/headlight_sight/bmw_x5/3.dds" />
+    <file src="textures/headlight_sight/bmw_x5/4.dds" />
+    <file src="textures/headlight_sight/bmw_x5/5.dds" />
+    
+    <file src="textures/headlight_sight/seat_leon/1.dds" />
+    
+    <file src="textures/headlight_sight/skoda_octavia/1.dds" />
+    <file src="textures/headlight_sight/skoda_octavia/2.dds" />
+    <file src="textures/headlight_sight/skoda_octavia/3.dds" />
+    <file src="textures/headlight_sight/skoda_octavia/4.dds" />
+    
+    <file src="textures/headlight_sight/volkswagen_bora/1.dds" />
+    
+    <file src="textures/headlight_sight/volkswagen_golf_v/1.dds" />
+    <file src="textures/headlight_sight/volkswagen_golf_v/2.dds" />
+    <file src="textures/headlight_sight/volkswagen_golf_v/3.dds" />
+    
+    <file src="textures/oktato_sight/e420.dds" />
+    <file src="textures/oktato_sight/golfv.dds" />
+    <file src="textures/oktato_sight/passat.dds" />
+    
+    <file src="textures/packer/empty.dds" />
+    <file src="textures/packer/pf.dds" />
+    <file src="textures/packer_sight/apms.dds" />
+    <file src="textures/packer_sight/bms.dds" />
+    <file src="textures/packer_sight/fix.dds" />
+    
+    <file src="textures/taxi_sight/190evo.dds" />
+    <file src="textures/taxi_sight/a8d4.dds" />
+    <file src="textures/taxi_sight/bora.dds" />
+    <file src="textures/taxi_sight/caprice.dds" />
+    <file src="textures/taxi_sight/caravelle.dds" />
+    <file src="textures/taxi_sight/e34.dds" />
+    <file src="textures/taxi_sight/e38.dds" />
+    <file src="textures/taxi_sight/e60.dds" />
+    <file src="textures/taxi_sight/evo1.dds" />
+    <file src="textures/taxi_sight/evo2.dds" />
+    <file src="textures/taxi_sight/f11.dds" />
+    <file src="textures/taxi_sight/focus.dds" />
+    <file src="textures/taxi_sight/giulia.dds" />
+    <file src="textures/taxi_sight/golfv.dds" />
+    <file src="textures/taxi_sight/golfvii.dds" />
+    <file src="textures/taxi_sight/impreza.dds" />
+    <file src="textures/taxi_sight/lada.dds" />
+    <file src="textures/taxi_sight/leon.dds" />
+    <file src="textures/taxi_sight/m4.dds" />
+    <file src="textures/taxi_sight/m81.dds" />
+    <file src="textures/taxi_sight/m82.dds" />
+    <file src="textures/taxi_sight/octaviamk1.dds" />
+    <file src="textures/taxi_sight/passat.dds" />
+    <file src="textures/taxi_sight/range.dds" />
+    <file src="textures/taxi_sight/rs4b8.dds" />
+    <file src="textures/taxi_sight/rs6c7.dds" />
+    <file src="textures/taxi_sight/sprinter.dds" />
+    <file src="textures/taxi_sight/w212.dds" />
+    <file src="textures/taxi_sight/w220.dds" />
+    <file src="textures/taxi_sight/x5.dds" />
+    
+    <file src="textures/migutrans/1.dds" />
+    <file src="textures/migutrans/2.dds" />
+    <file src="textures/migutrans/3.dds" />
+    <file src="textures/migutrans/4.dds" />
+    <file src="textures/migutrans/5.dds" />
+    <file src="textures/migutrans/6.dds" />
+    <file src="textures/migutrans/7.dds" />
+    <file src="textures/migutrans/8.dds" />
+    <file src="textures/migutrans/9.dds" />
+    <file src="textures/migutrans/10.dds" />
+    <file src="textures/migutrans/11.dds" />
+    <file src="textures/migutrans/12.dds" />
+    <file src="textures/migutrans/13.dds" />
+    <file src="textures/migutrans/14.dds" />
+    <file src="textures/migutrans/15.dds" />
+    <file src="textures/migutrans/16.dds" />
+    <file src="textures/migutrans/17.dds" />
+    <file src="textures/migutrans/18.dds" />
+    
+    <file src="textures/wheels/audi_a8/1.dds" />
+    <file src="textures/wheels/bmw_e60/1.dds" />
+    
+    <file src="textures/wheels/bmw_m4/1.dds" />
+    <file src="textures/wheels/bmw_m4/2.dds" />
+    <file src="textures/wheels/bmw_m4/3.dds" />
+    <file src="textures/wheels/bmw_m4/4.dds" />
+    <file src="textures/wheels/bmw_m4/5.dds" />
+    
+    <file src="textures/wheels/caprice/1.dds" />
+    <file src="textures/wheels/caprice/2.dds" />
+    <file src="textures/wheels/caprice/3.dds" />
+    
+    <file src="textures/wheels/drag/1.dds" />
+    <file src="textures/wheels/drag/2.dds" />
+    <file src="textures/wheels/drag/3.dds" />
+    
+    <file src="textures/wheels/hubcaps/1.dds" />
+    <file src="textures/wheels/hubcaps/2.dds" />
+    <file src="textures/wheels/hubcaps/3.dds" />
+    <file src="textures/wheels/hubcaps/4.dds" />
+    <file src="textures/wheels/hubcaps/5.dds" />
+    <file src="textures/wheels/hubcaps/6.dds" />
+    <file src="textures/wheels/hubcaps/7.dds" />
+    <file src="textures/wheels/hubcaps/8.dds" />
+    <file src="textures/wheels/hubcaps/9.dds" />
+    <file src="textures/wheels/hubcaps/10.dds" />
+    <file src="textures/wheels/hubcaps/11.dds" />
+    <file src="textures/wheels/hubcaps/12.dds" />
+    <file src="textures/wheels/hubcaps/13.dds" />
+    <file src="textures/wheels/hubcaps/14.dds" />
+    <file src="textures/wheels/hubcaps/15.dds" />
+    <file src="textures/wheels/hubcaps/16.dds" />
+    <file src="textures/wheels/hubcaps/17.dds" />
+    <file src="textures/wheels/hubcaps/18.dds" />
+    <file src="textures/wheels/hubcaps/19.dds" />
+    <file src="textures/wheels/hubcaps/20.dds" />
+    <file src="textures/wheels/hubcaps/21.dds" />
+    <file src="textures/wheels/hubcaps/22.dds" />
+    <file src="textures/wheels/hubcaps/23.dds" />
+    <file src="textures/wheels/hubcaps/24.dds" />
+    <file src="textures/wheels/hubcaps/25.dds" />
+    <file src="textures/wheels/hubcaps/26.dds" />
+    <file src="textures/wheels/hubcaps/27.dds" />
+    <file src="textures/wheels/hubcaps/28.dds" />
+    <file src="textures/wheels/hubcaps/29.dds" />
+    <file src="textures/wheels/hubcaps/30.dds" />
+    <file src="textures/wheels/hubcaps/31.dds" />
+    <file src="textures/wheels/hubcaps/32.dds" />
+    <file src="textures/wheels/hubcaps/33.dds" />
+    <file src="textures/wheels/hubcaps/34.dds" />
+    <file src="textures/wheels/hubcaps/35.dds" />
+    <file src="textures/wheels/hubcaps/36.dds" />
+    <file src="textures/wheels/hubcaps/37.dds" />
+    <file src="textures/wheels/hubcaps/38.dds" />
+    <file src="textures/wheels/hubcaps/39.dds" />
+    <file src="textures/wheels/hubcaps/40.dds" />
+    <file src="textures/wheels/hubcaps/41.dds" />
+    <file src="textures/wheels/hubcaps/42.dds" />
+    <file src="textures/wheels/hubcaps/43.dds" />
+    <file src="textures/wheels/hubcaps/44.dds" />
+    <file src="textures/wheels/hubcaps/45.dds" />
+    <file src="textures/wheels/hubcaps/46.dds" />
+    <file src="textures/wheels/hubcaps/47.dds" />
+    <file src="textures/wheels/hubcaps/48.dds" />
+    <file src="textures/wheels/hubcaps/49.dds" />
+    <file src="textures/wheels/hubcaps/50.dds" />
+    <file src="textures/wheels/hubcaps/51.dds" />
+    <file src="textures/wheels/hubcaps/52.dds" />
+    <file src="textures/wheels/hubcaps/53.dds" />
+    <file src="textures/wheels/hubcaps/54.dds" />
+    <file src="textures/wheels/hubcaps/55.dds" />
+    <file src="textures/wheels/hubcaps/56.dds" />
+    <file src="textures/wheels/hubcaps/57.dds" />
+    <file src="textures/wheels/hubcaps/58.dds" />
+    <file src="textures/wheels/hubcaps/59.dds" />
+    <file src="textures/wheels/hubcaps/60.dds" />
+    <file src="textures/wheels/hubcaps/61.dds" />
+    <file src="textures/wheels/hubcaps/62.dds" />
+    <file src="textures/wheels/hubcaps/63.dds" />
+    <file src="textures/wheels/hubcaps/64.dds" />
+    <file src="textures/wheels/hubcaps/65.dds" />
+    <file src="textures/wheels/hubcaps/66.dds" />
+    <file src="textures/wheels/hubcaps/67.dds" />
+    <file src="textures/wheels/hubcaps/68.dds" />
+    <file src="textures/wheels/hubcaps/69.dds" />
+    <file src="textures/wheels/hubcaps/70.dds" />
+    <file src="textures/wheels/hubcaps/71.dds" />
+    <file src="textures/wheels/hubcaps/72.dds" />
+    <file src="textures/wheels/hubcaps/73.dds" />
+    <file src="textures/wheels/hubcaps/74.dds" />
+    <file src="textures/wheels/hubcaps/75.dds" />
+    <file src="textures/wheels/hubcaps/76.dds" />
+    <file src="textures/wheels/hubcaps/77.dds" />
+    <file src="textures/wheels/hubcaps/78.dds" />
+    <file src="textures/wheels/hubcaps/79.dds" />
+    <file src="textures/wheels/hubcaps/80.dds" />
+    <file src="textures/wheels/hubcaps/81.dds" />
+    <file src="textures/wheels/hubcaps/82.dds" />
+    <file src="textures/wheels/hubcaps/83.dds" />
+    <file src="textures/wheels/hubcaps/84.dds" />
+    <file src="textures/wheels/hubcaps/85.dds" />
+    <file src="textures/wheels/hubcaps/86.dds" />
+    <file src="textures/wheels/hubcaps/87.dds" />
+    <file src="textures/wheels/hubcaps/88.dds" />
+    <file src="textures/wheels/hubcaps/89.dds" />
+    <file src="textures/wheels/hubcaps/90.dds" />
+    <file src="textures/wheels/hubcaps/91.dds" />
+    <file src="textures/wheels/hubcaps/92.dds" />
+    <file src="textures/wheels/hubcaps/93.dds" />
+    <file src="textures/wheels/hubcaps/94.dds" />
+    <file src="textures/wheels/hubcaps/95.dds" />
+    <file src="textures/wheels/hubcaps/96.dds" />
+    <file src="textures/wheels/hubcaps/97.dds" />
+    <file src="textures/wheels/hubcaps/98.dds" />
+    <file src="textures/wheels/hubcaps/99.dds" />
+    <file src="textures/wheels/hubcaps/100.dds" />
+    <file src="textures/wheels/hubcaps/101.dds" />
+    <file src="textures/wheels/hubcaps/102.dds" />
+    <file src="textures/wheels/hubcaps/103.dds" />
+    <file src="textures/wheels/hubcaps/104.dds" />
+    <file src="textures/wheels/hubcaps/105.dds" />
+    <file src="textures/wheels/hubcaps/106.dds" />
+    <file src="textures/wheels/hubcaps/107.dds" />
+    <file src="textures/wheels/hubcaps/108.dds" />
+    <file src="textures/wheels/hubcaps/109.dds" />
+    <file src="textures/wheels/hubcaps/110.dds" />
+    <file src="textures/wheels/hubcaps/111.dds" />
+    <file src="textures/wheels/hubcaps/112.dds" />
+    <file src="textures/wheels/hubcaps/113.dds" />
+    <file src="textures/wheels/hubcaps/114.dds" />
+    <file src="textures/wheels/hubcaps/115.dds" />
+    <file src="textures/wheels/hubcaps/116.dds" />
+    <file src="textures/wheels/hubcaps/117.dds" />
+    <file src="textures/wheels/hubcaps/118.dds" />
+    <file src="textures/wheels/hubcaps/119.dds" />
+    <file src="textures/wheels/hubcaps/120.dds" />
+    <file src="textures/wheels/hubcaps/121.dds" />
+    <file src="textures/wheels/hubcaps/122.dds" />
+    <file src="textures/wheels/hubcaps/123.dds" />
+    <file src="textures/wheels/hubcaps/124.dds" />
+    <file src="textures/wheels/hubcaps/125.dds" />
+    <file src="textures/wheels/hubcaps/126.dds" />
+    <file src="textures/wheels/hubcaps/127.dds" />
+    <file src="textures/wheels/hubcaps/128.dds" />
+    <file src="textures/wheels/hubcaps/129.dds" />
+    <file src="textures/wheels/hubcaps/130.dds" />
+    <file src="textures/wheels/hubcaps/131.dds" />
+    <file src="textures/wheels/hubcaps/132.dds" />
+    <file src="textures/wheels/hubcaps/133.dds" />
+    <file src="textures/wheels/hubcaps/134.dds" />
+    <file src="textures/wheels/hubcaps/135.dds" />
+    <file src="textures/wheels/hubcaps/136.dds" />
+    <file src="textures/wheels/hubcaps/137.dds" />
+    <file src="textures/wheels/hubcaps/138.dds" />
+    
+    <file src="textures/wheels/impala/1.dds" />
+    <file src="textures/wheels/mb_w212/1.dds" />
+    
+    <file src="textures/wheels/ronalt/1.dds" />
+    <file src="textures/wheels/ronalt/2.dds" />
+    <file src="textures/wheels/ronalt/3.dds" />
+    <file src="textures/wheels/ronalt/4.dds" />
+    <file src="textures/wheels/ronalt/5.dds" />
+    <file src="textures/wheels/ronalt/6.dds" />
+    <file src="textures/wheels/ronalt/7.dds" />
+    <file src="textures/wheels/ronalt/8.dds" />
+    <file src="textures/wheels/ronalt/9.dds" />
+    <file src="textures/wheels/ronalt/10.dds" />
+    
+    <file src="textures/wheels/subaru_wrx/1.dds" />
+    <file src="textures/wheels/w206/1.dds" />
+    <file src="textures/wheels/vette/1.dds" />
+    <file src="textures/wheels_sight/audi_80/1.dds" />
+    <file src="textures/wheels_sight/audi_rs6/1.dds" />
+    <file src="textures/wheels_sight/mb_300_sel/1.dds" />
+    <file src="textures/wheels_sight/vw_bora/1.dds" />
+    
+    <download_priority_group>-154</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

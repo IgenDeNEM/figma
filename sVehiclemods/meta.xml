@@ -1,0 +1,15 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <export function="getVehicleCount" type="client" />
+    <export function="loadVehicleModel" type="client" />
+    <export function="setDoRestream" type="client" />
+    <export function="processVehPieces" type="client" />
+    <export function="getCustomModel" type="client" />
+    
+    <file src="vehs_sight_1.img" />
+    
+    <download_priority_group>-194</download_priority_group>
+    <min_mta_version client="1.6.0-9.22195" server="1.6.0-9.22195" />
+</meta>

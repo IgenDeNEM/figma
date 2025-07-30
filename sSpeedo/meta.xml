@@ -1,0 +1,126 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="odometerS.lua" type="server" />
+    <script src="odometerC.luac" type="client" cache="false" />
+    
+    <script src="adC.luac" type="client" cache="false" />
+    <script src="turnC.luac" type="client" cache="false" />
+    
+    <export function="syncCarrying" type="client" />
+    
+    <export function="getSirenKey" type="client" />
+    <export function="setSirenKey" type="client" />
+    <export function="toggleForceBrake" type="client" />
+    
+    <export function="isCruiseSet" type="client" />
+    <export function="getFuel" type="client" />
+    <export function="getUnit" type="client" />
+    <export function="setSpeedoType" type="client" />
+    <export function="setUnit" type="client" />
+    <export function="getCruiseKey" type="client" />
+    <export function="setCruiseKey" type="client" />
+    <export function="getBeltKey" type="client" />
+    <export function="setBeltKey" type="client" />
+    <export function="getDownShift" type="client" />
+    <export function="setDownShift" type="client" />
+    <export function="getUpShift" type="client" />
+    <export function="setUpShift" type="client" />
+    <export function="getSpoilerKey" type="client" />
+    <export function="setSpoilerKey" type="client" />
+    <export function="getSpeedoVeh" type="client" />
+    <export function="togglePitLimiter" type="client" />
+    <export function="toggleTuningIntro" type="client" />
+    <export function="toggleTuningState" type="client" />
+    <export function="toggleSeeDyno" type="client" />
+    <export function="getVehicleSpeed" type="shared" />
+    <export function="isVehicleElectric" type="shared" />
+    
+    <file src="files/abs.dds" />
+    <file src="files/battery.dds" />
+    <file src="files/belt.dds" />
+    <file src="files/beltin.mp3" />
+    <file src="files/beltout.mp3" />
+    <file src="files/brake.dds" />
+    <file src="files/brake1.mp3" />
+    <file src="files/brake2.mp3" />
+    <file src="files/brake3.mp3" />
+    <file src="files/ekszij1.mp3" />
+    <file src="files/ekszij2.mp3" />
+    <file src="files/engine.dds" />
+    <file src="files/futomu1.mp3" />
+    <file src="files/futomu2.mp3" />
+    <file src="files/futomu3.mp3" />
+    <file src="files/futomu4.mp3" />
+    <file src="files/gear.ifp" />
+    <file src="files/hb.mp3" />
+    <file src="files/hb1.dds" />
+    <file src="files/hb2.dds" />
+    <file src="files/hb3.dds" />
+    <file src="files/left.dds" />
+    <file src="files/light.dds" />
+    <file src="files/lightswitch.mp3" />
+    <file src="files/nosbase.dds" />
+    <file src="files/nosfill1.dds" />
+    <file src="files/nosfill2.dds" />
+    <file src="files/noslightning.dds" />
+    <file src="files/nosshine.dds" />
+    <file src="files/oil.dds" />
+    <file src="files/reverse.wav" />
+    <file src="files/right.dds" />
+    <file src="files/shift.mp3" />
+    <file src="files/tempcritical.mp3" />
+    <file src="files/tempooff.wav" />
+    <file src="files/tempoon.wav" />
+    <file src="files/temposet.wav" />
+    
+    <file src="files/analog/abs.dds" />
+    <file src="files/analog/battery.dds" />
+    <file src="files/analog/belt.dds" />
+    <file src="files/analog/brake.dds" />
+    <file src="files/analog/hold.dds" />
+    <file src="files/analog/indicator.dds" />
+    <file src="files/analog/inlight.dds" />
+    <file src="files/analog/inlight2.dds" />
+    <file src="files/analog/led.dds" />
+    <file src="files/analog/ledOn.dds" />
+    <file src="files/analog/line.dds" />
+    <file src="files/analog/nos.dds" />
+    <file src="files/analog/oil.dds" />
+    <file src="files/analog/out.dds" />
+    <file src="files/analog/pulse.dds" />
+    <file src="files/analog/redline.dds" />
+    <file src="files/analog/section.dds" />
+    
+    <file src="files/belt/audi.mp3" />
+    <file src="files/belt/bmw.mp3" />
+    <file src="files/belt/bmwold.mp3" />
+    <file src="files/belt/dodge.mp3" />
+    <file src="files/belt/ford.mp3" />
+    <file src="files/belt/gm.mp3" />
+    <file src="files/belt/mb.mp3" />
+    <file src="files/belt/toyota.mp3" />
+    <file src="files/belt/vw.mp3" />
+    <file src="files/belt/tesla.mp3" />
+    
+    <file src="files/blinkers/1.wav" />
+    <file src="files/blinkers/2.wav" />
+    <file src="files/blinkers/3.wav" />
+    <file src="files/blinkers/4.wav" />
+    <file src="files/blinkers/5.wav" />
+    <file src="files/blinkers/6.wav" />
+    <file src="files/blinkers/7.wav" />
+    <file src="files/blinkers/8.wav" />
+    <file src="files/blinkers/9.wav" />
+    <file src="files/blinkers/10.wav" />
+    <file src="files/blinkers/11.wav" />
+    <file src="files/blinkers/12.wav" />
+    <file src="files/blinkers/13.wav" />
+    <file src="files/blinkers/14.wav" />
+    <file src="files/blinkers/15.wav" />
+    
+    <download_priority_group>-17</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

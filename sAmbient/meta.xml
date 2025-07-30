@@ -1,0 +1,16 @@
+<meta>
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/247.mp3" />
+    <file src="files/bean.mp3" />
+    <file src="files/food.mp3" />
+    
+    <file src="files/forestday.wav" />
+    <file src="files/forestnight.wav" />
+    
+    <file src="files/odeas.mp3" />
+    <file src="files/oil.wav" />
+    
+    <download_priority_group>-64</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

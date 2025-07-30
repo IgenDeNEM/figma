@@ -1,0 +1,17 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="useDrug" type="server" />
+    <export function="enablePlayerDrugUse" type="server" />
+    <export function="isPlayerDrugUseEnabled" type="server" />
+    <export function="getPlayerRampage" type="server" />
+    <export function="setPlayerRampage" type="server" />
+    <export function="getDrugTable" type="server" />
+    
+    <file src="files/bar.dds" />
+    
+    <download_priority_group>-110</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

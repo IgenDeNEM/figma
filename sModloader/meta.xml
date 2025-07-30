@@ -1,0 +1,30 @@
+<meta>
+    <script src="sourceLinksG-obfuscated.luac" type="shared" cache="false" />
+    
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="countModels" type="client" />
+    <export function="loadAModel" type="client" />
+    <export function="isModloaderLoaded" type="client" />
+    
+    <export function="getModelId" type="shared" />
+    <export function="getModelNameById" type="shared" />
+    
+    <!--ezeket majd beleirom, ha kesz a tobbi-->
+    
+    <file src="files/**/*.see2" />
+    <file src="files/**/*.see1" />
+    <file src="files/**/*.dff" />
+    <file src="files/**/*.col" />
+    <file src="files/**/*.txd" />
+    
+    <file src="img/v4.1.img" />
+    <file src="img/v4.2.img" />
+    <file src="img/v4.3.img" />
+    <!--<file src="img/v4.4.img" /> -->
+    
+    <download_priority_group>-5</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

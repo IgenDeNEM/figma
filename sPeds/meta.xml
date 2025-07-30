@@ -1,0 +1,21 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="adminC.luac" type="client" cache="false" />
+    
+    <export type="client" function="arePedsInit" />
+    <export type="server" function="getInteriorPeds" />
+    <export type="server" function="getPedDetailsByID" />
+    <export type="server" function="setPedPosition" />
+    <export type="server" function="setPedRotation" />
+    <export type="server" function="deletePed" />
+    
+    <file src="files/wiz.png" />
+    <file src="files/barcodescan.mp3" />
+    <file src="files/barcodescan2.mp3" />
+    
+    <download_priority_group>-160</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

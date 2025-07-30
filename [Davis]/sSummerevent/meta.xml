@@ -1,0 +1,12 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC-obfuscated.luac" type="client" cache="false" />
+    
+    <export function="startSummerCall" type="server" />
+    <export function="canCall" type="server" />
+    
+    <file src="files/particle.dds" />
+    <file src="files/tropical.mp3" />
+    
+    <download_priority_group>-184</download_priority_group>
+</meta>

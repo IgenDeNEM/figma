@@ -1,0 +1,35 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="openDragSlip" type="client" />
+    <export function="closeDragSlip" type="client" />
+    
+    <file src="files/0.dds" />
+    <file src="files/1.dds" />
+    <file src="files/2.dds" />
+    <file src="files/3.dds" />
+    <file src="files/4.dds" />
+    <file src="files/5.dds" />
+    
+    <file src="files/bg1.dds" />
+    <file src="files/bg2.dds" />
+    
+    <file src="files/cd1.mp3" />
+    <file src="files/cd2.mp3" />
+    
+    <file src="files/light.dds" />
+    <file src="files/paper.dds" />
+    
+    <file src="files/screen.dds" />
+    <file src="files/stage0.dds" />
+    <file src="files/stage1.dds" />
+    <file src="files/stage2.dds" />
+    <file src="files/stage3.dds" />
+    
+    <file src="files/lcdsign.ttf" />
+    
+    <download_priority_group>-107</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

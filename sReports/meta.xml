@@ -1,0 +1,16 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="adminC.luac" type="client" cache="false" />
+    
+    <export function="getReportCategories" type="client" />
+    
+    <file src="files/message.wav" />
+    <file src="files/message2.wav" />
+    <file src="files/newreport.wav" />
+    
+    <download_priority_group>-167</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

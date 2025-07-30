@@ -1,0 +1,211 @@
+[
+	{
+		"stockData": [
+			[
+				2,
+				true
+			],
+			[
+				2,
+				true
+			],
+			[
+				2,
+				true
+			],
+			[
+				3,
+				3
+			],
+			[
+				3,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				1,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				1,
+				2
+			]
+		],
+		"workshopPermissions": [],
+		"upgrades": [
+			3,
+			2,
+			2,
+			2,
+			2,
+			2
+		],
+		"paintshopWorks": [],
+		"maintanceData": false,
+		"mixerTank": {
+			"color": [
+				200,
+				200,
+				200,
+				200,
+				200,
+				200,
+				200,
+				200,
+				200,
+				200,
+				200,
+				200,
+				200,
+				200
+			],
+			"primer": 20.5,
+			"base": [
+				23.5,
+				23.5
+			]
+		},
+		"lastMail": 17,
+		"mails": [
+			{
+				"emailTime": 1752623192,
+				"referrer": 5,
+				"price": 290000,
+				"unread": false,
+				"emailType": "offer",
+				"partNames": [
+					"Motorháztető",
+					"Első lökhárító",
+					"Kasztni"
+				],
+				"paintMetal": false,
+				"plate": 539906,
+				"playerReplyPrice": 4,
+				"serverDatas": {
+					"partNames": [
+						"Motorháztető",
+						"Első lökhárító",
+						"Kasztni"
+					],
+					"paint": "#0B1A1F",
+					"maskName": "558_2_0B1A1F_MASK.png",
+					"model": 558,
+					"price": 290000,
+					"plate": 539906,
+					"pictureName": "558_2_0B1A1F.png",
+					"paintMetal": false
+				},
+				"textId": 6,
+				"playerReply": [
+					1,
+					2
+				],
+				"customerType": 6,
+				"offerTimeout": 119,
+				"customerReplyWait": 45,
+				"from": [
+					7,
+					95
+				],
+				"model": 558,
+				"titleId": 2,
+				"playerReplyTime": 1752624406,
+				"maskName": "558_2_0B1A1F_MASK.png",
+				"pictureName": "558_2_0B1A1F.png",
+				"paint": "#0B1A1F"
+			}
+		],
+		"gunStates": [
+			{
+				"player": false,
+				"paintLevel": 0,
+				"paintType": false,
+				"tank": false,
+				"mixer": false
+			},
+			{
+				"player": false,
+				"paintLevel": 0,
+				"paintType": false,
+				"tank": false,
+				"mixer": false
+			}
+		],
+		"workshopPoint": 1300
+	}
+]
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				2,
+				3
+			],
+			[
+				1,
+				2
+			]
+		]
+	}
+]]}
+]
+]
+]]}
+]]}
+]]}
+]]}
+]
+]
+]

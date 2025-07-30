@@ -1,0 +1,26 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export type="client" function="getTraffipaxModel" />
+    <export type="client" function="stopHandheldTraffi" />
+    <export type="client" function="startHandheldTraffi" />
+    
+    <file src="files/arrow.dds" />
+    <file src="files/radar1.dds" />
+    <file src="files/radar2.dds" />
+    <file src="files/shad.dds" />
+    <file src="files/traffipaxlight.dds" />
+    
+    <file src="files/W95FA.otf" />
+    
+    <file src="files/hardin.mp3" />
+    <file src="files/hardout.mp3" />
+    <file src="files/radar.mp3" />
+    <file src="files/traffi.mp3" />
+    <file src="files/trafficar.mp3" />
+    
+    <download_priority_group>-193</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

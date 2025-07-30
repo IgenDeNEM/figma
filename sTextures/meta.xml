@@ -1,0 +1,111 @@
+<meta>
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/ab_neon_wof.png" />
+    <file src="files/ab_wuzibet.png" />
+    <file src="files/bloodpool_64.png" />
+    <file src="files/cj_airp_direct.png" />
+    
+    <file src="files/CJ_DISCO(L1)64.png" />
+    <file src="files/CJ_DISCO(L2)64.png" />
+    <file src="files/CJ_DISCO(L3)64.png" />
+    <file src="files/CJ_DISCO(L4)64.png" />
+    
+    <file src="files/cj_painting3.png" />
+    <file src="files/cj_painting4.png" />
+    <file src="files/cj_painting6.png" />
+    <file src="files/cj_painting7.png" />
+    <file src="files/cj_painting8.png" />
+    <file src="files/cj_painting9.png" />
+    <file src="files/cj_painting11.png" />
+    <file src="files/cj_painting12.png" />
+    <file src="files/cj_painting15.png" />
+    <file src="files/cj_painting19.png" />
+    <file src="files/cj_painting20.png" />
+    <file src="files/cj_painting22.png" />
+    <file src="files/cj_painting27.png" />
+    
+    <file src="files/cj_porno_vids.png" />
+    <file src="files/cj_porno_vids2.png" />
+    <file src="files/cj_sex_sign1.png" />
+    <file src="files/CJ_SPRUNK_DIRTY.png" />
+    <file src="files/CJ_SPRUNK_FRONT.png" />
+    <file src="files/CJ_SWEETS.png" />
+    <file src="files/coronaheadlightline.png" />
+    <file src="files/coronastar.png" />
+    <file src="files/des_bull.png" />
+    <file src="files/des_bullheid.png" />
+    <file src="files/des_bullsign.png" />
+    <file src="files/des_nwmed.png" />
+    <file src="files/fireball6.png" />
+    <file src="files/gen_monitor.png" />
+    <file src="files/headlight.png" />
+    <file src="files/headlight1.png" />
+    <file src="files/LAInside_Tracksign1.png" />
+    <file src="files/LAInside_Tracksign2.png" />
+    <file src="files/lamp_shad_64.png" />
+    <file src="files/lasdockbar.png" />
+    <file src="files/michelle_car1.png" />
+    <file src="files/michelle_car3.png" />
+    <file src="files/otb_bigsignf.png" />
+    <file src="files/otb_numbers.png" />
+    <file src="files/parkinghut02_128.png" />
+    <file src="files/particleskid.png" />
+    
+    <file src="files/record1.png" />
+    <file src="files/record2.png" />
+    <file src="files/record3.png" />
+    
+    <file src="files/shutters2.png" />
+    <file src="files/sign_Restaurant.png" />
+    <file src="files/sign_wheelofrtne2.png" />
+    <file src="files/sw_Fleishberg01.png" />
+    <file src="files/texturechanger.fx" />
+    <file src="files/vehiclelights128.png" />
+    <file src="files/vehiclelightson128.png" />
+    <file src="files/vehicleshatter128.png" />
+    <file src="files/waterclear256.png" />
+    <file src="files/waterwake.png" />
+    <file src="files/WIN_DESKTOP.png" />
+    <file src="files/ws_airsecurity.png" />
+    <file src="files/ws_griddyfence.png" />
+    
+    <file src="files/sight/allsaints2_law.png" />
+    <file src="files/sight/allsaints_law.png" />
+    <file src="files/sight/CJ_BS_MENU5.png" />
+    <file src="files/sight/des_sheriffsign.png" />
+    <file src="files/sight/hospital8t_sfw.png" />
+    <file src="files/sight/plate.png" />
+    <file src="files/sight/sanpshop2.png" />
+    <file src="files/sight/sw_med01.png" />
+    <file src="files/sight/ws_newshop.png" />
+    <file src="files/sight/ws_starballs.png" />
+    <file src="files/sight/ws_streak_billbd.png" />
+    
+    <file src="files/vegetation/elmdead.png" />
+    <file src="files/vegetation/elmtreered.png" />
+    <file src="files/vegetation/Elm_treegrn.png" />
+    <file src="files/vegetation/Elm_treegrn2.png" />
+    <file src="files/vegetation/Elm_treegrn4.png" />
+    <file src="files/vegetation/kbtree4_test.png" />
+    <file src="files/vegetation/Newtreed256.png" />
+    <file src="files/vegetation/newtreeleaves128.png" />
+    <file src="files/vegetation/oakleaf1.png" />
+    <file src="files/vegetation/pinebranch2.png" />
+    <file src="files/vegetation/pinebrnch1.png" />
+    <file src="files/vegetation/pinelo128.png" />
+    <file src="files/vegetation/planta256.png" />
+    <file src="files/vegetation/sm_Agave_1.png" />
+    <file src="files/vegetation/sm_Agave_2.png" />
+    <file src="files/vegetation/sm_cactus_leaf.png" />
+    <file src="files/vegetation/sm_des_bush1.png" />
+    <file src="files/vegetation/sm_josh_leaf.png" />
+    <file src="files/vegetation/sm_minipalm1.png" />
+    <file src="files/vegetation/spruce1.png" />
+    <file src="files/vegetation/tree19Mi.png" />
+    <file src="files/vegetation/trunk3.png" />
+    <file src="files/vegetation/weeelm.png" />
+    
+    <download_priority_group>-188</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

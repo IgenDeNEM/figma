@@ -1,0 +1,13 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <export function="startJailTimer" type="server" />
+    <export function="isPlayerInJail" type="server" />
+    
+    <file src="files/icon.dds" />
+    
+    <download_priority_group>-135</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

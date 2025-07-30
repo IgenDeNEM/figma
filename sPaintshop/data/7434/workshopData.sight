@@ -1,0 +1,315 @@
+[
+	{
+		"stockData": [
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			]
+		],
+		"workshopPermissions": [],
+		"upgrades": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"paintshopWorks": [],
+		"cert": [
+			0,
+			1
+		],
+		"maintanceData": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"mixerTank": {
+			"color": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"primer": 0,
+			"base": [
+				0,
+				0
+			]
+		},
+		"lastMail": 29,
+		"mails": [
+			{
+				"emailTime": 1751882521,
+				"referrer": 4,
+				"customerType": 11,
+				"unread": false,
+				"jobStartTime": 1751882555,
+				"emailType": "offer",
+				"partNames": [
+					"Hátsó lökhárító",
+					"Bal első ajtó",
+					"Kasztni",
+					"Csomagtartó",
+					"Jobb első ajtó"
+				],
+				"offerReplyTime": 1751882553,
+				"paintMetal": false,
+				"offerReply": false,
+				"textId": 11,
+				"playerReplyPrice": 1,
+				"declined": true,
+				"workId": 2,
+				"pictureName": "558_3_F4DE06.png",
+				"customerReplyWait": 56,
+				"serverDatas": {
+					"partNames": [
+						"Hátsó lökhárító",
+						"Bal első ajtó",
+						"Kasztni",
+						"Csomagtartó",
+						"Jobb első ajtó"
+					],
+					"paint": "#F4DE06",
+					"maskName": "558_3_F4DE06_MASK.png",
+					"model": 558,
+					"price": 310000,
+					"plate": 571932,
+					"pictureName": "558_3_F4DE06.png",
+					"paintMetal": false
+				},
+				"from": [
+					29,
+					80
+				],
+				"playerReply": [
+					1,
+					1
+				],
+				"offerReplyWait": 105,
+				"offerTimeout": 109,
+				"plate": 571932,
+				"paint": "#F4DE06",
+				"model": 558,
+				"titleId": 5,
+				"playerReplyTime": 1751882549,
+				"maskName": "558_3_F4DE06_MASK.png",
+				"offerReplyRnd": 3,
+				"price": 310000
+			},
+			{
+				"emailTime": 1751882540,
+				"referrer": 6,
+				"price": 450000,
+				"emailType": "offer",
+				"partNames": [
+					"Motorháztető",
+					"Kasztni",
+					"Első lökhárító",
+					"Csomagtartó",
+					"Hátsó lökhárító",
+					"Bal első ajtó",
+					"Jobb első ajtó"
+				],
+				"paintMetal": false,
+				"textId": 4,
+				"pictureName": "602_5_18181A.png",
+				"offerTimeout": 87,
+				"serverDatas": {
+					"partNames": [
+						"Motorháztető",
+						"Kasztni",
+						"Első lökhárító",
+						"Csomagtartó",
+						"Hátsó lökhárító",
+						"Bal első ajtó",
+						"Jobb első ajtó"
+					],
+					"paint": "#18181A",
+					"plate": 702124,
+					"paintMetal": false,
+					"price": 450000,
+					"maskName": "602_5_18181A_MASK.png",
+					"pictureName": "602_5_18181A.png",
+					"model": 602
+				},
+				"paint": "#18181A",
+				"plate": 702124,
+				"titleId": 1,
+				"customerType": 4,
+				"maskName": "602_5_18181A_MASK.png",
+				"from": 2,
+				"model": 602
+			},
+			{
+				"jobRatingTextId": 29,
+				"from": [
+					29,
+					80
+				],
+				"lastEmailTime": 1751882558,
+				"jobRating": 0,
+				"emailType": "rating"
+			}
+		],
+		"gunStates": [
+			{
+				"paintType": false,
+				"paintLevel": 0,
+				"tank": false,
+				"player": false,
+				"mixer": false
+			},
+			{
+				"paintType": false,
+				"paintLevel": 0,
+				"tank": false,
+				"player": false,
+				"mixer": false
+			}
+		],
+		"workshopPoint": 0
+	}
+]				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			]
+		]
+	}
+]

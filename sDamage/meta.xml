@@ -1,0 +1,55 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="reviveS.lua" type="server" />
+    <script src="reviveC.luac" type="client" cache="false" />
+    
+    <export function="createMedicBag" type="server" />
+    <export function="isCrawling" type="client" />
+    <export function="startRenderingDamages" type="client" />
+    <export function="isDamagedForFishing" type="client" />
+    <export function="moveWholeHud" type="client" />
+    
+    <file src="files/arrow.dds" />
+    <file src="files/blood1.dds" />
+    <file src="files/blood2.dds" />
+    <file src="files/body.dds" />
+    <file src="files/bone1.mp3" />
+    <file src="files/bone2.mp3" />
+    <file src="files/bone3.mp3" />
+    <file src="files/handband.dds" />
+    <file src="files/handband2.dds" />
+    <file src="files/legband.dds" />
+    <file src="files/legband2.dds" />
+    <file src="files/paint.dds" />
+    <file src="files/pr_idle.ifp" />
+    <file src="files/pr_loop.ifp" />
+    <file src="files/prone.ifp" />
+    <file src="files/vign.dds" />
+    <file src="files/vign2.dds" />
+    
+    <file src="files/blood/1.dds" />
+    <file src="files/blood/2.dds" />
+    <file src="files/blood/3.dds" />
+    <file src="files/blood/4.dds" />
+    <file src="files/blood/5.dds" />
+    <file src="files/blood/6.dds" />
+    
+    <file src="files/screenblood/1.dds" />
+    <file src="files/screenblood/2.dds" />
+    <file src="files/screenblood/3.dds" />
+    <file src="files/screenblood/4.dds" />
+    <file src="files/screenblood/5.dds" />
+    <file src="files/screenblood/6.dds" />
+    <file src="files/screenblood/7.dds" />
+    <file src="files/screenblood/8.dds" />
+    <file src="files/screenblood/9.dds" />
+    <file src="files/screenblood/10.dds" />
+    <file src="files/screenblood/11.dds" />
+    <file src="files/screenblood/12.dds" />
+    
+    <download_priority_group>-15</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>

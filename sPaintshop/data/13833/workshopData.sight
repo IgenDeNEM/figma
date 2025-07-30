@@ -1,0 +1,193 @@
+[
+	{
+		"stockData": [
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			],
+			[
+				0,
+				false
+			]
+		],
+		"workshopPermissions": [],
+		"upgrades": [
+			5,
+			5,
+			5,
+			5,
+			5,
+			5
+		],
+		"paintshopWorks": [],
+		"maintanceData": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		],
+		"mixerTank": {
+			"color": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"primer": 0,
+			"base": [
+				0,
+				0
+			]
+		},
+		"lastMail": 27,
+		"mails": [
+			{
+				"emailTime": 1753016869,
+				"referrer": 1,
+				"price": 165000,
+				"unread": false,
+				"emailType": "offer",
+				"partNames": [
+					"Első lökhárító",
+					"Motorháztető",
+					"Jobb első ajtó"
+				],
+				"paintMetal": false,
+				"textId": 12,
+				"playerReplyPrice": 3,
+				"paint": "#18181A",
+				"customerType": 12,
+				"playerReply": [
+					1,
+					2
+				],
+				"plate": 241233,
+				"offerTimeout": 106,
+				"customerReplyWait": 35,
+				"from": [
+					21,
+					29
+				],
+				"model": 561,
+				"titleId": 2,
+				"playerReplyTime": 1753017013,
+				"maskName": "561_2_18181A_MASK.png",
+				"serverDatas": {
+					"partNames": [
+						"Első lökhárító",
+						"Motorháztető",
+						"Jobb első ajtó"
+					],
+					"paint": "#18181A",
+					"maskName": "561_2_18181A_MASK.png",
+					"model": 561,
+					"price": 165000,
+					"plate": 241233,
+					"pictureName": "561_2_18181A.png",
+					"paintMetal": false
+				},
+				"pictureName": "561_2_18181A.png"
+			}
+		],
+		"gunStates": [
+			{
+				"paintType": false,
+				"paintLevel": 0,
+				"tank": false,
+				"player": false,
+				"mixer": false
+			},
+			{
+				"paintType": false,
+				"paintLevel": 0,
+				"tank": false,
+				"player": false,
+				"mixer": false
+			}
+		],
+		"workshopPoint": 6300
+	}
+]

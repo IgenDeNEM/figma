@@ -1,0 +1,61 @@
+<meta>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <script src="squadS.lua" type="server" />
+    <script src="squadC.luac" type="client" cache="false" />
+    
+    <script src="sirenS.lua" type="server" />
+    <script src="sirenC-obfuscated.luac" type="client" cache="false" />
+    
+    <script src="interiorC-obfuscated.luac" type="client" cache="false" />
+    <script src="playerC.luac" type="client" cache="false" />
+    <script src="vehicleC.luac" type="client" cache="false" />
+    
+    
+    <export function="checkSirenVehicle" type="shared" />
+    
+    <export function="checkVehicleWarrant" type="server" />
+    <export function="checkPlayerWarrant" type="server" />
+    <export function="getSirenPosition" type="server" />
+    <export function="checkVehicleWarrantTraffipax" type="server" />
+    <export function="checkPlayerWarrantTraffipax" type="server" />
+    <export function="checkWarrantFromId" type="server" />
+    <export function="checkPlayerWarrantTraffipax" type="server" />
+    
+    <export function="addLastPlate" type="client" />
+    <export function="launchMDC" type="client" />
+    
+    
+    <file src="files/error.mp3" />
+    <file src="files/inti.dds" />
+    <file src="files/logon.mp3" />
+    <file src="files/noti.mp3" />
+    <file src="files/player.dds" />
+    <file src="files/prompt.mp3" />
+    <file src="files/quit.mp3" />
+    <file src="files/records.dds" />
+    <file src="files/scan.dds" />
+    <file src="files/tablet.dds" />
+    <file src="files/traffi.dds" />
+    <file src="files/vehicle.dds" />
+    <file src="files/vwanted.dds" />
+    <file src="files/wanted.dds" />
+    <file src="files/wp.dds" />
+    <file src="files/siren/1.mp3" />
+    <file src="files/siren/2.mp3" />
+    <file src="files/siren/amb1.mp3" />
+    <file src="files/siren/amb2.mp3" />
+    <file src="files/siren/fire1.mp3" />
+    <file src="files/siren/fire2.mp3" />
+    <file src="files/siren/frost.mp3" />
+    <file src="files/siren/ghost.mp3" />
+    <file src="files/siren/horn.mp3" />
+    <file src="files/siren/lv1.mp3" />
+    <file src="files/siren/lv2.mp3" />
+    <file src="files/siren/toll.mp3" />
+    
+    <download_priority_group>-141</download_priority_group>
+    <min_mta_version client="1.6.0-9.21765" server="1.6.0-9.21765" />
+</meta>
